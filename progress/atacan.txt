@@ -1,0 +1,3 @@
+15.11.2022: I started to learn flask for python.
+17.11.2022: We got together with the group and restructured the data such as eliminating extra tables and columns that has too much Null values. Also we constructed the E/R diagram of the dataset.
+22.11.2022: We started to push and commit to github. Also we wrote the SQL table creation codes for all of the tables. Also I wrote the python code for parsing the csv files and generated the SQL statement for Insert functions. 
