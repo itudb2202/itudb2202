@@ -1,0 +1,8 @@
+17.11.2022
+We analyzed the dataset and created an ER diagram together.
+
+20.11.2022
+I started learning Flask.
+
+22.11.2022
+We have uploaded the csv files and the ER diagram. We wrote the code that reads the dataset (parsing.py) and also created the tables (db.sql).
