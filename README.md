@@ -2,6 +2,11 @@
 
 A flask application to summarize some NFL statisticts for BLG317E Database Systems course held in Istanbul Technical University 2022 Fall.
 
+## ER Diagram
+
+ER Diagram of the database.
+
+![ER Diagram](https://github.com/itudb2202/itudb2202/other/er_diagram.png)
 
 ## Authors
 
@@ -12,6 +17,3 @@ A flask application to summarize some NFL statisticts for BLG317E Database Syste
 - [Pelinsu Şahin @sahinp19](https://www.github.com/sahinp19)
 
 
-## Screenshots
-
-![ER Diagram](https://github.com/itudb2202/itudb2202/other/er_diagram.png)
