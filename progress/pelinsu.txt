@@ -1,3 +1,5 @@
-17.11.2023 - We got together as a group to draw ER diagram and decide what we are going to do.
-19.11.2023 - I have started to learn Flask.
-23.11.2022 - We have started to write code. We wrote SQL table creation codes and started pushing to github.
+17.11.2023 : We got together as a group to draw ER diagram and decide what we are going to do.
+19.11.2023 : I have started to learn Flask.
+23.11.2022 : We have started to write code. We wrote SQL table creation codes and started pushing to github.
+28.11.2022 - 04.12.2022 : We have studied Flask and HTML. 
+06.12.2022 : We have started to write codes of our website, HTML and CSS codes are started writing. 
