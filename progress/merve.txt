@@ -6,3 +6,9 @@ I started learning Flask.
 
 22.11.2022
 We have uploaded the csv files and the ER diagram. We wrote the code that reads the dataset (parsing.py) and also created the tables (db.sql).
+
+28.11.2022 - 04.12.2022
+We studied Flask library and learned frontend.
+
+06.12.2022
+We wrote server.py and Flask documents together and created our website (html files and css with bootstrap)
