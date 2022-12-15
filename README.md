@@ -4,19 +4,19 @@ A flask application to summarize some NFL statisticts for BLG317E Database Syste
 
 ## How 2 Run Locally
 
+Make sure u have python, flask and sqlite installed on your machineß
+
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/itudb2202/itudb2202.git
 ```
 
-Go to the project directory
+Go to the "proje" directory
 
 ```bash
   cd proje
 ```
-
-Make sure u have python, flask and sqlite installed on your machine
 
 Start the server
 
