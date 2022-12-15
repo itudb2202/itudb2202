@@ -11,16 +11,8 @@ class Database:
     def __init__(self, dbfile):
         self.dbfile = dbfile  
 
-    def add_defensive_stat(self, defensive_stat):
-        with dbapi2.connect(self.dbfile) as connection:
-            cursor = connection.cursor()
-            query = "INSERT INTO defensive (Player_Id, Player_Year,Team, Games_Played, Total_Tackles, Solo_Tackles, Assisted_Tackles, Passes_Defended, Ints, Yards_Per_Int) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
-            cursor.execute(query, (defensive_stat.playerId, defensive_stat.year, defensive_stat.team, defensive_stat.games_played, defensive_stat.total_tack,
-                            defensive_stat.solo_tack, defensive_stat.ast_tack, defensive_stat.pas_def, defensive_stat.ints, defensive_stat.yrd_per_int))
-            connection.commit()
-            defense_key = cursor.lastrowid
-        return defense_key
-    
+    #---GET ALL FUNCTIONS-----------------
+
     def get_all_punting_stats(self):
         with dbapi2.connect(self.dbfile) as connection:
             cursor = connection.cursor()
@@ -53,7 +45,6 @@ class Database:
             defense_key = cursor.lastrowid
         return defense_key
 
-
     def get_all_receiving_stats(self):
         with dbapi2.connect(self.dbfile) as connection:
             cursor = connection.cursor()
@@ -61,10 +52,38 @@ class Database:
             defensive_stats = cursor.execute(query).fetchall()
             return defensive_stats
 
+    #------------------------
+
+
+    #---ADD FUNCTIONS-----------------
+
+    def add_defensive_stat(self, defensive_stat):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "INSERT INTO defensive (Player_Id, Player_Year,Team, Games_Played, Total_Tackles, Solo_Tackles, Assisted_Tackles, Passes_Defended, Ints, Yards_Per_Int) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)"
+            cursor.execute(query, (defensive_stat.playerId, defensive_stat.year, defensive_stat.team, defensive_stat.games_played, defensive_stat.total_tack,
+                            defensive_stat.solo_tack, defensive_stat.ast_tack, defensive_stat.pas_def, defensive_stat.ints, defensive_stat.yrd_per_int))
+            connection.commit()
+            defense_key = cursor.lastrowid
+        return defense_key
+
+    #-----------------------------
+
+    #---DELETE FUNCTIONS-----------------
+
     def dlt_kickoff(self, kickoff_key):
         with dbapi2.connect(self.dbfile) as connection:
             cursor = connection.cursor()
             query = "DELETE FROM kickoff WHERE (Kickoff_Id = ?)"
             cursor.execute(query, (kickoff_key,))
             connection.commit()
+
+    def dlt_punting(self, punting_key):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "DELETE FROM punting WHERE (Punting_Id = ?)"
+            cursor.execute(query, (punting_key,))
+            connection.commit()
+
+    #-----------------------------
     

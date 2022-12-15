@@ -43,3 +43,9 @@ def delete_kickoff(kickoff_id):
     db.dlt_kickoff(kickoff_id)
     kickoff = db.get_all_kickoff_stats()
     return render_template("pelin.html", kickoff_db = kickoff)
+
+def delete_punting(punting_id):
+    db = current_app.config["dbconfig"]
+    db.dlt_punting(punting_id)
+    punting = db.get_all_punting_stats()
+    return render_template("buse.html", punting_db = punting)
