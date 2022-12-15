@@ -2,6 +2,29 @@
 
 A flask application to summarize some NFL statisticts for BLG317E Database Systems course held in Istanbul Technical University 2022 Fall.
 
+## How 2 Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd proje
+```
+
+Make sure u have python, flask and sqlite installed on your machine
+
+Start the server
+
+```bash
+  python server.py
+  python3 server.py
+```
+
 ## ER Diagram
 
 ER Diagram of the database.
