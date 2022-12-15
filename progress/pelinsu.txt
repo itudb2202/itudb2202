@@ -3,3 +3,4 @@
 23.11.2022 : We have started to write code. We wrote SQL table creation codes and started pushing to github.
 28.11.2022 - 04.12.2022 : We have studied Flask and HTML. 
 06.12.2022 : We have started to write codes of our website, HTML and CSS codes are started writing. 
+15.12.2022 : ".sql" file is generated bu using ".csv" files.
