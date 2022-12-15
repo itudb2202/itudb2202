@@ -5,27 +5,62 @@
   <table class="table table-hover">
     <thead>
       <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Email</th>
+        <th>Kickoff Id</th>
+        <th>Player Id</th>
+        <th>Player Year</th>
+        <th>Team</th>
+        <th>Games Played</th>
+        <th>Kickoffs</th>
+        <th>Kickoff Yards</th>
+        <th>Out of Bounds Kickoffs</th>
+        <th>Yards Per Kickoff</th>
+        <th>Team</th>
       </tr>
     </thead>
     <tbody>
+      {% for Kickoff_Id, Player_Id, Player_Year, Team, Games_Played, Kickoffs, Kickoff_Yards, Out_of_Bounds_Kickoffs, Yards_Per_Kickoff, Touchbacks in kickoff_db %}  
       <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
+        <td>
+        {{Kickoff_Id}}
+        </td>
+        
+        <td>
+        {{Player_Id}}
+        </td>
+
+        <td>
+          {{Player_Year}}
+        </td>
+
+        <td>
+        {{Team}} 
+        </td>
+
+        <td>
+          {{Games_Played}} 
+        </td>
+
+        <td>
+          {{Kickoffs}} 
+        </td>
+
+        <td>
+          {{Kickoff_Yards}} 
+        </td>
+
+        <td>
+          {{Out_of_Bounds_Kickoffs}} 
+        </td>
+
+        <td>
+          {{Yards_Per_Kickoff}} 
+        </td>
+
+        <td>
+          {{Touchbacks}} 
+        </td>
       </tr>
-      <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
-      </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>

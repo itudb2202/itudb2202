@@ -1,5 +1,7 @@
-from flask import render_template
+from flask import Flask, render_template
 from datetime import datetime
+from flask import current_app
+from database import Database
 
 def home_page():
     today = datetime.today()
@@ -15,7 +17,9 @@ def merve_page():
 
 
 def pelin_page():
-    return render_template("pelin.html")
+    db = current_app.config["dbconfig"]
+    kickoff = db.get_all_kickoff_stats()
+    return render_template("pelin.html", kickoff_db = kickoff)
 
 
 def bora_page():
