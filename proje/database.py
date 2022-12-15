@@ -25,21 +25,22 @@ class Database:
     def get_all_defensive_stats(self):
         with dbapi2.connect(self.dbfile) as connection:
             cursor = connection.cursor()
-            query = "SELECT Defensive_Id,Player_Id,Player_Year,Team,Games_Played,Total_Tackles,Solo_Tackles,Assisted_Tackles,Passes_Defended,Ints,Yards_Per_Int FROM defensive ORDER BY Defensive_Id"
+            query = "SELECT Defensive_Id,Player_Id,Player_Year,Team,Games_Played,Total_Tackles,Solo_Tackles,Assisted_Tackles,Passes_Defended,Ints,Yards_Per_Int FROM defensive ORDER BY Defensive_Id LIMIT 30"
             defensive_stats = cursor.execute(query).fetchall()
             return defensive_stats
 
     def get_all_kickoff_stats(self):
         with dbapi2.connect(self.dbfile) as connection:
             cursor = connection.cursor()
-            query = "SELECT Kickoff_Id, Player_Id, PLayer_Year, Team, Games_Played, Kickoffs, Kickoff_Yards, Out_of_Bounds_Kickoffs, Yards_Per_Kickoff, Touchbacks FROM kickoff ORDER BY Kickoff_Id"
+            query = "SELECT Kickoff_Id, Player_Id, PLayer_Year, Team, Games_Played, Kickoffs, Kickoff_Yards, Out_of_Bounds_Kickoffs, Yards_Per_Kickoff, Touchbacks FROM kickoff ORDER BY Kickoff_Id LIMIT 30"
             kickoff_stats = cursor.execute(query).fetchall()
             return kickoff_stats
-    
+
+            
     def get_all_receiving_stats(self):
         with dbapi2.connect(self.dbfile) as connection:
             cursor = connection.cursor()
-            query = "SELECT Receive_Id, Player_Id, Player_Year, Team, Games_Played, Receptions, Receiving_Yards, Yards_Per_Reception, Yards_Per_Game FROM receiving ORDER BY Receive_Id"
+            query = "SELECT Receive_Id, Player_Id, Player_Year, Team, Games_Played, Receptions, Receiving_Yards, Yards_Per_Reception, Yards_Per_Game FROM receiving ORDER BY Receive_Id LIMIT 30"
             defensive_stats = cursor.execute(query).fetchall()
             return defensive_stats
 
