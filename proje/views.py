@@ -9,7 +9,9 @@ def home_page():
     return render_template("home.html", day=day_name)
     
 def buse_page():
-    return render_template("buse.html")
+    db = current_app.config["dbconfig"]
+    punting = db.get_all_punting_stats()
+    return render_template("buse.html", punting_db = punting)
 
 
 def merve_page():

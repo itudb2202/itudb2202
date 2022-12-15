@@ -20,7 +20,13 @@ class Database:
             connection.commit()
             defense_key = cursor.lastrowid
         return defense_key
-        
+    
+    def get_all_punting_stats(self):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "SELECT * FROM punting ORDER BY Punting_Id DESC LIMIT 30"
+            punting_stats = cursor.execute(query).fetchall()
+            return punting_stats
         
     def get_all_defensive_stats(self):
         with dbapi2.connect(self.dbfile) as connection:
