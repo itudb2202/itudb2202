@@ -18,6 +18,7 @@ def create_app():
     app.add_url_rule("/atacan", view_func=views.atacan_page)
     app.add_url_rule("/pelin", view_func=views.pelin_page)
     app.add_url_rule("/basicStats", view_func=views.basicStats_page)
+    app.add_url_rule("/delete_kickoff/<kickoff_id>", view_func=views.delete_kickoff )
 
     
     home_dir = os.getcwd()

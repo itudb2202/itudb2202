@@ -37,3 +37,9 @@ def atacan_page():
 
 def basicStats_page():
     return render_template("basicStats.html")
+
+def delete_kickoff(kickoff_id):
+    db = current_app.config["dbconfig"]
+    db.dlt_kickoff(kickoff_id)
+    kickoff = db.get_all_kickoff_stats()
+    return render_template("pelin.html", kickoff_db = kickoff)
