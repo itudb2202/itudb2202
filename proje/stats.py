@@ -54,6 +54,7 @@ class Receiving:
         self.playerId = playerId
         self.year = year
         self.team = team
+        self.games_played = games_played
         self.receptions = receptions
         self.receiving_yrd = receiving_yrd
         self.yrd_per_reception = yrd_per_reception
