@@ -38,6 +38,12 @@ def atacan_page():
 def basicStats_page():
     return render_template("basicStats.html")
 
+def delete_receiving(receiving_id):
+    db = current_app.config["dbconfig"]
+    db.dlt_receiving(receiving_id)
+    receiving = db.get_all_receiving_stats()
+    return render_template("atacan.html", receiving_db = receiving)
+
 def delete_kickoff(kickoff_id):
     db = current_app.config["dbconfig"]
     db.dlt_kickoff(kickoff_id)

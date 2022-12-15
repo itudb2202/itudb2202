@@ -1,3 +1,20 @@
 15.11.2022: I started to learn flask for python.
-17.11.2022: We got together with the group and restructured the data such as eliminating extra tables and columns that has too much Null values. Also we constructed the E/R diagram of the dataset.
-22.11.2022: We started to push and commit to github. Also we wrote the SQL table creation codes for all of the tables. Also I wrote the python code for parsing the csv files and generated the SQL statement for Insert functions. 
+
+17.11.2022: We got together with the group and restructured the data such as eliminating extra 
+tables and columns that has too much Null values. Also we constructed the E/R diagram of the dataset.
+
+22.11.2022: We started to push and commit to github. Also we wrote the SQL table creation codes for all of the tables. 
+Also I wrote the python code for parsing the csv files and generated the SQL statement for Insert functions.
+
+28.11.2022 - 05.12.2022: As a group, we studied the movie example project from flask application development page of Mr. Uyar to learn 
+how to implement the necesarry parts of the database server and functionalities.
+
+14.11.2022: I implemented receiving table's get_all function in order to view all the data as a table however I didn't push the 
+changes into neither test or main db2022 depisotary because of some errors and bugs in the program.
+
+15.11.2022: We met as a group. As a group we converted the csv files into the SQL Insert queries then we created our database called group2_nfl.db. 
+Then all of the group members implemented  get_all functions and changed their page's HTML files in order to view all the data as a table 
+and everyone pushed it into the test depository.  Also as a group we cleaned the unnecesarry files from the test depisotary 
+(where all of our codes and pages were working as intented in that time). After that as a cleaner project we pushed all of the files from 
+test depository to the main db2022 depisotary. After the meeting I also implemented my page's delete function, modified my page's HTML file 
+accordingly and pushed it into the main db2022 depisotary.
