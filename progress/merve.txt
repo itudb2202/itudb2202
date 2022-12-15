@@ -12,3 +12,14 @@ We studied Flask library and learned frontend.
 
 06.12.2022
 We wrote server.py and Flask documents together and created our website (html files and css with bootstrap)
+
+14.12.2022
+We tried to import our sql file (which has create table and insert into commands) to nfl.db file because we will do add delete and updates with it.
+But we had some issues while doing it so we couldn't make big progress today.
+
+15.12.2022
+We created alltables_new.sql file which has all dataset in it. We pushed this sql and group2_nfl.db to repository. With SQLite extension in VsCode, group2_nfl.db can be seen as tables.
+I wrote my html file to see my table (defensive) and I limited it with 30 rows in website.
+I wrote add_defensive_stat() and get_all_defensive_stats() functions.
+Me and Pelin wrote delete function in views.py and database.py for kickoff table and make it a link button in html so when it is clicked related row is deleted. And it is permanent.
+I make researches about add and update functions and analyze week6 recitation to implement it to our project.
