@@ -55,4 +55,10 @@ class Database:
             defensive_stats = cursor.execute(query).fetchall()
             return defensive_stats
 
+    def dlt_kickoff(self, kickoff_key):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "DELETE FROM kickoff WHERE (Kickoff_Id = ?)"
+            cursor.execute(query, (kickoff_key,))
+            connection.commit()
     
