@@ -29,7 +29,7 @@ Start the server
 
 ER Diagram of the database.
 
-![ER Diagram](https://github.com/itudb2202/itudb2202/blob/main/other/er_diagram.png)
+![ER Diagram](https://github.com/itudb2202/itudb2202/blob/main/proje/other/er_diagram.png)
 
 ## Authors
 
