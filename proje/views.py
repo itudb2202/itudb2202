@@ -13,7 +13,9 @@ def buse_page():
 
 
 def merve_page():
-    return render_template("merve.html")
+    db = current_app.config["dbconfig"]
+    defensive = db.get_all_defensive_stats()
+    return render_template("merve.html", defensive_db = defensive)
 
 
 def pelin_page():
@@ -27,4 +29,9 @@ def bora_page():
 
 
 def atacan_page():
-    return render_template("atacan.html")
+    db = current_app.config["dbconfig"]
+    receiving = db.get_all_receiving_stats()
+    return render_template("atacan.html", receiving_db = receiving)
+
+def basicStats_page():
+    return render_template("basicStats.html")
