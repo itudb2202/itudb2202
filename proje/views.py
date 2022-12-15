@@ -44,6 +44,12 @@ def delete_receiving(receiving_id):
     receiving = db.get_all_receiving_stats()
     return render_template("atacan.html", receiving_db = receiving)
 
+def delete_defensive(defensive_id):
+    db = current_app.config["dbconfig"]
+    db.dlt_defensive(defensive_id)
+    defensive = db.get_all_defensive_stats()
+    return render_template("merve.html", defensive_db = defensive)
+
 def delete_kickoff(kickoff_id):
     db = current_app.config["dbconfig"]
     db.dlt_kickoff(kickoff_id)

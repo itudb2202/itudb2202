@@ -64,6 +64,10 @@
         <td>
           {{Yards_Per_Int}} 
         </td>
+
+        <td>
+          <a href="{{ url_for('delete_defensive', defensive_id = Defensive_Id)}}">Delete Row</a>
+        </td>
       </tr>
       {% endfor %}
     </tbody>

@@ -78,6 +78,13 @@ class Database:
             cursor.execute(query, (receiving_key,))
             connection.commit()
 
+    def dlt_defensive(self, defensive_key):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "DELETE FROM defensive WHERE (Defensive_Id = ?)"
+            cursor.execute(query, (defensive_key,))
+            connection.commit()
+
     def dlt_kickoff(self, kickoff_key):
         with dbapi2.connect(self.dbfile) as connection:
             cursor = connection.cursor()
