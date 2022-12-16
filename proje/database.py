@@ -13,7 +13,13 @@ class Database:
 
 
     # ------- GET ALL FUNCTIONS
-
+    def get_all_basic_stats(self):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "SELECT * FROM basic_stats ORDER BY Player_Id DESC LIMIT 30"
+            basic_stats = cursor.execute(query).fetchall()
+            return basic_stats
+    
     def get_all_punting_stats(self):
         with dbapi2.connect(self.dbfile) as connection:
             cursor = connection.cursor()
@@ -75,6 +81,14 @@ class Database:
 
 
     # ------- DELETE FUNCTIONS
+
+    def dlt_basicstats(self, basicstats_key):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            cursor.execute("PRAGMA foreign_keys = ON")
+            query = "DELETE FROM basic_stats WHERE (Player_Id = ?)"
+            cursor.execute(query, (basicstats_key,))
+            connection.commit()
 
     def dlt_receiving(self, receiving_key):
         with dbapi2.connect(self.dbfile) as connection:

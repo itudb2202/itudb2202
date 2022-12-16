@@ -35,7 +35,15 @@ def atacan_page():
     return render_template("atacan.html", receiving_db = receiving)
 
 def basicStats_page():
-    return render_template("basicStats.html")
+    db = current_app.config["dbconfig"]
+    basicstats = db.get_all_basic_stats()
+    return render_template("basicStats.html",basicstats_db = basicstats)
+
+def delete_basicstats(player_id):
+    db = current_app.config["dbconfig"]
+    db.dlt_basicstats(player_id)
+    basicstats = db.get_all_basic_stats()
+    return render_template("basicStats.html", basicstats_db = basicstats)
 
 def delete_receiving(receiving_id):
     db = current_app.config["dbconfig"]
