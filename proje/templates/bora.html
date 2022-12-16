@@ -1,32 +1,49 @@
-{% extends "layout.html" %} {% block content %}
+{% extends "layout.html" %}
+
+{% block content %} Bora {% endblock %}
+
+{% block content %}
+
 <h1>Bora</h1>
 
 <div class="container">
   <table class="table table-hover">
     <thead>
       <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Email</th>
+        <th>Passing_Id</th>
+        <th>Player_Id</th>
+        <th>Player_Year</th>
+        <th>Team</th>
+        <th>Games_Played</th>
+        <th>Passes_Attempted</th>
+        <th>Passes_Completed</th>
+        <th>Completion_Percentage</th>
+        <th>Passer_Rating</th>
       </tr>
     </thead>
     <tbody>
+      {% for Passing_Id, Player_Id, Player_Year, Team, Games_Played, Passes_Attempted,
+        Passes_Completed, Completion_Percentage, Passer_Rating in passing_db %}
       <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
+        <td>{{Passing_Id}}</td>
+        <td>{{Player_Id}}</td>
+        <td>{{Player_Year}}</td>
+        <td>{{Team}}</td>
+        <td>{{Games_Played}}</td>
+        <td>{{Passes_Attempted}}</td>
+        <td>{{Passes_Completed}}</td>
+        <td>{{Completion_Percentage}}</td>
+        <td>{{Passer_Rating}}</td>
+        <td>
+          <a href="{{ url_for('delete_passing', passing_id = Passing_Id)}}">Delete</a>
+        </td>
+        <td>
+          <a href="#">Update</a>
+        </td>
       </tr>
-      <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
-      </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>
+
 {% endblock %}
