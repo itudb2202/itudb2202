@@ -1,3 +1,8 @@
-17.11.2022 - We got together as a group and organize the data
-19.11.2022 - I studied flask and learned basic structures
-15.12.2022 - configured db
+17.11.2022 - get together and organize data
+19.11.2022 - study flask
+15.12.2022 - update readme.md
+15.12.2022 - add footer
+15.12.2022 - configure db
+15.12.2022 - implement CRUD operations
+15.12.2022 - reorganize structure
+
