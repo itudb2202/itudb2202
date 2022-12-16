@@ -1,43 +1,227 @@
 {% extends "layout.html" %} {% block content %}
+
 <h1>Buse</h1>
 
-<div class="container">
-  <table class="table table-hover">
-    <thead>
-      <tr>
-        <th>Punting_Id</th>
-        <th>Player_Id</th>
-        <th>Player_Year</th>
-        <th>Team</th>
-        <th>Games_Played</th>
-        <th>Punts</th>
-        <th>Gross_Punting_Yards</th>
-        <th>Longest_Punt</th>
-        <th>Fair_Catches</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for Punting_Id, Player_Id, Player_Year, Team, Games_Played, Punts,
-      Gross_Punting_Yards, Longest_Punt, Fair_Catches in punting_db %}
-      <tr>
-        <td>{{Punting_Id}}</td>
-        <td>{{Player_Id}}</td>
-        <td>{{Player_Year}}</td>
-        <td>{{Team}}</td>
-        <td>{{Games_Played}}</td>
-        <td>{{Punts}}</td>
-        <td>{{Gross_Punting_Yards}}</td>
-        <td>{{Longest_Punt}}</td>
-        <td>{{Fair_Catches}}</td>
-        <td>
-          <a href="{{ url_for('delete_punting', punting_id = Punting_Id)}}"
-            >Delete Row</a
-          >
-        </td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
+<div class="row ms-4">
+  <div class="col-sm-2" style="margin-left: 25px">
+    <button
+      as="input"
+      type="submit"
+      value="Submit"
+      style="
+        width: 200px;
+        height: 35px;
+        color: rgb(241, 241, 241);
+        background-color: rgb(46, 46, 46);
+        font-weight: bold;
+        font-size: medium;
+        border-radius: 7px;
+        border-color: rgb(29, 29, 29);
+      "
+    >
+      ADD
+    </button>
+    <div class="input-group mb-3" style="margin-top: 12px">
+      <div class="input-group-prepend">
+        <span
+          class="input-group-text"
+          style="font-weight: 600"
+          id="basic-addon1"
+          >Player Id</span
+        >
+      </div>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="ex: billanderson/2508534"
+        aria-label="Player_Id"
+        aria-describedby="basic-addon1"
+        style="margin-top: 3px"
+      />
+    </div>
+    <div class="input-group mb-3" style="margin-top: 12px">
+      <div class="input-group-prepend">
+        <span
+          class="input-group-text"
+          style="font-weight: 600"
+          id="basic-addon1"
+          >Player Year</span
+        >
+      </div>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="ex: 2015"
+        aria-label="Username"
+        aria-describedby="basic-addon1"
+        style="margin-top: 3px"
+      />
+    </div>
+    <div class="input-group mb-3" style="margin-top: 12px">
+      <div class="input-group-prepend">
+        <span
+          class="input-group-text"
+          style="font-weight: 600"
+          id="basic-addon1"
+          >Team</span
+        >
+      </div>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="ex: Green Bay Packers"
+        aria-label="Team"
+        aria-describedby="basic-addon1"
+        style="margin-top: 3px"
+      />
+    </div>
+    <div class="input-group mb-3" style="margin-top: 12px">
+      <div class="input-group-prepend">
+        <span
+          class="input-group-text"
+          style="font-weight: 600"
+          id="basic-addon1"
+          >Games Played</span
+        >
+      </div>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="ex: 13"
+        aria-label="Games_Played"
+        aria-describedby="basic-addon1"
+        style="margin-top: 3px"
+      />
+    </div>
+    <div class="input-group mb-3" style="margin-top: 12px">
+      <div class="input-group-prepend">
+        <span
+          class="input-group-text"
+          style="font-weight: 600"
+          id="basic-addon1"
+          >Punts</span
+        >
+      </div>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="ex: 46"
+        aria-label="Punts"
+        aria-describedby="basic-addon1"
+        style="margin-top: 3px"
+      />
+    </div>
+    <div class="input-group mb-3" style="margin-top: 12px">
+      <div class="input-group-prepend">
+        <span
+          class="input-group-text"
+          style="font-weight: 600"
+          id="basic-addon1"
+          >Gross Punting Yards</span
+        >
+      </div>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="ex: 850"
+        aria-label="Gross_Punting_Yards"
+        aria-describedby="basic-addon1"
+        style="margin-top: 3px"
+      />
+    </div>
+    <div class="input-group mb-5" style="margin-top: 12px">
+      <div class="input-group-prepend">
+        <span
+          class="input-group-text"
+          style="font-weight: 600"
+          id="basic-addon1"
+          >Longest Punt</span
+        >
+      </div>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="ex: 45"
+        aria-label="Longest_Punt"
+        aria-describedby="basic-addon1"
+        style="margin-top: 3px"
+      />
+    </div>
+    <div class="input-group mb-3" style="margin-top: 12px">
+      <div class="input-group-prepend">
+        <span
+          class="input-group-text"
+          style="font-weight: 600"
+          id="basic-addon1"
+          >Fair Catches</span
+        >
+      </div>
+      <input
+        type="text"
+        class="form-control"
+        placeholder="ex: 18"
+        aria-label="Fair_Catches"
+        aria-describedby="basic-addon1"
+        style="margin-top: 3px"
+      />
+    </div>
+  </div>
+
+  <div class="col-sm-6">
+    <div class="container">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Punting Id</th>
+            <th>Player Id</th>
+            <th>Player Year</th>
+            <th>Team</th>
+            <th>Games Played</th>
+            <th>Punts</th>
+            <th>Gross Punting Yards</th>
+            <th>Longest Punt</th>
+            <th>Fair Catches</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for Punting_Id, Player_Id, Player_Year, Team, Games_Played, Punts,
+          Gross_Punting_Yards, Longest_Punt, Fair_Catches in punting_db %}
+          <tr>
+            <td>{{Punting_Id}}</td>
+            <td>{{Player_Id}}</td>
+            <td>{{Player_Year}}</td>
+            <td>{{Team}}</td>
+            <td>{{Games_Played}}</td>
+            <td>{{Punts}}</td>
+            <td>{{Gross_Punting_Yards}}</td>
+            <td>{{Longest_Punt}}</td>
+            <td>{{Fair_Catches}}</td>
+            <td>
+              <a
+                href="{{ url_for('delete_punting', punting_id = Punting_Id)}}"
+                type="submit"
+                value="Submit"
+                style="
+                  padding-left: 7px;
+                  padding-right: 7px;
+                  padding-top: 4px;
+                  padding-bottom: 4px;
+                  color: rgb(241, 241, 241);
+                  background-color: rgb(46, 46, 46);
+                  font-weight: bold;
+                  font-size: small;
+                  border-radius: 5px;
+                  border-color: rgb(8, 40, 40);
+                "
+                >Delete Row</a
+              >
+            </td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
 
 {% endblock %}
