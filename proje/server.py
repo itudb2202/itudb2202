@@ -18,6 +18,7 @@ def create_app():
     app.add_url_rule("/atacan", view_func=views.atacan_page)
     app.add_url_rule("/pelin", view_func=views.pelin_page)
     app.add_url_rule("/basicStats", view_func=views.basicStats_page)
+    app.add_url_rule("/delete_basicstats/<player_id>", view_func=views.delete_basicstats)
     app.add_url_rule("/delete_receiving/<receiving_id>", view_func=views.delete_receiving)
     app.add_url_rule("/delete_defensive/<defensive_id>", view_func=views.delete_defensive)
     app.add_url_rule("/delete_kickoff/<kickoff_id>", view_func=views.delete_kickoff )

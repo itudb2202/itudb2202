@@ -5,27 +5,95 @@
   <table class="table table-hover">
     <thead>
       <tr>
-        <th>Firstname</th>
-        <th>Lastname</th>
-        <th>Email</th>
+        <th>Player Id</th>
+        <th>Age</th>
+        <th>Birth Place</th>
+        <th>Birthday</th>
+        <th>College</th>
+        <th>Current Status</th>
+        <th>Current Team</th>
+        <th>Experience</th>
+        <th>Height</th>
+        <th>High School</th>
+        <th>HS Location</th>
+        <th>Player Name</th>
+        <th>Player Number</th>
+        <th>Position</th>
+        <th>Weight</th>
+        <th>Years Played</th>
       </tr>
     </thead>
     <tbody>
+      {% for Age,Birth_Place,Birthday, College ,Current_Status,Current_Team,Experience,Height_inches,High_School,High_School_Location,Player_Name,Player_Number,Player_Id,Position,Weight_lbs,Years_Played in basicstats_db %}
       <tr>
-        <td>John</td>
-        <td>Doe</td>
-        <td>john@example.com</td>
+        <td>
+          {{Player_Id}}
+        </td>
+        <td>
+          {{Age}}
+        </td>
+
+        <td>
+          {{Birth_Place}}
+        </td>
+
+        <td>
+          {{Birthday}}
+        </td>
+
+        <td>
+          {{College}} 
+        </td>
+
+        <td>
+          {{Current_Status}} 
+        </td>
+
+        <td>
+          {{Current_Team}} 
+        </td>
+
+        <td>
+          {{Experience}} 
+        </td>
+
+        <td>
+          {{Height_inches}} 
+        </td>
+
+        <td>
+          {{High_School}} 
+        </td>
+
+        <td>
+          {{High_School_Location}} 
+        </td>
+
+        <td>
+          {{Player_Name}} 
+        </td>
+
+        <td>
+          {{Player_Number}} 
+        </td>
+
+        <td>
+          {{Position}} 
+        </td>
+
+        <td>
+          {{Weight_lbs}} 
+        </td>
+
+        <td>
+          {{Years_Played}} 
+        </td>
+
+        <td>
+          <a href="{{ url_for('delete_basicstats', player_id = Player_Id)}}">Delete Row</a>
+        </td>
       </tr>
-      <tr>
-        <td>Mary</td>
-        <td>Moe</td>
-        <td>mary@example.com</td>
-      </tr>
-      <tr>
-        <td>July</td>
-        <td>Dooley</td>
-        <td>july@example.com</td>
-      </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>
