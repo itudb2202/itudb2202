@@ -65,5 +65,5 @@ def delete_passing(passing_id):
     db = current_app.config["dbconfig"]
     db.dlt_passing(passing_id)
     passing = db.get_all_passing_stats()
-    return render_template("buse.html", passing_db = passing)
+    return render_template("bora.html", passing_db = passing)
 
