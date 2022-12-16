@@ -111,6 +111,14 @@ class Database:
                             basic_stat.curr_team, basic_stat.experience, basic_stat.height, basic_stat.highSchool, basic_stat.hS_location,basic_stat.name,basic_stat.number,basic_stat.playerId,basic_stat.position,basic_stat.weight,basic_stat.yearsPlayed))
             connection.commit()
             
+    def add_basic_stat(self, basic_stat):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "INSERT INTO basic_stats (Age, Birth_Place,Birthday, College, Current_Status, Current_Team, Experience, Height_inches, High_School, High_School_Location,Player_Name,Player_Number,Player_Id,Position,Weight_lbs,Years_Played) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ? , ? , ? , ? , ? , ? , ?)"
+            cursor.execute(query, (basic_stat.age, basic_stat.birthPlace, basic_stat.birthday, basic_stat.college, basic_stat.curr_stat,
+                            basic_stat.curr_team, basic_stat.experience, basic_stat.height, basic_stat.highSchool, basic_stat.hS_location,basic_stat.name,basic_stat.number,basic_stat.playerId,basic_stat.position,basic_stat.weight,basic_stat.yearsPlayed))
+            connection.commit()
+            
     def add_defensive_stat(self, defensive_stat):
         with dbapi2.connect(self.dbfile) as connection:
             cursor = connection.cursor()
