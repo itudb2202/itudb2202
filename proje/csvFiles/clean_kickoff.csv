@@ -1,0 +1,1491 @@
+Kickoff Id,Player Id,Year,Team,Games Played,Kickoffs,Kickoff Yards,Out of Bounds Kickoffs,Yards Per Kickoff,Touchbacks
+0,jasonbaker/2504395,2011,Carolina Panthers,16,--,--,--,--,--
+1,jasonbaker/2504395,2010,Carolina Panthers,16,--,--,--,--,--
+2,jasonbaker/2504395,2009,Carolina Panthers,16,--,--,--,--,--
+3,jasonbaker/2504395,2008,Carolina Panthers,16,--,--,--,--,--
+4,jasonbaker/2504395,2007,Carolina Panthers,16,7,453,1,64.7,0
+5,jasonbaker/2504395,2006,Carolina Panthers,16,10,653,0,65.3,1
+6,jasonbaker/2504395,2005,Carolina Panthers,16,5,293,1,58.6,0
+7,jasonbaker/2504395,2004,Denver Broncos,4,24,"1,513",1,63.0,1
+8,jasonbaker/2504395,2004,Indianapolis Colts,4,33,"2,013",2,61.0,2
+9,jasonbaker/2504395,2004,Kansas City Chiefs,2,--,--,--,--,--
+10,jasonbaker/2504395,2003,Kansas City Chiefs,16,93,"5,840",0,62.8,6
+11,jasonbaker/2504395,2002,Philadelphia Eagles,2,--,--,--,--,--
+12,jasonbaker/2504395,2002,San Francisco 49ers,11,--,--,--,--,--
+13,jasonbaker/2504395,2001,San Francisco 49ers,16,5,267,0,53.4,0
+14,jeffhall/2500970,2000,St. Louis Rams,3,16,972,0,60.8,0
+15,sebastianjanikowski/2504257,2016,Oakland Raiders,16,88,"5,630",0,64.0,43
+16,sebastianjanikowski/2504257,2015,Oakland Raiders,16,79,"4,990",1,63.2,44
+17,sebastianjanikowski/2504257,2014,Oakland Raiders,16,61,"3,723",1,61.0,34
+18,sebastianjanikowski/2504257,2013,Oakland Raiders,16,74,"4,477",1,60.5,38
+19,sebastianjanikowski/2504257,2012,Oakland Raiders,16,73,"4,565",2,62.5,38
+20,sebastianjanikowski/2504257,2011,Oakland Raiders,15,80,"5,060",0,63.3,32
+21,sebastianjanikowski/2504257,2010,Oakland Raiders,16,93,"6,091",1,65.5,29
+22,sebastianjanikowski/2504257,2009,Oakland Raiders,16,58,"3,819",0,65.8,17
+23,sebastianjanikowski/2504257,2008,Oakland Raiders,16,67,"4,394",0,65.6,22
+24,sebastianjanikowski/2504257,2007,Oakland Raiders,16,67,"4,365",1,65.1,22
+25,sebastianjanikowski/2504257,2006,Oakland Raiders,16,50,"3,238",1,64.8,7
+26,sebastianjanikowski/2504257,2005,Oakland Raiders,16,67,"4,146",2,61.9,11
+27,sebastianjanikowski/2504257,2004,Oakland Raiders,16,76,"4,871",0,64.1,12
+28,sebastianjanikowski/2504257,2003,Oakland Raiders,16,66,"4,150",2,62.9,7
+29,sebastianjanikowski/2504257,2002,Oakland Raiders,16,97,"6,460",1,66.6,22
+30,sebastianjanikowski/2504257,2001,Oakland Raiders,15,82,"5,250",1,64.0,12
+31,sebastianjanikowski/2504257,2000,Oakland Raiders,14,82,"5,313",1,64.8,14
+32,christhomas/2503295,2001,Kansas City Chiefs,10,--,--,--,--,--
+33,christhomas/2503295,2000,St. Louis Rams,16,4,213,0,53.3,0
+34,christhomas/2503295,1999,St. Louis Rams,6,--,--,--,--,--
+35,christhomas/2503295,1999,Washington Redskins,2,--,--,--,--,--
+36,christhomas/2503295,1998,Washington Redskins,14,--,--,--,--,--
+37,christhomas/2503295,1997,Washington Redskins,13,--,--,--,--,--
+38,christhomas/2503295,1995,San Francisco 49ers,15,--,--,--,--,--
+39,johncarney/2499991,2010,New Orleans Saints,2,1,10,0,10.0,0
+40,johncarney/2499991,2009,New Orleans Saints,11,--,--,--,--,--
+41,johncarney/2499991,2008,New York Giants,15,79,"4,773",1,60.4,3
+42,johncarney/2499991,2007,Kansas City Chiefs,5,17,"1,029",1,60.5,2
+43,johncarney/2499991,2007,Jacksonville Jaguars,8,38,"2,423",0,63.8,5
+44,johncarney/2499991,2006,New Orleans Saints,16,53,"3,215",0,60.7,5
+45,johncarney/2499991,2005,New Orleans Saints,16,14,886,0,63.3,1
+46,johncarney/2499991,2004,New Orleans Saints,16,42,"2,622",0,62.4,0
+47,johncarney/2499991,2003,New Orleans Saints,16,20,"1,111",0,55.6,1
+48,johncarney/2499991,2002,New Orleans Saints,16,26,"1,669",1,64.2,2
+49,johncarney/2499991,2001,New Orleans Saints,15,3,172,0,57.3,0
+50,johncarney/2499991,2000,San Diego Chargers,16,64,"3,948",2,61.7,2
+51,johncarney/2499991,1999,San Diego Chargers,16,70,"4,407",0,63.0,2
+52,johncarney/2499991,1998,San Diego Chargers,16,64,"4,185",0,65.4,10
+53,johncarney/2499991,1997,San Diego Chargers,4,16,"1,065",0,66.6,2
+54,johncarney/2499991,1996,San Diego Chargers,16,75,"5,094",1,67.9,15
+55,johncarney/2499991,1995,San Diego Chargers,16,74,"4,809",2,65.0,9
+56,johncarney/2499991,1994,San Diego Chargers,16,87,"5,323",0,61.2,6
+57,johncarney/2499991,1993,San Diego Chargers,16,79,"4,718",3,59.7,12
+58,johncarney/2499991,1992,San Diego Chargers,16,78,"4,899",1,62.8,23
+59,johncarney/2499991,1991,San Diego Chargers,16,66,0,2,0.0,12
+60,johncarney/2499991,1990,San Diego Chargers,12,--,--,--,--,--
+61,johncarney/2499991,1990,Los Angeles Rams,1,--,--,--,--,--
+62,johncarney/2499991,1989,Tampa Bay Buccaneers,1,--,--,--,--,--
+63,johncarney/2499991,1988,Tampa Bay Buccaneers,4,--,--,--,--,--
+64,normjohnson/2501444,1999,Philadelphia Eagles,15,--,--,--,--,--
+65,normjohnson/2501444,1998,Pittsburgh Steelers,15,64,"3,721",0,58.1,1
+66,normjohnson/2501444,1997,Pittsburgh Steelers,16,80,"4,904",1,61.3,4
+67,normjohnson/2501444,1996,Pittsburgh Steelers,16,78,"4,911",2,63.0,7
+68,normjohnson/2501444,1995,Pittsburgh Steelers,16,93,"5,411",2,58.2,3
+69,normjohnson/2501444,1994,Atlanta Falcons,16,47,"2,812",3,59.8,1
+70,normjohnson/2501444,1993,Atlanta Falcons,15,74,"4,259",2,57.6,9
+71,normjohnson/2501444,1992,Atlanta Falcons,16,71,"4,278",1,60.3,11
+72,normjohnson/2501444,1991,Atlanta Falcons,14,72,0,0,0.0,6
+73,normjohnson/2501444,1990,Seattle Seahawks,16,--,--,--,--,--
+74,normjohnson/2501444,1989,Seattle Seahawks,16,--,--,--,--,--
+75,normjohnson/2501444,1988,Seattle Seahawks,16,--,--,--,--,--
+76,normjohnson/2501444,1987,Seattle Seahawks,13,--,--,--,--,--
+77,normjohnson/2501444,1986,Seattle Seahawks,16,--,--,--,--,--
+78,normjohnson/2501444,1985,Seattle Seahawks,16,--,--,--,--,--
+79,normjohnson/2501444,1984,Seattle Seahawks,16,--,--,--,--,--
+80,normjohnson/2501444,1983,Seattle Seahawks,16,--,--,--,--,--
+81,normjohnson/2501444,1982,Seattle Seahawks,9,--,--,--,--,--
+82,joenedney/2502269,2010,San Francisco 49ers,9,37,"2,420",0,65.4,4
+83,joenedney/2502269,2009,San Francisco 49ers,14,63,"4,163",1,66.1,5
+84,joenedney/2502269,2008,San Francisco 49ers,16,78,"4,958",1,63.6,9
+85,joenedney/2502269,2007,San Francisco 49ers,16,57,"3,457",2,60.6,4
+86,joenedney/2502269,2006,San Francisco 49ers,16,74,"4,495",1,60.7,5
+87,joenedney/2502269,2005,San Francisco 49ers,15,58,"3,458",1,59.6,6
+88,joenedney/2502269,2004,Tennessee Titans,0,--,--,--,--,--
+89,joenedney/2502269,2003,Tennessee Titans,1,3,204,0,68.0,1
+90,joenedney/2502269,2002,Tennessee Titans,16,84,"5,375",0,64.0,9
+91,joenedney/2502269,2001,Tennessee Titans,16,72,"4,503",2,62.5,12
+92,joenedney/2502269,2000,Carolina Panthers,12,57,"3,498",4,61.4,8
+93,joenedney/2502269,2000,Denver Broncos,3,18,"1,164",0,64.7,2
+94,joenedney/2502269,1999,Oakland Raiders,3,20,"1,280",0,64.0,2
+95,joenedney/2502269,1999,Baltimore Ravens,0,--,--,--,--,--
+96,joenedney/2502269,1999,Arizona Cardinals,1,3,206,0,68.7,1
+97,joenedney/2502269,1998,Arizona Cardinals,12,52,"3,473",3,66.8,12
+98,joenedney/2502269,1997,Arizona Cardinals,10,40,"2,695",0,67.4,17
+99,joenedney/2502269,1997,Miami Dolphins,0,--,--,--,--,--
+100,joenedney/2502269,1996,Miami Dolphins,16,73,"4,799",2,65.7,20
+101,pato'donnell/2543611,2016,Chicago Bears,16,1,51,0,51.0,0
+102,pato'donnell/2543611,2015,Chicago Bears,15,--,--,--,--,--
+103,pato'donnell/2543611,2014,Chicago Bears,16,1,65,0,65.0,1
+104,filipfilipovic/2504944,2002,Dallas Cowboys,9,1,59,0,59.0,0
+105,jasonmyers/2553112,2016,Jacksonville Jaguars,16,76,"4,670",2,61.4,60
+106,jasonmyers/2553112,2015,Jacksonville Jaguars,16,84,"5,247",4,62.5,55
+107,barrycantrell/2499987,2000,Dallas Cowboys,2,4,215,0,53.8,0
+108,phildawson/2500351,2016,San Francisco 49ers,16,41,"2,328",1,56.8,4
+109,phildawson/2500351,2015,San Francisco 49ers,16,6,268,0,44.7,0
+110,phildawson/2500351,2014,San Francisco 49ers,16,73,"4,721",0,64.7,32
+111,phildawson/2500351,2013,San Francisco 49ers,16,91,"6,011",0,66.1,38
+112,phildawson/2500351,2012,Cleveland Browns,16,77,"4,914",1,63.8,30
+113,phildawson/2500351,2011,Cleveland Browns,16,59,"3,728",1,63.2,10
+114,phildawson/2500351,2010,Cleveland Browns,16,67,"4,057",2,60.6,7
+115,phildawson/2500351,2009,Cleveland Browns,11,49,"2,941",2,60.0,4
+116,phildawson/2500351,2008,Cleveland Browns,16,66,"4,249",0,64.4,12
+117,phildawson/2500351,2007,Cleveland Browns,16,85,"5,221",2,61.4,5
+118,phildawson/2500351,2006,Cleveland Browns,16,61,"3,887",0,63.7,11
+119,phildawson/2500351,2005,Cleveland Browns,16,61,"3,653",0,59.9,3
+120,phildawson/2500351,2004,Cleveland Browns,16,69,"4,172",1,60.5,5
+121,phildawson/2500351,2003,Cleveland Browns,13,54,"3,255",2,60.3,1
+122,phildawson/2500351,2002,Cleveland Browns,16,77,"4,597",1,59.7,7
+123,phildawson/2500351,2001,Cleveland Browns,16,71,"4,068",1,57.3,2
+124,phildawson/2500351,2000,Cleveland Browns,16,49,"2,966",0,60.5,6
+125,phildawson/2500351,1999,Cleveland Browns,15,43,"2,308",0,53.7,2
+126,louieaguiar/2499367,2000,Chicago Bears,9,--,--,--,--,--
+127,louieaguiar/2499367,1999,Green Bay Packers,15,--,--,--,--,--
+128,louieaguiar/2499367,1998,Kansas City Chiefs,16,31,"1,994",0,64.3,6
+129,louieaguiar/2499367,1997,Kansas City Chiefs,16,6,365,0,60.8,0
+130,louieaguiar/2499367,1996,Kansas City Chiefs,16,19,"1,149",0,60.5,0
+131,louieaguiar/2499367,1995,Kansas City Chiefs,16,--,--,--,--,--
+132,louieaguiar/2499367,1994,Kansas City Chiefs,16,19,"1,166",0,61.4,1
+133,louieaguiar/2499367,1993,New York Jets,16,50,"2,907",4,58.1,8
+134,louieaguiar/2499367,1992,New York Jets,16,58,"3,174",4,54.7,12
+135,louieaguiar/2499367,1991,New York Jets,16,62,0,2,0.0,4
+136,raulallegre/2499394,1991,New York Jets,1,--,--,--,--,--
+137,raulallegre/2499394,1991,New York Giants,3,10,0,0,0.0,1
+138,raulallegre/2499394,1990,New York Giants,3,--,--,--,--,--
+139,raulallegre/2499394,1989,New York Giants,10,--,--,--,--,--
+140,raulallegre/2499394,1988,New York Giants,6,--,--,--,--,--
+141,raulallegre/2499394,1987,New York Giants,12,--,--,--,--,--
+142,raulallegre/2499394,1986,New York Giants,13,--,--,--,--,--
+143,raulallegre/2499394,1985,Indianapolis Colts,16,--,--,--,--,--
+144,raulallegre/2499394,1984,Indianapolis Colts,12,--,--,--,--,--
+145,raulallegre/2499394,1983,Baltimore Colts,16,--,--,--,--,--
+146,mattdarr/2553642,2016,Miami Dolphins,16,--,--,--,--,--
+147,mattdarr/2553642,2015,Miami Dolphins,16,6,258,0,43.0,0
+148,linelliott/2500534,1995,Kansas City Chiefs,16,79,"4,853",1,61.4,6
+149,linelliott/2500534,1994,Kansas City Chiefs,16,56,"3,549",3,63.4,4
+150,linelliott/2500534,1993,Atlanta Falcons,0,--,--,--,--,--
+151,linelliott/2500534,1993,Dallas Cowboys,2,7,458,1,65.4,2
+152,linelliott/2500534,1992,Dallas Cowboys,16,88,"5,599",1,63.6,27
+153,daverayner/2506536,2011,Buffalo Bills,7,30,"1,774",0,59.1,7
+154,daverayner/2506536,2011,Oakland Raiders,1,1,70,0,70.0,0
+155,daverayner/2506536,2010,Detroit Lions,8,34,"2,145",0,63.1,2
+156,daverayner/2506536,2008,Cincinnati Bengals,2,6,401,0,66.8,1
+157,daverayner/2506536,2007,San Diego Chargers,1,7,447,0,63.9,0
+158,daverayner/2506536,2007,Kansas City Chiefs,10,39,"2,662",2,68.3,3
+159,daverayner/2506536,2006,Green Bay Packers,16,72,"4,689",0,65.1,11
+160,daverayner/2506536,2005,Indianapolis Colts,14,82,"5,046",0,61.5,1
+161,dustincolquitt/2506438,2016,Kansas City Chiefs,16,--,--,--,--,--
+162,dustincolquitt/2506438,2015,Kansas City Chiefs,16,--,--,--,--,--
+163,dustincolquitt/2506438,2014,Kansas City Chiefs,16,1,71,0,71.0,0
+164,dustincolquitt/2506438,2013,Kansas City Chiefs,16,1,77,0,77.0,0
+165,dustincolquitt/2506438,2012,Kansas City Chiefs,16,--,--,--,--,--
+166,dustincolquitt/2506438,2011,Kansas City Chiefs,16,1,57,0,57.0,0
+167,dustincolquitt/2506438,2010,Kansas City Chiefs,16,0,0,0,--,0
+168,dustincolquitt/2506438,2009,Kansas City Chiefs,16,1,64,0,64.0,0
+169,dustincolquitt/2506438,2008,Kansas City Chiefs,14,--,--,--,--,--
+170,dustincolquitt/2506438,2007,Kansas City Chiefs,16,1,70,0,70.0,0
+171,dustincolquitt/2506438,2006,Kansas City Chiefs,16,--,--,--,--,--
+172,dustincolquitt/2506438,2005,Kansas City Chiefs,16,--,--,--,--,--
+173,bryanbarker/2499534,2005,St. Louis Rams,11,--,--,--,--,--
+174,bryanbarker/2499534,2004,Green Bay Packers,16,--,--,--,--,--
+175,bryanbarker/2499534,2003,Washington Redskins,16,--,--,--,--,--
+176,bryanbarker/2499534,2002,Washington Redskins,12,--,--,--,--,--
+177,bryanbarker/2499534,2001,Washington Redskins,16,--,--,--,--,--
+178,bryanbarker/2499534,2000,Jacksonville Jaguars,16,1,64,0,64.0,0
+179,bryanbarker/2499534,1999,Jacksonville Jaguars,16,--,--,--,--,--
+180,bryanbarker/2499534,1998,Jacksonville Jaguars,16,--,--,--,--,--
+181,bryanbarker/2499534,1997,Jacksonville Jaguars,16,--,--,--,--,--
+182,bryanbarker/2499534,1996,Jacksonville Jaguars,16,--,--,--,--,--
+183,bryanbarker/2499534,1995,Jacksonville Jaguars,16,--,--,--,--,--
+184,bryanbarker/2499534,1994,Philadelphia Eagles,11,--,--,--,--,--
+185,bryanbarker/2499534,1993,Kansas City Chiefs,16,--,--,--,--,--
+186,bryanbarker/2499534,1992,Kansas City Chiefs,15,--,--,--,--,--
+187,bryanbarker/2499534,1991,Kansas City Chiefs,16,1,0,0,0.0,0
+188,bryanbarker/2499534,1990,Kansas City Chiefs,13,--,--,--,--,--
+189,mikebartrum/2499563,2006,Philadelphia Eagles,11,--,--,--,--,--
+190,mikebartrum/2499563,2005,Philadelphia Eagles,16,6,263,1,43.8,0
+191,mikebartrum/2499563,2004,Philadelphia Eagles,16,--,--,--,--,--
+192,mikebartrum/2499563,2003,Philadelphia Eagles,16,--,--,--,--,--
+193,mikebartrum/2499563,2002,Philadelphia Eagles,16,--,--,--,--,--
+194,mikebartrum/2499563,2001,Philadelphia Eagles,16,--,--,--,--,--
+195,mikebartrum/2499563,2000,Philadelphia Eagles,16,--,--,--,--,--
+196,mikebartrum/2499563,1999,New England Patriots,16,--,--,--,--,--
+197,mikebartrum/2499563,1998,New England Patriots,16,--,--,--,--,--
+198,mikebartrum/2499563,1997,New England Patriots,9,--,--,--,--,--
+199,mikebartrum/2499563,1996,New England Patriots,16,--,--,--,--,--
+200,mikebartrum/2499563,1995,Green Bay Packers,4,--,--,--,--,--
+201,mikebartrum/2499563,1993,Kansas City Chiefs,3,--,--,--,--,--
+202,kevinhuber/71333,2016,Cincinnati Bengals,16,1,64,0,64.0,0
+203,kevinhuber/71333,2015,Cincinnati Bengals,16,--,--,--,--,--
+204,kevinhuber/71333,2014,Cincinnati Bengals,16,--,--,--,--,--
+205,kevinhuber/71333,2013,Cincinnati Bengals,14,--,--,--,--,--
+206,kevinhuber/71333,2012,Cincinnati Bengals,16,--,--,--,--,--
+207,kevinhuber/71333,2011,Cincinnati Bengals,16,--,--,--,--,--
+208,kevinhuber/71333,2010,Cincinnati Bengals,16,1,62,0,62.0,0
+209,kevinhuber/71333,2009,Cincinnati Bengals,16,--,--,--,--,--
+210,chriskluwe/2506178,2012,Minnesota Vikings,16,--,--,--,--,--
+211,chriskluwe/2506178,2011,Minnesota Vikings,16,1,36,0,36.0,0
+212,chriskluwe/2506178,2010,Minnesota Vikings,16,--,--,--,--,--
+213,chriskluwe/2506178,2009,Minnesota Vikings,16,--,--,--,--,--
+214,chriskluwe/2506178,2008,Minnesota Vikings,16,1,68,0,68.0,0
+215,chriskluwe/2506178,2007,Minnesota Vikings,16,2,140,0,70.0,0
+216,chriskluwe/2506178,2006,Minnesota Vikings,16,1,50,0,50.0,0
+217,chriskluwe/2506178,2005,Minnesota Vikings,15,1,48,0,48.0,0
+218,bradwing/2540208,2016,New York Giants,16,1,67,0,67.0,0
+219,bradwing/2540208,2015,New York Giants,16,--,--,--,--,--
+220,bradwing/2540208,2014,Pittsburgh Steelers,16,--,--,--,--,--
+221,stevenhauschka/2507374,2016,Seattle Seahawks,16,86,"5,477",0,63.7,54
+222,stevenhauschka/2507374,2015,Seattle Seahawks,16,91,"5,869",1,64.5,47
+223,stevenhauschka/2507374,2014,Seattle Seahawks,16,88,"5,728",0,65.1,46
+224,stevenhauschka/2507374,2013,Seattle Seahawks,16,94,"6,185",1,65.8,48
+225,stevenhauschka/2507374,2012,Seattle Seahawks,16,87,"5,729",0,65.9,36
+226,stevenhauschka/2507374,2011,Seattle Seahawks,16,75,"4,969",1,66.3,26
+227,stevenhauschka/2507374,2010,Denver Broncos,4,20,"1,224",0,61.2,2
+228,stevenhauschka/2507374,2009,Atlanta Falcons,0,--,--,--,--,--
+229,stevenhauschka/2507374,2009,Baltimore Ravens,9,46,"3,021",1,65.7,3
+230,stevenhauschka/2507374,2008,Baltimore Ravens,8,43,"2,832",0,65.9,4
+231,haydenepstein/2505210,2002,Minnesota Vikings,9,46,"2,800",0,60.9,3
+232,haydenepstein/2505210,2002,Jacksonville Jaguars,6,26,"1,645",0,63.3,7
+233,shaneandrus/2506601,2010,San Francisco 49ers,2,7,420,0,60.0,0
+234,shaneandrus/2506601,2009,San Francisco 49ers,1,5,334,0,66.8,0
+235,shaneandrus/2506601,2009,Tampa Bay Buccaneers,3,9,507,0,56.3,1
+236,shaneandrus/2506601,2009,Indianapolis Colts,1,3,205,0,68.3,1
+237,brittoncolquitt/71259,2016,Cleveland Browns,16,2,125,0,62.5,0
+238,brittoncolquitt/71259,2015,Denver Broncos,16,1,63,0,63.0,0
+239,brittoncolquitt/71259,2014,Denver Broncos,16,--,--,--,--,--
+240,brittoncolquitt/71259,2013,Denver Broncos,16,1,62,0,62.0,0
+241,brittoncolquitt/71259,2012,Denver Broncos,16,1,60,0,60.0,0
+242,brittoncolquitt/71259,2011,Denver Broncos,16,1,66,0,66.0,0
+243,brittoncolquitt/71259,2010,Denver Broncos,16,1,69,0,69.0,0
+244,brittoncolquitt/71259,2009,Denver Broncos,0,--,--,--,--,--
+245,nateebner/2535132,2016,New England Patriots,16,--,--,--,--,--
+246,nateebner/2535132,2015,New England Patriots,15,2,35,1,17.5,0
+247,nateebner/2535132,2014,New England Patriots,12,--,--,--,--,--
+248,nateebner/2535132,2013,New England Patriots,15,--,--,--,--,--
+249,nateebner/2535132,2012,New England Patriots,15,--,--,--,--,--
+250,matmcbriar/2505268,2014,San Diego Chargers,3,--,--,--,--,--
+251,matmcbriar/2505268,2013,Pittsburgh Steelers,9,--,--,--,--,--
+252,matmcbriar/2505268,2012,Philadelphia Eagles,13,--,--,--,--,--
+253,matmcbriar/2505268,2011,Dallas Cowboys,14,1,62,0,62.0,0
+254,matmcbriar/2505268,2010,Dallas Cowboys,16,1,69,0,69.0,0
+255,matmcbriar/2505268,2009,Dallas Cowboys,16,--,--,--,--,--
+256,matmcbriar/2505268,2008,Dallas Cowboys,6,--,--,--,--,--
+257,matmcbriar/2505268,2007,Dallas Cowboys,16,--,--,--,--,--
+258,matmcbriar/2505268,2006,Dallas Cowboys,16,3,174,0,58.0,0
+259,matmcbriar/2505268,2005,Dallas Cowboys,16,--,--,--,--,--
+260,matmcbriar/2505268,2004,Dallas Cowboys,16,--,--,--,--,--
+261,paulernster/2506571,2008,Pittsburgh Steelers,3,--,--,--,--,--
+262,paulernster/2506571,2007,Denver Broncos,1,--,--,--,--,--
+263,paulernster/2506571,2007,Cleveland Browns,1,--,--,--,--,--
+264,paulernster/2506571,2006,Denver Broncos,16,75,"5,090",1,67.9,19
+265,paulernster/2506571,2005,Denver Broncos,1,3,153,1,51.0,0
+266,chrisjacke/2501315,1999,Arizona Cardinals,16,57,"3,385",0,59.4,1
+267,chrisjacke/2501315,1998,Arizona Cardinals,4,17,"1,078",0,63.4,0
+268,chrisjacke/2501315,1997,Washington Redskins,1,6,316,0,52.7,0
+269,chrisjacke/2501315,1997,Pittsburgh Steelers,0,--,--,--,--,--
+270,chrisjacke/2501315,1996,Green Bay Packers,16,19,"1,247",1,65.6,3
+271,chrisjacke/2501315,1995,Green Bay Packers,14,4,257,0,64.3,0
+272,chrisjacke/2501315,1994,Green Bay Packers,16,83,"4,525",3,54.5,1
+273,chrisjacke/2501315,1993,Green Bay Packers,16,82,"4,675",4,57.0,7
+274,chrisjacke/2501315,1992,Green Bay Packers,16,68,"3,822",3,56.2,6
+275,chrisjacke/2501315,1991,Green Bay Packers,16,63,0,1,0.0,15
+276,chrisjacke/2501315,1990,Green Bay Packers,16,--,--,--,--,--
+277,chrisjacke/2501315,1989,Green Bay Packers,16,--,--,--,--,--
+278,masoncrosby/2507232,2016,Green Bay Packers,16,89,"5,608",1,63.0,46
+279,masoncrosby/2507232,2015,Green Bay Packers,16,80,"5,069",1,63.4,41
+280,masoncrosby/2507232,2014,Green Bay Packers,16,102,"6,323",2,62.0,41
+281,masoncrosby/2507232,2013,Green Bay Packers,16,57,"3,520",1,61.8,13
+282,masoncrosby/2507232,2012,Green Bay Packers,16,88,"5,741",1,65.2,35
+283,masoncrosby/2507232,2011,Green Bay Packers,16,108,"7,017",1,65.0,49
+284,masoncrosby/2507232,2010,Green Bay Packers,16,84,"5,173",3,61.6,4
+285,masoncrosby/2507232,2009,Green Bay Packers,16,94,"5,907",2,62.8,12
+286,masoncrosby/2507232,2008,Green Bay Packers,16,92,"5,952",3,64.7,17
+287,masoncrosby/2507232,2007,Green Bay Packers,16,93,"5,857",1,63.0,14
+288,donniejones/2505889,2016,Philadelphia Eagles,16,--,--,--,--,--
+289,donniejones/2505889,2015,Philadelphia Eagles,16,--,--,--,--,--
+290,donniejones/2505889,2014,Philadelphia Eagles,16,--,--,--,--,--
+291,donniejones/2505889,2013,Philadelphia Eagles,16,--,--,--,--,--
+292,donniejones/2505889,2012,Houston Texans,16,1,58,0,58.0,0
+293,donniejones/2505889,2011,St. Louis Rams,16,--,--,--,--,--
+294,donniejones/2505889,2010,St. Louis Rams,16,--,--,--,--,--
+295,donniejones/2505889,2009,St. Louis Rams,16,1,63,0,63.0,0
+296,donniejones/2505889,2008,St. Louis Rams,16,--,--,--,--,--
+297,donniejones/2505889,2007,St. Louis Rams,16,--,--,--,--,--
+298,donniejones/2505889,2006,Miami Dolphins,16,--,--,--,--,--
+299,donniejones/2505889,2005,Miami Dolphins,16,1,55,0,55.0,0
+300,donniejones/2505889,2004,Seattle Seahawks,6,1,54,0,54.0,0
+301,jasonhanson/2501016,2012,Detroit Lions,16,87,"5,414",2,62.2,30
+302,jasonhanson/2501016,2011,Detroit Lions,16,96,"6,360",1,66.3,45
+303,jasonhanson/2501016,2010,Detroit Lions,8,40,"2,462",0,61.6,1
+304,jasonhanson/2501016,2009,Detroit Lions,16,63,"3,970",1,63.0,4
+305,jasonhanson/2501016,2008,Detroit Lions,16,66,"4,350",2,65.9,7
+306,jasonhanson/2501016,2007,Detroit Lions,16,82,"5,331",3,65.0,13
+307,jasonhanson/2501016,2006,Detroit Lions,16,76,"5,085",0,66.9,13
+308,jasonhanson/2501016,2005,Detroit Lions,15,57,"3,489",1,61.2,5
+309,jasonhanson/2501016,2004,Detroit Lions,16,71,"4,568",2,64.3,14
+310,jasonhanson/2501016,2003,Detroit Lions,16,66,"4,240",1,64.2,10
+311,jasonhanson/2501016,2002,Detroit Lions,16,74,"4,775",0,64.5,5
+312,jasonhanson/2501016,2001,Detroit Lions,16,67,"4,278",1,63.9,11
+313,jasonhanson/2501016,2000,Detroit Lions,16,69,"4,481",1,64.9,10
+314,jasonhanson/2501016,1999,Detroit Lions,16,75,"4,837",1,64.5,15
+315,jasonhanson/2501016,1998,Detroit Lions,16,73,"5,035",1,69.0,24
+316,jasonhanson/2501016,1997,Detroit Lions,16,83,"5,516",0,66.5,21
+317,jasonhanson/2501016,1996,Detroit Lions,16,66,"4,356",1,66.0,12
+318,jasonhanson/2501016,1995,Detroit Lions,16,93,"6,221",0,66.9,13
+319,jasonhanson/2501016,1994,Detroit Lions,16,76,"4,818",0,63.4,10
+320,jasonhanson/2501016,1993,Detroit Lions,16,78,"4,934",1,63.3,46
+321,jasonhanson/2501016,1992,Detroit Lions,16,64,"3,929",5,61.4,14
+322,jayfeely/2504343,2014,Chicago Bears,4,14,580,0,41.4,3
+323,jayfeely/2504343,2013,Arizona Cardinals,16,86,"5,707",0,66.4,33
+324,jayfeely/2504343,2012,Arizona Cardinals,16,63,"3,938",0,62.5,29
+325,jayfeely/2504343,2011,Arizona Cardinals,16,71,"4,815",0,67.8,22
+326,jayfeely/2504343,2010,Arizona Cardinals,16,70,"4,552",0,65.0,16
+327,jayfeely/2504343,2009,New York Jets,16,82,"5,431",1,66.2,10
+328,jayfeely/2504343,2008,New York Jets,15,80,"5,038",0,63.0,7
+329,jayfeely/2504343,2007,Miami Dolphins,16,66,"3,818",3,57.8,8
+330,jayfeely/2504343,2006,New York Giants,16,78,"5,039",0,64.6,12
+331,jayfeely/2504343,2005,New York Giants,16,98,"6,211",1,63.4,12
+332,jayfeely/2504343,2004,Atlanta Falcons,16,73,"4,657",3,63.8,13
+333,jayfeely/2504343,2003,Atlanta Falcons,16,69,"4,382",2,63.5,7
+334,jayfeely/2504343,2002,Atlanta Falcons,16,92,"5,905",2,64.2,16
+335,jayfeely/2504343,2001,Atlanta Falcons,16,75,"4,648",2,62.0,7
+336,johnhall/2500971,2006,Washington Redskins,5,16,968,0,60.5,0
+337,johnhall/2500971,2005,Washington Redskins,10,51,"3,087",3,60.5,1
+338,johnhall/2500971,2004,Washington Redskins,8,30,"1,823",0,60.8,1
+339,johnhall/2500971,2003,Washington Redskins,16,72,"4,426",0,61.5,11
+340,johnhall/2500971,2002,New York Jets,16,79,"4,926",0,62.4,5
+341,johnhall/2500971,2001,New York Jets,16,74,"4,681",2,63.3,9
+342,johnhall/2500971,2000,New York Jets,15,67,"4,328",2,64.6,9
+343,johnhall/2500971,1999,New York Jets,16,77,"5,079",1,66.0,12
+344,johnhall/2500971,1998,New York Jets,16,84,"5,692",0,67.8,24
+345,johnhall/2500971,1997,New York Jets,16,85,"5,663",0,66.6,29
+346,aaronpettrey/497085,2010,Cincinnati Bengals,2,8,495,0,61.9,1
+347,jimtarle/2503241,2001,Jacksonville Jaguars,9,34,"2,157",0,63.4,1
+348,jimtarle/2503241,2000,Jacksonville Jaguars,6,35,"2,010",2,57.4,0
+349,mikevanderjagt/2503451,2006,Dallas Cowboys,10,46,"2,756",0,59.9,3
+350,mikevanderjagt/2503451,2005,Indianapolis Colts,16,1,36,0,36.0,0
+351,mikevanderjagt/2503451,2004,Indianapolis Colts,15,32,"1,858",1,58.1,0
+352,mikevanderjagt/2503451,2003,Indianapolis Colts,16,99,"5,955",0,60.2,4
+353,mikevanderjagt/2503451,2002,Indianapolis Colts,16,77,"4,545",1,59.0,1
+354,mikevanderjagt/2503451,2001,Indianapolis Colts,16,50,"3,083",0,61.7,0
+355,mikevanderjagt/2503451,2000,Indianapolis Colts,16,1,70,0,70.0,1
+356,mikevanderjagt/2503451,1999,Indianapolis Colts,16,17,"1,029",0,60.5,0
+357,mikevanderjagt/2503451,1998,Indianapolis Colts,14,19,"1,250",0,65.8,2
+358,kylelarson/2505853,2008,Cincinnati Bengals,16,--,--,--,--,--
+359,kylelarson/2505853,2007,Cincinnati Bengals,16,2,67,0,33.5,0
+360,kylelarson/2505853,2006,Cincinnati Bengals,16,--,--,--,--,--
+361,kylelarson/2505853,2005,Cincinnati Bengals,16,--,--,--,--,--
+362,kylelarson/2505853,2004,Cincinnati Bengals,16,1,53,0,53.0,0
+363,mattprater/2506677,2016,Detroit Lions,16,2,116,0,58.0,1
+364,mattprater/2506677,2015,Detroit Lions,16,4,223,0,55.8,0
+365,mattprater/2506677,2014,Detroit Lions,11,--,--,--,--,--
+366,mattprater/2506677,2013,Denver Broncos,16,114,"7,388",1,64.8,81
+367,mattprater/2506677,2012,Denver Broncos,16,98,"6,305",0,64.3,65
+368,mattprater/2506677,2011,Denver Broncos,16,69,"4,442",1,64.4,47
+369,mattprater/2506677,2010,Denver Broncos,12,57,"3,680",0,64.6,20
+370,mattprater/2506677,2009,Denver Broncos,16,78,"5,332",0,68.4,28
+371,mattprater/2506677,2008,Denver Broncos,16,83,"5,400",0,65.1,19
+372,mattprater/2506677,2007,Denver Broncos,2,7,471,0,67.3,2
+373,mattprater/2506677,2007,Atlanta Falcons,2,4,285,0,71.3,3
+374,lonnycalicchio/2499969,1997,Philadelphia Eagles,2,9,546,1,60.7,1
+375,mattallen/2504520,2002,New York Giants,14,2,120,0,60.0,0
+376,brianpeters/2552730,2016,Houston Texans,12,2,123,0,61.5,0
+377,brianpeters/2552730,2015,Houston Texans,12,--,--,--,--,--
+378,dancarpenter/2507401,2016,Buffalo Bills,16,69,"4,154",1,60.2,28
+379,dancarpenter/2507401,2015,Buffalo Bills,16,4,213,0,53.3,0
+380,dancarpenter/2507401,2014,Buffalo Bills,16,--,--,--,--,--
+381,dancarpenter/2507401,2013,Buffalo Bills,16,83,"5,394",0,65.0,34
+382,dancarpenter/2507401,2012,Miami Dolphins,14,65,"4,249",0,65.4,30
+383,dancarpenter/2507401,2011,Miami Dolphins,14,68,"4,535",0,66.7,39
+384,dancarpenter/2507401,2010,Miami Dolphins,16,70,"4,603",3,65.8,14
+385,dancarpenter/2507401,2009,Miami Dolphins,16,79,"5,025",1,63.6,7
+386,dancarpenter/2507401,2008,Miami Dolphins,16,75,"4,810",1,64.1,7
+387,johnbaker/2503944,2001,St. Louis Rams,16,--,--,--,--,--
+388,johnbaker/2503944,2000,St. Louis Rams,15,2,85,0,42.5,0
+389,robertmalone/497081,2013,New York Jets,2,--,--,--,--,--
+390,robertmalone/497081,2012,New York Jets,16,1,67,0,67.0,0
+391,robertmalone/497081,2011,Detroit Lions,1,--,--,--,--,--
+392,robertmalone/497081,2010,Tampa Bay Buccaneers,12,--,--,--,--,--
+393,codyparkey/2550380,2016,Cleveland Browns,14,57,"3,512",2,61.6,34
+394,codyparkey/2550380,2015,Philadelphia Eagles,3,13,792,1,60.9,3
+395,codyparkey/2550380,2014,Philadelphia Eagles,16,98,"6,401",0,65.3,46
+396,jakearians/2503958,2001,Buffalo Bills,10,2,26,0,13.0,0
+397,haroldalexander/2499388,1994,Atlanta Falcons,15,1,62,0,62.0,0
+398,haroldalexander/2499388,1993,Atlanta Falcons,16,3,176,0,58.7,0
+399,sethmarler/2505256,2004,Jacksonville Jaguars,0,--,--,--,--,--
+400,sethmarler/2505256,2003,Jacksonville Jaguars,16,64,"3,668",1,57.3,3
+401,aldelgreco/2500360,2000,Tennessee Titans,16,--,--,--,--,--
+402,aldelgreco/2500360,1999,Tennessee Titans,16,--,--,--,--,--
+403,aldelgreco/2500360,1998,Tennessee Oilers,16,1,67,0,67.0,0
+404,aldelgreco/2500360,1997,Tennessee Oilers,16,78,"4,720",1,60.5,4
+405,aldelgreco/2500360,1996,Houston Oilers,16,82,"5,058",0,61.7,2
+406,aldelgreco/2500360,1995,Houston Oilers,16,81,"4,515",1,55.7,0
+407,aldelgreco/2500360,1994,Houston Oilers,16,55,"2,905",0,52.8,1
+408,aldelgreco/2500360,1993,Houston Oilers,16,85,"5,283",2,62.2,22
+409,aldelgreco/2500360,1992,Houston Oilers,16,76,"4,418",1,58.1,10
+410,aldelgreco/2500360,1991,Houston Oilers,7,31,0,4,0.0,4
+411,aldelgreco/2500360,1990,Phoenix Cardinals,16,--,--,--,--,--
+412,aldelgreco/2500360,1989,Phoenix Cardinals,16,--,--,--,--,--
+413,aldelgreco/2500360,1988,Phoenix Cardinals,16,--,--,--,--,--
+414,aldelgreco/2500360,1987,St. Louis Cardinals,3,--,--,--,--,--
+415,aldelgreco/2500360,1987,Green Bay Packers,5,--,--,--,--,--
+416,aldelgreco/2500360,1986,Green Bay Packers,16,--,--,--,--,--
+417,aldelgreco/2500360,1985,Green Bay Packers,16,--,--,--,--,--
+418,aldelgreco/2500360,1984,Green Bay Packers,9,--,--,--,--,--
+419,johnnyhekker/2535663,2016,Los Angeles Rams,16,--,--,--,--,--
+420,johnnyhekker/2535663,2015,St. Louis Rams,16,2,133,0,66.5,1
+421,johnnyhekker/2535663,2014,St. Louis Rams,16,2,30,1,15.0,0
+422,johnnyhekker/2535663,2013,St. Louis Rams,16,3,69,1,23.0,0
+423,johnnyhekker/2535663,2012,St. Louis Rams,16,1,9,0,9.0,0
+424,rickyschmitt/2507272,2009,San Francisco 49ers,1,5,325,0,65.0,1
+425,stephengostkowski/2506922,2016,New England Patriots,16,93,"5,961",1,64.1,52
+426,stephengostkowski/2506922,2015,New England Patriots,16,99,"6,249",0,63.1,69
+427,stephengostkowski/2506922,2014,New England Patriots,16,99,"6,362",1,64.3,53
+428,stephengostkowski/2506922,2013,New England Patriots,16,99,"6,398",1,64.6,65
+429,stephengostkowski/2506922,2012,New England Patriots,16,111,"7,214",0,65.0,52
+430,stephengostkowski/2506922,2011,New England Patriots,16,103,"6,757",2,65.6,41
+431,stephengostkowski/2506922,2010,New England Patriots,8,42,"2,851",1,67.9,15
+432,stephengostkowski/2506922,2009,New England Patriots,16,91,"6,174",0,67.8,21
+433,stephengostkowski/2506922,2008,New England Patriots,16,95,"6,083",1,64.0,17
+434,stephengostkowski/2506922,2007,New England Patriots,16,112,"7,220",3,64.5,15
+435,stephengostkowski/2506922,2006,New England Patriots,16,81,"5,307",1,65.5,12
+436,toddsauerbrun/2502840,2007,Denver Broncos,14,69,"4,485",1,65.0,11
+437,toddsauerbrun/2502840,2006,New England Patriots,2,--,--,--,--,--
+438,toddsauerbrun/2502840,2005,Denver Broncos,16,79,"5,165",1,65.4,14
+439,toddsauerbrun/2502840,2004,Carolina Panthers,16,21,"1,146",1,54.6,1
+440,toddsauerbrun/2502840,2003,Carolina Panthers,16,4,135,1,33.8,0
+441,toddsauerbrun/2502840,2002,Carolina Panthers,16,56,"3,429",4,61.2,7
+442,toddsauerbrun/2502840,2001,Carolina Panthers,16,39,"2,443",0,62.6,4
+443,toddsauerbrun/2502840,2000,Kansas City Chiefs,16,78,"4,883",1,62.6,6
+444,toddsauerbrun/2502840,1999,Chicago Bears,16,27,"1,702",0,63.0,3
+445,toddsauerbrun/2502840,1998,Chicago Bears,3,11,707,1,64.3,3
+446,toddsauerbrun/2502840,1997,Chicago Bears,16,34,"2,073",2,61.0,7
+447,toddsauerbrun/2502840,1996,Chicago Bears,16,61,"3,677",3,60.3,9
+448,toddsauerbrun/2502840,1995,Chicago Bears,15,65,"4,106",5,63.2,6
+449,jeffgossett/2500849,1996,Oakland Raiders,12,1,33,0,33.0,0
+450,jeffgossett/2500849,1995,Oakland Raiders,16,1,66,0,66.0,0
+451,jeffgossett/2500849,1994,Los Angeles Raiders,16,1,66,0,66.0,0
+452,jeffgossett/2500849,1993,Los Angeles Raiders,16,2,117,0,58.5,0
+453,jeffgossett/2500849,1992,Los Angeles Raiders,16,--,--,--,--,--
+454,jeffgossett/2500849,1991,Los Angeles Raiders,16,--,--,--,--,--
+455,jeffgossett/2500849,1990,Los Angeles Raiders,16,--,--,--,--,--
+456,jeffgossett/2500849,1989,Los Angeles Raiders,16,--,--,--,--,--
+457,jeffgossett/2500849,1988,Los Angeles Raiders,16,--,--,--,--,--
+458,jeffgossett/2500849,1987,Houston Oilers,4,--,--,--,--,--
+459,jeffgossett/2500849,1987,Cleveland Browns,5,--,--,--,--,--
+460,jeffgossett/2500849,1986,Cleveland Browns,16,--,--,--,--,--
+461,jeffgossett/2500849,1985,Cleveland Browns,16,--,--,--,--,--
+462,jeffgossett/2500849,1983,Cleveland Browns,16,--,--,--,--,--
+463,jeffgossett/2500849,1982,Kansas City Chiefs,8,--,--,--,--,--
+464,jeffgossett/2500849,1981,Kansas City Chiefs,7,--,--,--,--,--
+465,marquetteking/2534819,2016,Oakland Raiders,16,--,--,--,--,--
+466,marquetteking/2534819,2015,Oakland Raiders,16,2,123,0,61.5,0
+467,marquetteking/2534819,2014,Oakland Raiders,16,--,--,--,--,--
+468,marquetteking/2534819,2013,Oakland Raiders,16,--,--,--,--,--
+469,tonyzendejas/2503856,1995,San Francisco 49ers,3,0,0,0,--,0
+470,tonyzendejas/2503856,1995,Atlanta Falcons,1,4,258,0,64.5,0
+471,tonyzendejas/2503856,1994,Los Angeles Rams,16,67,"3,936",1,58.7,1
+472,tonyzendejas/2503856,1993,Los Angeles Rams,16,57,"3,425",0,60.1,10
+473,tonyzendejas/2503856,1992,Los Angeles Rams,16,69,"4,044",2,58.6,11
+474,tonyzendejas/2503856,1991,Los Angeles Rams,16,58,0,5,0.0,13
+475,tonyzendejas/2503856,1990,Houston Oilers,7,--,--,--,--,--
+476,tonyzendejas/2503856,1989,Houston Oilers,16,--,--,--,--,--
+477,tonyzendejas/2503856,1988,Houston Oilers,16,--,--,--,--,--
+478,tonyzendejas/2503856,1987,Houston Oilers,13,--,--,--,--,--
+479,tonyzendejas/2503856,1986,Houston Oilers,15,--,--,--,--,--
+480,tonyzendejas/2503856,1985,Houston Oilers,14,--,--,--,--,--
+481,tobygowin/2500851,2004,New York Jets,16,76,"4,790",0,63.0,7
+482,tobygowin/2500851,2003,Dallas Cowboys,16,65,"4,084",0,62.8,2
+483,tobygowin/2500851,2002,New Orleans Saints,15,69,"4,527",0,65.6,6
+484,tobygowin/2500851,2001,New Orleans Saints,16,75,"4,437",1,59.2,5
+485,tobygowin/2500851,2000,New Orleans Saints,16,75,"4,815",0,64.2,3
+486,tobygowin/2500851,1999,Dallas Cowboys,16,75,"4,908",0,65.4,12
+487,tobygowin/2500851,1998,Dallas Cowboys,16,87,"5,699",0,65.5,17
+488,tobygowin/2500851,1997,Dallas Cowboys,16,71,"4,606",0,64.9,11
+489,chrisboswell/2550545,2016,Pittsburgh Steelers,15,80,"5,049",3,63.1,49
+490,chrisboswell/2550545,2015,Pittsburgh Steelers,12,74,"4,713",1,63.7,26
+491,ryansuccop/89802,2016,Tennessee Titans,16,82,"5,117",2,62.4,58
+492,ryansuccop/89802,2015,Tennessee Titans,16,66,"4,272",1,64.7,43
+493,ryansuccop/89802,2014,Tennessee Titans,16,63,"3,967",0,63.0,31
+494,ryansuccop/89802,2013,Kansas City Chiefs,16,91,"5,998",2,65.9,47
+495,ryansuccop/89802,2012,Kansas City Chiefs,16,58,"3,716",2,64.1,27
+496,ryansuccop/89802,2011,Kansas City Chiefs,16,59,"3,680",1,62.4,31
+497,ryansuccop/89802,2010,Kansas City Chiefs,16,78,"4,794",2,61.5,8
+498,ryansuccop/89802,2009,Kansas City Chiefs,16,72,"4,454",1,61.9,7
+499,joshscobee/2506063,2015,Pittsburgh Steelers,4,20,"1,251",0,62.6,12
+500,joshscobee/2506063,2014,Jacksonville Jaguars,16,63,"3,855",1,61.2,37
+501,joshscobee/2506063,2013,Jacksonville Jaguars,16,63,"4,103",1,65.1,36
+502,joshscobee/2506063,2012,Jacksonville Jaguars,16,69,"4,469",1,64.8,26
+503,joshscobee/2506063,2011,Jacksonville Jaguars,16,62,"4,183",0,67.5,39
+504,joshscobee/2506063,2010,Jacksonville Jaguars,16,76,"5,044",2,66.4,15
+505,joshscobee/2506063,2009,Jacksonville Jaguars,16,64,"4,243",1,66.3,17
+506,joshscobee/2506063,2008,Jacksonville Jaguars,16,66,"4,276",3,64.8,10
+507,joshscobee/2506063,2007,Jacksonville Jaguars,8,46,"2,983",3,64.8,12
+508,joshscobee/2506063,2006,Jacksonville Jaguars,16,84,"5,478",2,65.2,21
+509,joshscobee/2506063,2005,Jacksonville Jaguars,16,79,"5,189",2,65.7,20
+510,joshscobee/2506063,2004,Jacksonville Jaguars,16,62,"4,042",1,65.2,11
+511,calebsturgis/2539637,2016,Philadelphia Eagles,16,87,"5,439",0,62.5,46
+512,calebsturgis/2539637,2015,Philadelphia Eagles,13,68,"4,208",1,61.9,39
+513,calebsturgis/2539637,2014,Miami Dolphins,16,85,"5,476",1,64.4,37
+514,calebsturgis/2539637,2013,Miami Dolphins,16,74,"4,915",1,66.4,38
+515,connorbarth/2507463,2016,Chicago Bears,16,64,"3,971",0,62.0,26
+516,connorbarth/2507463,2015,Tampa Bay Buccaneers,12,64,"4,062",0,63.5,32
+517,connorbarth/2507463,2014,Denver Broncos,5,8,456,0,57.0,0
+518,connorbarth/2507463,2012,Tampa Bay Buccaneers,15,--,--,--,--,--
+519,connorbarth/2507463,2011,Tampa Bay Buccaneers,16,0,0,0,--,0
+520,connorbarth/2507463,2010,Tampa Bay Buccaneers,16,78,"4,811",0,61.7,1
+521,connorbarth/2507463,2009,Tampa Bay Buccaneers,9,36,"2,313",0,64.3,6
+522,connorbarth/2507463,2008,Kansas City Chiefs,10,48,"2,811",1,58.6,4
+523,leoaraguz/2499444,2005,Seattle Seahawks,4,--,--,--,--,--
+524,leoaraguz/2499444,2003,Minnesota Vikings,2,--,--,--,--,--
+525,leoaraguz/2499444,2001,Detroit Lions,3,--,--,--,--,--
+526,leoaraguz/2499444,1999,Oakland Raiders,16,1,40,0,40.0,0
+527,leoaraguz/2499444,1998,Oakland Raiders,16,44,"2,733",0,62.1,4
+528,leoaraguz/2499444,1997,Oakland Raiders,16,--,--,--,--,--
+529,leoaraguz/2499444,1996,Oakland Raiders,3,--,--,--,--,--
+530,davidakers/2499370,2013,Detroit Lions,16,14,863,0,61.6,7
+531,davidakers/2499370,2012,San Francisco 49ers,16,87,"5,742",0,66.0,40
+532,davidakers/2499370,2011,San Francisco 49ers,16,93,"6,177",0,66.4,47
+533,davidakers/2499370,2010,Philadelphia Eagles,16,96,"6,214",2,64.7,23
+534,davidakers/2499370,2009,Philadelphia Eagles,16,94,"6,113",1,65.0,11
+535,davidakers/2499370,2008,Philadelphia Eagles,16,89,"5,853",0,65.8,17
+536,davidakers/2499370,2007,Philadelphia Eagles,16,78,"4,824",1,61.8,6
+537,davidakers/2499370,2006,Philadelphia Eagles,16,83,"5,437",0,65.5,11
+538,davidakers/2499370,2005,Philadelphia Eagles,12,35,"2,192",0,62.6,3
+539,davidakers/2499370,2004,Philadelphia Eagles,16,86,"5,579",0,64.9,12
+540,davidakers/2499370,2003,Philadelphia Eagles,16,83,"5,251",1,63.3,8
+541,davidakers/2499370,2002,Philadelphia Eagles,16,89,"5,530",2,62.1,10
+542,davidakers/2499370,2001,Philadelphia Eagles,16,79,"4,927",3,62.4,7
+543,davidakers/2499370,2000,Philadelphia Eagles,16,80,"4,874",2,60.9,4
+544,davidakers/2499370,1999,Philadelphia Eagles,16,67,"4,253",1,63.5,8
+545,davidakers/2499370,1998,Washington Redskins,1,3,144,0,48.0,0
+546,glennpakulak/2505375,2009,Washington Redskins,2,1,67,0,67.0,0
+547,glennpakulak/2505375,2008,New Orleans Saints,8,--,--,--,--,--
+548,leejohnson/2501436,2002,Philadelphia Eagles,2,--,--,--,--,--
+549,leejohnson/2501436,2001,Minnesota Vikings,4,7,422,0,60.3,1
+550,leejohnson/2501436,2001,New England Patriots,5,--,--,--,--,--
+551,leejohnson/2501436,2000,New England Patriots,16,2,116,0,58.0,0
+552,leejohnson/2501436,1999,New England Patriots,16,2,74,0,37.0,0
+553,leejohnson/2501436,1998,Cincinnati Bengals,13,47,"3,128",0,66.6,11
+554,leejohnson/2501436,1997,Cincinnati Bengals,16,--,--,--,--,--
+555,leejohnson/2501436,1996,Cincinnati Bengals,16,65,"4,197",3,64.6,7
+556,leejohnson/2501436,1995,Cincinnati Bengals,16,64,"3,987",4,62.3,9
+557,leejohnson/2501436,1994,Cincinnati Bengals,16,66,"4,066",1,61.6,6
+558,leejohnson/2501436,1993,Cincinnati Bengals,16,49,"3,060",0,62.4,16
+559,leejohnson/2501436,1992,Cincinnati Bengals,16,62,"3,891",4,62.8,15
+560,leejohnson/2501436,1991,Cincinnati Bengals,16,67,0,1,0.0,27
+561,leejohnson/2501436,1990,Cincinnati Bengals,16,--,--,--,--,--
+562,leejohnson/2501436,1989,Cincinnati Bengals,16,--,--,--,--,--
+563,leejohnson/2501436,1988,Cincinnati Bengals,12,--,--,--,--,--
+564,leejohnson/2501436,1988,Cleveland Browns,3,--,--,--,--,--
+565,leejohnson/2501436,1987,Cleveland Browns,3,--,--,--,--,--
+566,leejohnson/2501436,1987,Houston Oilers,9,--,--,--,--,--
+567,leejohnson/2501436,1986,Houston Oilers,16,--,--,--,--,--
+568,leejohnson/2501436,1985,Houston Oilers,16,--,--,--,--,--
+569,chandlercatanzaro/2550325,2016,Arizona Cardinals,16,83,"5,220",1,62.9,52
+570,chandlercatanzaro/2550325,2015,Arizona Cardinals,16,99,"6,445",0,65.1,50
+571,chandlercatanzaro/2550325,2014,Arizona Cardinals,16,76,"5,061",0,66.6,38
+572,jordangay/2542060,2016,Buffalo Bills,3,14,875,0,62.5,7
+573,jordangay/2542060,2015,Buffalo Bills,14,77,"4,815",1,62.5,42
+574,jordangay/2542060,2014,Buffalo Bills,16,83,"5,261",1,63.4,49
+575,mattbosher/2495124,2016,Atlanta Falcons,15,105,"6,781",0,64.6,65
+576,mattbosher/2495124,2015,Atlanta Falcons,16,76,"4,875",0,64.1,52
+577,mattbosher/2495124,2014,Atlanta Falcons,16,83,"5,172",0,62.3,46
+578,mattbosher/2495124,2013,Atlanta Falcons,16,79,"4,902",0,62.1,50
+579,mattbosher/2495124,2012,Atlanta Falcons,16,94,"6,141",0,65.3,45
+580,mattbosher/2495124,2011,Atlanta Falcons,16,88,"5,745",1,65.3,25
+581,dougpelfrey/2502439,1999,Cincinnati Bengals,16,13,687,0,52.8,0
+582,dougpelfrey/2502439,1998,Cincinnati Bengals,16,4,178,1,44.5,2
+583,dougpelfrey/2502439,1997,Cincinnati Bengals,16,74,"4,268",3,57.7,2
+584,dougpelfrey/2502439,1996,Cincinnati Bengals,16,15,775,0,51.7,0
+585,dougpelfrey/2502439,1995,Cincinnati Bengals,16,17,971,0,57.1,0
+586,dougpelfrey/2502439,1994,Cincinnati Bengals,16,2,57,0,28.5,0
+587,dougpelfrey/2502439,1993,Cincinnati Bengals,15,5,285,0,57.0,0
+588,danbailey/2495259,2016,Dallas Cowboys,16,91,"5,827",0,64.0,57
+589,danbailey/2495259,2015,Dallas Cowboys,16,73,"4,620",0,63.3,49
+590,danbailey/2495259,2014,Dallas Cowboys,16,98,"6,183",0,63.1,52
+591,danbailey/2495259,2013,Dallas Cowboys,16,93,"5,905",0,63.5,52
+592,danbailey/2495259,2012,Dallas Cowboys,16,84,"5,212",1,62.0,30
+593,danbailey/2495259,2011,Dallas Cowboys,16,67,"4,377",1,65.3,24
+594,neilrackers/2504287,2011,Houston Texans,16,36,"2,261",0,62.8,15
+595,neilrackers/2504287,2010,Houston Texans,16,86,"5,695",0,66.2,13
+596,neilrackers/2504287,2009,Arizona Cardinals,14,65,"4,123",2,63.4,14
+597,neilrackers/2504287,2008,Arizona Cardinals,16,90,"5,699",1,63.3,15
+598,neilrackers/2504287,2007,Arizona Cardinals,16,80,"5,164",0,64.6,17
+599,neilrackers/2504287,2006,Arizona Cardinals,16,75,"5,058",1,67.4,17
+600,neilrackers/2504287,2005,Arizona Cardinals,15,61,"4,196",1,68.8,22
+601,neilrackers/2504287,2004,Arizona Cardinals,16,70,"4,722",1,67.5,23
+602,neilrackers/2504287,2003,Arizona Cardinals,7,27,"1,607",1,59.5,5
+603,neilrackers/2504287,2002,Cincinnati Bengals,16,64,"3,522",0,55.0,3
+604,neilrackers/2504287,2001,Cincinnati Bengals,16,57,"3,445",0,60.4,8
+605,neilrackers/2504287,2000,Cincinnati Bengals,16,46,"2,800",0,60.9,4
+606,jeffreed/2504853,2010,San Francisco 49ers,5,26,"1,542",0,59.3,1
+607,jeffreed/2504853,2010,Pittsburgh Steelers,9,45,"2,815",0,62.6,5
+608,jeffreed/2504853,2009,Pittsburgh Steelers,16,81,"4,845",0,59.8,3
+609,jeffreed/2504853,2008,Pittsburgh Steelers,16,79,"4,943",1,62.6,9
+610,jeffreed/2504853,2007,Pittsburgh Steelers,16,86,"5,284",1,61.4,10
+611,jeffreed/2504853,2006,Pittsburgh Steelers,16,76,"4,695",0,61.8,4
+612,jeffreed/2504853,2005,Pittsburgh Steelers,16,84,"5,105",0,60.8,5
+613,jeffreed/2504853,2004,Pittsburgh Steelers,16,84,"5,218",3,62.1,7
+614,jeffreed/2504853,2003,Pittsburgh Steelers,16,70,"4,412",1,63.0,5
+615,jeffreed/2504853,2002,Pittsburgh Steelers,6,35,"2,040",0,58.3,1
+616,joshlambo/2553833,2016,San Diego Chargers,16,91,"5,762",2,63.3,67
+617,joshlambo/2553833,2015,San Diego Chargers,16,75,"4,783",0,63.8,41
+618,jeremykapinos/2507310,2011,Pittsburgh Steelers,8,--,--,--,--,--
+619,jeremykapinos/2507310,2010,Pittsburgh Steelers,4,1,41,0,41.0,0
+620,jeremykapinos/2507310,2010,Indianapolis Colts,1,7,440,0,62.9,0
+621,jeremykapinos/2507310,2009,Green Bay Packers,16,3,183,0,61.0,0
+622,jeremykapinos/2507310,2008,Green Bay Packers,4,--,--,--,--,--
+623,jeremykapinos/2507310,2007,New York Jets,1,--,--,--,--,--
+624,pauledinger/2504132,2005,Minnesota Vikings,16,72,"4,276",1,59.4,0
+625,pauledinger/2504132,2004,Chicago Bears,16,56,"3,285",1,58.7,0
+626,pauledinger/2504132,2003,Chicago Bears,16,69,"3,979",1,57.7,1
+627,pauledinger/2504132,2002,Chicago Bears,16,67,"4,037",2,60.3,2
+628,pauledinger/2504132,2001,Chicago Bears,16,73,"4,419",2,60.5,4
+629,pauledinger/2504132,2000,Chicago Bears,16,58,"3,472",1,59.9,4
+630,charliebaumann/2509189,1992,New England Patriots,16,51,"2,854",0,56.0,5
+631,charliebaumann/2509189,1991,New England Patriots,7,26,0,0,0.0,2
+632,charliebaumann/2509189,1991,Miami Dolphins,2,10,0,0,0.0,1
+633,nickharris/2504542,2012,Detroit Lions,13,--,--,--,--,--
+634,nickharris/2504542,2011,Jacksonville Jaguars,11,--,--,--,--,--
+635,nickharris/2504542,2010,Detroit Lions,16,3,168,0,56.0,0
+636,nickharris/2504542,2009,Detroit Lions,16,1,54,0,54.0,0
+637,nickharris/2504542,2008,Detroit Lions,16,1,68,0,68.0,0
+638,nickharris/2504542,2007,Detroit Lions,16,1,63,0,63.0,0
+639,nickharris/2504542,2006,Detroit Lions,16,--,--,--,--,--
+640,nickharris/2504542,2005,Detroit Lions,16,3,158,0,52.7,0
+641,nickharris/2504542,2004,Detroit Lions,16,1,64,0,64.0,0
+642,nickharris/2504542,2003,Detroit Lions,11,--,--,--,--,--
+643,nickharris/2504542,2003,Cincinnati Bengals,5,--,--,--,--,--
+644,nickharris/2504542,2002,Cincinnati Bengals,15,--,--,--,--,--
+645,nickharris/2504542,2001,Cincinnati Bengals,16,1,24,1,24.0,0
+646,johnkidd/2501607,1998,New York Jets,8,--,--,--,--,--
+647,johnkidd/2501607,1998,Detroit Lions,2,--,--,--,--,--
+648,johnkidd/2501607,1997,Miami Dolphins,13,2,135,0,67.5,1
+649,johnkidd/2501607,1996,Miami Dolphins,16,--,--,--,--,--
+650,johnkidd/2501607,1995,Miami Dolphins,16,1,52,0,52.0,0
+651,johnkidd/2501607,1994,Miami Dolphins,4,--,--,--,--,--
+652,johnkidd/2501607,1994,San Diego Chargers,2,--,--,--,--,--
+653,johnkidd/2501607,1993,San Diego Chargers,14,--,--,--,--,--
+654,johnkidd/2501607,1992,San Diego Chargers,16,--,--,--,--,--
+655,johnkidd/2501607,1991,San Diego Chargers,16,--,--,--,--,--
+656,johnkidd/2501607,1990,San Diego Chargers,16,--,--,--,--,--
+657,johnkidd/2501607,1989,Buffalo Bills,16,--,--,--,--,--
+658,johnkidd/2501607,1988,Buffalo Bills,16,--,--,--,--,--
+659,johnkidd/2501607,1987,Buffalo Bills,12,--,--,--,--,--
+660,johnkidd/2501607,1986,Buffalo Bills,16,--,--,--,--,--
+661,johnkidd/2501607,1985,Buffalo Bills,16,--,--,--,--,--
+662,johnkidd/2501607,1984,Buffalo Bills,16,--,--,--,--,--
+663,mattwile/2553622,2016,Arizona Cardinals,3,--,--,--,--,--
+664,mattwile/2553622,2016,Atlanta Falcons,1,7,455,0,65.0,7
+665,fuadreveiz/2502632,1995,Minnesota Vikings,16,85,"5,254",1,61.8,8
+666,fuadreveiz/2502632,1994,Minnesota Vikings,16,86,"5,068",2,58.9,1
+667,fuadreveiz/2502632,1993,Minnesota Vikings,16,70,"4,097",2,58.5,9
+668,fuadreveiz/2502632,1992,Minnesota Vikings,16,78,"4,883",2,62.6,26
+669,fuadreveiz/2502632,1991,Minnesota Vikings,16,69,0,3,0.0,21
+670,fuadreveiz/2502632,1990,Minnesota Vikings,9,--,--,--,--,--
+671,fuadreveiz/2502632,1990,San Diego Chargers,4,--,--,--,--,--
+672,fuadreveiz/2502632,1988,Miami Dolphins,11,--,--,--,--,--
+673,fuadreveiz/2502632,1987,Miami Dolphins,11,--,--,--,--,--
+674,fuadreveiz/2502632,1986,Miami Dolphins,16,--,--,--,--,--
+675,fuadreveiz/2502632,1985,Miami Dolphins,16,--,--,--,--,--
+676,richcamarillo/2499973,1996,Oakland Raiders,1,--,--,--,--,--
+677,richcamarillo/2499973,1995,Houston Oilers,16,2,101,0,50.5,0
+678,richcamarillo/2499973,1994,Houston Oilers,16,1,60,0,60.0,0
+679,richcamarillo/2499973,1993,Phoenix Cardinals,16,--,--,--,--,--
+680,richcamarillo/2499973,1992,Phoenix Cardinals,15,5,260,0,52.0,0
+681,richcamarillo/2499973,1991,Phoenix Cardinals,16,--,--,--,--,--
+682,richcamarillo/2499973,1990,Phoenix Cardinals,16,--,--,--,--,--
+683,richcamarillo/2499973,1989,Phoenix Cardinals,15,--,--,--,--,--
+684,richcamarillo/2499973,1988,Los Angeles Rams,9,--,--,--,--,--
+685,richcamarillo/2499973,1987,New England Patriots,12,--,--,--,--,--
+686,richcamarillo/2499973,1986,New England Patriots,16,--,--,--,--,--
+687,richcamarillo/2499973,1985,New England Patriots,16,--,--,--,--,--
+688,richcamarillo/2499973,1984,New England Patriots,7,--,--,--,--,--
+689,richcamarillo/2499973,1983,New England Patriots,16,--,--,--,--,--
+690,richcamarillo/2499973,1982,New England Patriots,9,--,--,--,--,--
+691,richcamarillo/2499973,1981,New England Patriots,9,--,--,--,--,--
+692,shanelechler/2504319,2016,Houston Texans,16,--,--,--,--,--
+693,shanelechler/2504319,2015,Houston Texans,16,--,--,--,--,--
+694,shanelechler/2504319,2014,Houston Texans,16,1,67,0,67.0,0
+695,shanelechler/2504319,2013,Houston Texans,16,1,68,0,68.0,0
+696,shanelechler/2504319,2012,Oakland Raiders,16,--,--,--,--,--
+697,shanelechler/2504319,2011,Oakland Raiders,16,--,--,--,--,--
+698,shanelechler/2504319,2010,Oakland Raiders,16,--,--,--,--,--
+699,shanelechler/2504319,2009,Oakland Raiders,16,1,75,0,75.0,0
+700,shanelechler/2504319,2008,Oakland Raiders,16,1,65,0,65.0,0
+701,shanelechler/2504319,2007,Oakland Raiders,16,1,53,0,53.0,0
+702,shanelechler/2504319,2006,Oakland Raiders,16,1,67,0,67.0,0
+703,shanelechler/2504319,2005,Oakland Raiders,16,3,205,0,68.3,0
+704,shanelechler/2504319,2004,Oakland Raiders,16,--,--,--,--,--
+705,shanelechler/2504319,2003,Oakland Raiders,16,--,--,--,--,--
+706,shanelechler/2504319,2002,Oakland Raiders,14,--,--,--,--,--
+707,shanelechler/2504319,2001,Oakland Raiders,16,--,--,--,--,--
+708,shanelechler/2504319,2000,Oakland Raiders,16,9,566,0,62.9,1
+709,waderichey/2502657,2004,Baltimore Ravens,12,53,"3,343",3,63.1,7
+710,waderichey/2502657,2003,Baltimore Ravens,15,81,"5,178",2,63.9,14
+711,waderichey/2502657,2002,San Diego Chargers,12,50,"3,273",3,65.5,16
+712,waderichey/2502657,2001,San Diego Chargers,16,82,"5,432",0,66.2,18
+713,waderichey/2502657,2000,San Francisco 49ers,16,81,"5,071",2,62.6,13
+714,waderichey/2502657,1999,San Francisco 49ers,16,72,"4,443",5,61.7,17
+715,waderichey/2502657,1998,San Francisco 49ers,16,94,"6,223",0,66.2,27
+716,brandonmcmanus/2541556,2016,Denver Broncos,16,79,"4,869",1,61.6,51
+717,brandonmcmanus/2541556,2015,Denver Broncos,16,81,"5,046",0,62.3,55
+718,brandonmcmanus/2541556,2014,Denver Broncos,15,91,"5,981",0,65.7,64
+719,coleford/2500677,1998,Buffalo Bills,1,3,204,0,68.0,0
+720,coleford/2500677,1997,Oakland Raiders,16,68,"4,605",1,67.7,19
+721,coleford/2500677,1996,Oakland Raiders,16,78,"5,020",1,64.4,19
+722,coleford/2500677,1995,Oakland Raiders,5,32,"2,047",2,64.0,3
+723,bradleypinion/2552711,2016,San Francisco 49ers,16,31,"1,992",1,64.3,20
+724,bradleypinion/2552711,2015,San Francisco 49ers,16,57,"3,707",0,65.0,38
+725,ryanquigley/2536049,2016,Arizona Cardinals,6,--,--,--,--,--
+726,ryanquigley/2536049,2015,New York Jets,15,5,337,0,67.4,1
+727,ryanquigley/2536049,2014,New York Jets,16,5,315,0,63.0,0
+728,ryanquigley/2536049,2013,New York Jets,14,--,--,--,--,--
+729,ryanquigley/2536049,2012,Chicago Bears,0,--,--,--,--,--
+730,dustinhopkins/2539227,2016,Washington Redskins,16,92,"5,790",1,62.9,65
+731,dustinhopkins/2539227,2015,Washington Redskins,15,80,"4,967",1,62.1,52
+732,dustinhopkins/2539227,2013,Buffalo Bills,0,--,--,--,--,--
+733,shawnmccarthy/2501943,1992,New England Patriots,16,1,35,0,35.0,0
+734,shawnmccarthy/2501943,1991,New England Patriots,13,4,0,0,0.0,0
+735,randybullock/2533444,2016,Cincinnati Bengals,3,13,820,0,63.1,8
+736,randybullock/2533444,2016,Pittsburgh Steelers,1,6,375,0,62.5,3
+737,randybullock/2533444,2016,New York Giants,1,4,255,0,63.8,3
+738,randybullock/2533444,2015,New York Jets,8,42,"2,781",1,66.2,20
+739,randybullock/2533444,2015,Houston Texans,3,14,875,0,62.5,10
+740,randybullock/2533444,2014,Houston Texans,16,86,"5,626",0,65.4,40
+741,randybullock/2533444,2013,Houston Texans,16,67,"4,499",0,67.1,29
+742,nicknovak/2506194,2016,Houston Texans,16,74,"4,467",1,60.4,23
+743,nicknovak/2506194,2015,Houston Texans,13,62,"4,006",0,64.6,23
+744,nicknovak/2506194,2014,San Diego Chargers,16,78,"4,799",1,61.5,10
+745,nicknovak/2506194,2013,San Diego Chargers,16,92,"6,128",1,66.6,18
+746,nicknovak/2506194,2012,San Diego Chargers,13,62,"4,023",1,64.9,22
+747,nicknovak/2506194,2011,San Diego Chargers,15,86,"5,637",0,65.5,30
+748,nicknovak/2506194,2008,Kansas City Chiefs,6,20,"1,266",0,63.3,0
+749,nicknovak/2506194,2006,Washington Redskins,6,20,"1,202",0,60.1,0
+750,nicknovak/2506194,2005,Arizona Cardinals,5,24,"1,381",0,57.5,1
+751,nicknovak/2506194,2005,Washington Redskins,5,25,"1,420",0,56.8,0
+752,jeffchandler/2505096,2004,Washington Redskins,3,14,871,0,62.2,0
+753,jeffchandler/2505096,2004,Carolina Panthers,2,--,--,--,--,--
+754,jeffchandler/2505096,2004,St. Louis Rams,0,--,--,--,--,--
+755,jeffchandler/2505096,2003,San Francisco 49ers,2,16,962,1,60.1,1
+756,jeffchandler/2505096,2002,San Francisco 49ers,6,29,"1,719",1,59.3,1
+757,jonryan/2506613,2016,Seattle Seahawks,16,1,65,0,65.0,0
+758,jonryan/2506613,2015,Seattle Seahawks,16,1,61,0,61.0,0
+759,jonryan/2506613,2014,Seattle Seahawks,16,1,79,0,79.0,0
+760,jonryan/2506613,2013,Seattle Seahawks,16,--,--,--,--,--
+761,jonryan/2506613,2012,Seattle Seahawks,16,1,66,0,66.0,0
+762,jonryan/2506613,2011,Seattle Seahawks,16,--,--,--,--,--
+763,jonryan/2506613,2010,Seattle Seahawks,16,1,66,0,66.0,0
+764,jonryan/2506613,2009,Seattle Seahawks,16,--,--,--,--,--
+765,jonryan/2506613,2008,Seattle Seahawks,15,--,--,--,--,--
+766,jonryan/2506613,2007,Green Bay Packers,16,--,--,--,--,--
+767,jonryan/2506613,2006,Green Bay Packers,16,0,0,0,--,0
+768,patleahy/2501709,1991,New York Jets,15,12,0,0,0.0,1
+769,patleahy/2501709,1990,New York Jets,16,--,--,--,--,--
+770,patleahy/2501709,1989,New York Jets,16,--,--,--,--,--
+771,patleahy/2501709,1988,New York Jets,16,--,--,--,--,--
+772,patleahy/2501709,1987,New York Jets,12,--,--,--,--,--
+773,patleahy/2501709,1986,New York Jets,16,--,--,--,--,--
+774,patleahy/2501709,1985,New York Jets,16,--,--,--,--,--
+775,patleahy/2501709,1984,New York Jets,16,--,--,--,--,--
+776,patleahy/2501709,1983,New York Jets,16,--,--,--,--,--
+777,patleahy/2501709,1982,New York Jets,9,--,--,--,--,--
+778,patleahy/2501709,1981,New York Jets,16,--,--,--,--,--
+779,patleahy/2501709,1980,New York Jets,16,--,--,--,--,--
+780,patleahy/2501709,1979,New York Jets,6,--,--,--,--,--
+781,patleahy/2501709,1978,New York Jets,16,--,--,--,--,--
+782,patleahy/2501709,1977,New York Jets,14,--,--,--,--,--
+783,patleahy/2501709,1976,New York Jets,14,--,--,--,--,--
+784,patleahy/2501709,1975,New York Jets,14,--,--,--,--,--
+785,patleahy/2501709,1974,New York Jets,6,--,--,--,--,--
+786,cedricoglesby/2504342,2001,Arizona Cardinals,3,14,730,1,52.1,0
+787,kenwalter/2503526,2006,New England Patriots,4,1,46,0,46.0,0
+788,kenwalter/2503526,2004,Seattle Seahawks,6,--,--,--,--,--
+789,kenwalter/2503526,2003,New England Patriots,15,1,64,0,64.0,0
+790,kenwalter/2503526,2002,New England Patriots,16,--,--,--,--,--
+791,kenwalter/2503526,2001,New England Patriots,11,--,--,--,--,--
+792,kenwalter/2503526,2000,Carolina Panthers,16,4,180,0,45.0,0
+793,kenwalter/2503526,1999,Carolina Panthers,16,--,--,--,--,--
+794,kenwalter/2503526,1998,Carolina Panthers,16,2,70,1,35.0,0
+795,kenwalter/2503526,1997,Carolina Panthers,16,--,--,--,--,--
+796,remyhamilton/2505669,2005,Detroit Lions,1,2,132,0,66.0,0
+797,spencerlanning/2530524,2015,Chicago Bears,1,--,--,--,--,--
+798,spencerlanning/2530524,2014,Cleveland Browns,16,6,387,0,64.5,1
+799,spencerlanning/2530524,2013,Cleveland Browns,16,8,403,0,50.4,0
+800,adamvinatieri/2503471,2016,Indianapolis Colts,16,0,0,0,--,0
+801,adamvinatieri/2503471,2015,Indianapolis Colts,16,--,--,--,--,--
+802,adamvinatieri/2503471,2014,Indianapolis Colts,16,--,--,--,--,--
+803,adamvinatieri/2503471,2013,Indianapolis Colts,15,--,--,--,--,--
+804,adamvinatieri/2503471,2012,Indianapolis Colts,16,0,0,0,--,0
+805,adamvinatieri/2503471,2011,Indianapolis Colts,16,--,--,--,--,--
+806,adamvinatieri/2503471,2010,Indianapolis Colts,16,--,--,--,--,--
+807,adamvinatieri/2503471,2009,Indianapolis Colts,6,--,--,--,--,--
+808,adamvinatieri/2503471,2008,Indianapolis Colts,16,80,"5,204",0,65.1,8
+809,adamvinatieri/2503471,2007,Indianapolis Colts,16,91,"5,915",1,65.0,9
+810,adamvinatieri/2503471,2006,Indianapolis Colts,13,73,"4,800",0,65.8,10
+811,adamvinatieri/2503471,2005,New England Patriots,16,80,"4,934",1,61.7,10
+812,adamvinatieri/2503471,2004,New England Patriots,16,94,"5,921",1,63.0,6
+813,adamvinatieri/2503471,2003,New England Patriots,16,79,"4,966",0,62.9,2
+814,adamvinatieri/2503471,2002,New England Patriots,16,83,"5,010",3,60.4,6
+815,adamvinatieri/2503471,2001,New England Patriots,16,82,"4,992",0,60.9,6
+816,adamvinatieri/2503471,2000,New England Patriots,16,67,"4,236",0,63.2,7
+817,adamvinatieri/2503471,1999,New England Patriots,16,71,"4,458",2,62.8,5
+818,adamvinatieri/2503471,1998,New England Patriots,16,79,"4,937",0,62.5,6
+819,adamvinatieri/2503471,1997,New England Patriots,16,81,"5,057",0,62.4,4
+820,adamvinatieri/2503471,1996,New England Patriots,16,89,"5,709",0,64.1,9
+821,brettkern/4263,2016,Tennessee Titans,16,1,59,0,59.0,0
+822,brettkern/4263,2015,Tennessee Titans,16,--,--,--,--,--
+823,brettkern/4263,2014,Tennessee Titans,16,2,119,0,59.5,0
+824,brettkern/4263,2013,Tennessee Titans,16,3,181,0,60.3,0
+825,brettkern/4263,2012,Tennessee Titans,16,--,--,--,--,--
+826,brettkern/4263,2011,Tennessee Titans,16,--,--,--,--,--
+827,brettkern/4263,2010,Tennessee Titans,16,--,--,--,--,--
+828,brettkern/4263,2009,Tennessee Titans,10,--,--,--,--,--
+829,brettkern/4263,2009,Denver Broncos,6,--,--,--,--,--
+830,brettkern/4263,2008,Denver Broncos,16,1,43,1,43.0,0
+831,jefffeagles/2500608,2009,New York Giants,16,--,--,--,--,--
+832,jefffeagles/2500608,2008,New York Giants,16,--,--,--,--,--
+833,jefffeagles/2500608,2007,New York Giants,16,1,56,0,56.0,0
+834,jefffeagles/2500608,2006,New York Giants,16,--,--,--,--,--
+835,jefffeagles/2500608,2005,New York Giants,16,--,--,--,--,--
+836,jefffeagles/2500608,2004,New York Giants,16,--,--,--,--,--
+837,jefffeagles/2500608,2003,New York Giants,16,1,50,0,50.0,0
+838,jefffeagles/2500608,2002,Seattle Seahawks,16,--,--,--,--,--
+839,jefffeagles/2500608,2001,Seattle Seahawks,16,--,--,--,--,--
+840,jefffeagles/2500608,2000,Seattle Seahawks,16,--,--,--,--,--
+841,jefffeagles/2500608,1999,Seattle Seahawks,16,--,--,--,--,--
+842,jefffeagles/2500608,1998,Seattle Seahawks,16,--,--,--,--,--
+843,jefffeagles/2500608,1997,Arizona Cardinals,16,--,--,--,--,--
+844,jefffeagles/2500608,1996,Arizona Cardinals,16,--,--,--,--,--
+845,jefffeagles/2500608,1995,Arizona Cardinals,16,--,--,--,--,--
+846,jefffeagles/2500608,1994,Arizona Cardinals,16,3,184,0,61.3,0
+847,jefffeagles/2500608,1993,Philadelphia Eagles,16,2,67,0,33.5,0
+848,jefffeagles/2500608,1992,Philadelphia Eagles,16,--,--,--,--,--
+849,jefffeagles/2500608,1991,Philadelphia Eagles,16,1,0,0,0.0,0
+850,jefffeagles/2500608,1990,Philadelphia Eagles,16,--,--,--,--,--
+851,jefffeagles/2500608,1989,New England Patriots,16,--,--,--,--,--
+852,jefffeagles/2500608,1988,New England Patriots,16,--,--,--,--,--
+853,nickfolk/2507225,2016,New York Jets,16,70,"4,425",0,63.2,39
+854,nickfolk/2507225,2015,New York Jets,8,39,"2,466",0,63.2,13
+855,nickfolk/2507225,2014,New York Jets,16,69,"4,340",0,62.9,21
+856,nickfolk/2507225,2013,New York Jets,16,73,"4,584",0,62.8,30
+857,nickfolk/2507225,2012,New York Jets,16,68,"4,293",1,63.1,12
+858,nickfolk/2507225,2011,New York Jets,16,81,"5,156",1,63.7,17
+859,nickfolk/2507225,2010,New York Jets,16,81,"5,025",1,62.0,7
+860,nickfolk/2507225,2009,Dallas Cowboys,14,2,17,0,8.5,0
+861,nickfolk/2507225,2008,Dallas Cowboys,16,75,"4,537",5,60.5,0
+862,nickfolk/2507225,2007,Dallas Cowboys,16,94,"5,887",2,62.6,4
+863,braddaluiso/2500277,2001,Oakland Raiders,1,6,312,0,52.0,0
+864,braddaluiso/2500277,2000,New York Giants,14,58,"3,402",1,58.7,2
+865,braddaluiso/2500277,1999,New York Giants,6,22,"1,390",1,63.2,8
+866,braddaluiso/2500277,1998,New York Giants,16,67,"4,283",1,63.9,15
+867,braddaluiso/2500277,1997,New York Giants,16,72,"4,859",0,67.5,23
+868,braddaluiso/2500277,1996,New York Giants,16,65,"4,339",2,66.8,20
+869,braddaluiso/2500277,1995,New York Giants,16,69,"4,427",1,64.2,13
+870,braddaluiso/2500277,1994,New York Giants,16,65,"4,293",3,66.0,19
+871,braddaluiso/2500277,1993,New York Giants,15,64,"4,266",1,66.7,39
+872,braddaluiso/2500277,1992,Denver Broncos,16,65,"4,405",0,67.8,52
+873,braddaluiso/2500277,1991,Buffalo Bills,14,77,0,2,0.0,26
+874,braddaluiso/2500277,1991,Atlanta Falcons,2,6,0,0,0.0,4
+875,jefflocke/2540237,2016,Minnesota Vikings,16,--,--,--,--,--
+876,jefflocke/2540237,2015,Minnesota Vikings,16,1,44,0,44.0,0
+877,jefflocke/2540237,2014,Minnesota Vikings,16,1,50,0,50.0,0
+878,jefflocke/2540237,2013,Minnesota Vikings,16,4,259,0,64.8,1
+879,bretthartmann/2530691,2011,Houston Texans,12,50,"3,307",0,66.1,23
+880,brandonfields/2507248,2015,New Orleans Saints,2,--,--,--,--,--
+881,brandonfields/2507248,2014,Miami Dolphins,16,--,--,--,--,--
+882,brandonfields/2507248,2013,Miami Dolphins,16,1,53,0,53.0,0
+883,brandonfields/2507248,2012,Miami Dolphins,16,--,--,--,--,--
+884,brandonfields/2507248,2011,Miami Dolphins,16,3,156,1,52.0,0
+885,brandonfields/2507248,2010,Miami Dolphins,16,--,--,--,--,--
+886,brandonfields/2507248,2009,Miami Dolphins,16,3,27,0,9.0,0
+887,brandonfields/2507248,2008,Miami Dolphins,16,2,77,0,38.5,0
+888,brandonfields/2507248,2007,Miami Dolphins,16,1,60,0,60.0,0
+889,russellallen/2507609,2013,Jacksonville Jaguars,14,--,--,--,--,--
+890,russellallen/2507609,2012,Jacksonville Jaguars,16,--,--,--,--,--
+891,russellallen/2507609,2011,Jacksonville Jaguars,16,1,20,0,20.0,0
+892,russellallen/2507609,2010,Jacksonville Jaguars,16,--,--,--,--,--
+893,russellallen/2507609,2009,Jacksonville Jaguars,16,--,--,--,--,--
+894,stevechristie/2500070,2004,New York Giants,16,71,"4,094",1,57.7,2
+895,stevechristie/2500070,2003,San Diego Chargers,16,43,"2,416",0,56.2,0
+896,stevechristie/2500070,2002,San Diego Chargers,16,21,"1,147",0,54.6,0
+897,stevechristie/2500070,2001,San Diego Chargers,5,--,--,--,--,--
+898,stevechristie/2500070,2001,Buffalo Bills,0,--,--,--,--,--
+899,stevechristie/2500070,2000,Buffalo Bills,16,72,"3,860",2,53.6,1
+900,stevechristie/2500070,1999,Buffalo Bills,16,74,"4,537",0,61.3,5
+901,stevechristie/2500070,1998,Buffalo Bills,16,88,"5,582",2,63.4,12
+902,stevechristie/2500070,1997,Buffalo Bills,16,63,"3,803",1,60.4,5
+903,stevechristie/2500070,1996,Buffalo Bills,16,73,"4,529",0,62.0,6
+904,stevechristie/2500070,1995,Buffalo Bills,16,83,"5,205",1,62.7,9
+905,stevechristie/2500070,1994,Buffalo Bills,16,77,"4,534",1,58.9,3
+906,stevechristie/2500070,1993,Buffalo Bills,16,75,"4,532",2,60.4,28
+907,stevechristie/2500070,1992,Buffalo Bills,16,84,"5,180",0,61.7,24
+908,stevechristie/2500070,1991,Tampa Bay Buccaneers,16,52,0,0,0.0,18
+909,stevechristie/2500070,1990,Tampa Bay Buccaneers,16,--,--,--,--,--
+910,jasonelam/2500527,2009,Atlanta Falcons,11,--,--,--,--,--
+911,jasonelam/2500527,2008,Atlanta Falcons,16,0,0,0,--,0
+912,jasonelam/2500527,2007,Denver Broncos,16,--,--,--,--,--
+913,jasonelam/2500527,2006,Denver Broncos,16,--,--,--,--,--
+914,jasonelam/2500527,2005,Denver Broncos,16,1,54,0,54.0,0
+915,jasonelam/2500527,2004,Denver Broncos,16,1,18,0,18.0,0
+916,jasonelam/2500527,2003,Denver Broncos,16,--,--,--,--,--
+917,jasonelam/2500527,2002,Denver Broncos,16,44,"2,775",0,63.1,1
+918,jasonelam/2500527,2001,Denver Broncos,16,82,"5,165",1,63.0,10
+919,jasonelam/2500527,2000,Denver Broncos,13,35,"2,136",0,61.0,0
+920,jasonelam/2500527,1999,Denver Broncos,16,74,"4,588",0,62.0,3
+921,jasonelam/2500527,1998,Denver Broncos,16,97,"6,338",0,65.3,11
+922,jasonelam/2500527,1997,Denver Broncos,15,87,"5,727",0,65.8,8
+923,jasonelam/2500527,1996,Denver Broncos,16,84,"5,518",0,65.7,8
+924,jasonelam/2500527,1995,Denver Broncos,16,87,"5,338",1,61.4,8
+925,jasonelam/2500527,1994,Denver Broncos,16,81,"5,053",2,62.4,7
+926,jasonelam/2500527,1993,Denver Broncos,16,84,"5,060",2,60.2,20
+927,rianlindell/2504046,2013,Tampa Bay Buccaneers,16,0,0,0,--,0
+928,rianlindell/2504046,2012,Buffalo Bills,16,47,"2,900",0,61.7,7
+929,rianlindell/2504046,2011,Buffalo Bills,8,43,"2,829",1,65.8,12
+930,rianlindell/2504046,2010,Buffalo Bills,16,67,"4,242",1,63.3,8
+931,rianlindell/2504046,2009,Buffalo Bills,16,68,"4,327",1,63.6,6
+932,rianlindell/2504046,2008,Buffalo Bills,16,77,"4,755",2,61.8,10
+933,rianlindell/2504046,2007,Buffalo Bills,16,65,"4,022",1,61.9,6
+934,rianlindell/2504046,2006,Buffalo Bills,16,69,"4,134",0,59.9,5
+935,rianlindell/2504046,2005,Buffalo Bills,16,69,"4,205",1,60.9,2
+936,rianlindell/2504046,2004,Buffalo Bills,16,83,"4,835",1,58.3,3
+937,rianlindell/2504046,2003,Buffalo Bills,16,60,"3,632",1,60.5,3
+938,rianlindell/2504046,2002,Seattle Seahawks,16,79,"4,582",2,58.0,0
+939,rianlindell/2504046,2001,Seattle Seahawks,16,68,"4,216",0,62.0,4
+940,rianlindell/2504046,2000,Seattle Seahawks,12,53,"3,205",1,60.5,3
+941,olakimrin/2505232,2004,Washington Redskins,5,17,906,2,53.3,0
+942,seanlandeta/2501685,2006,New York Giants,0,--,--,--,--,--
+943,seanlandeta/2501685,2005,Philadelphia Eagles,5,--,--,--,--,--
+944,seanlandeta/2501685,2004,St. Louis Rams,10,--,--,--,--,--
+945,seanlandeta/2501685,2003,St. Louis Rams,16,1,62,0,62.0,0
+946,seanlandeta/2501685,2002,Philadelphia Eagles,12,--,--,--,--,--
+947,seanlandeta/2501685,2001,Philadelphia Eagles,16,--,--,--,--,--
+948,seanlandeta/2501685,2000,Philadelphia Eagles,16,--,--,--,--,--
+949,seanlandeta/2501685,1999,Philadelphia Eagles,16,--,--,--,--,--
+950,seanlandeta/2501685,1998,Green Bay Packers,16,--,--,--,--,--
+951,seanlandeta/2501685,1997,Tampa Bay Buccaneers,10,1,44,0,44.0,0
+952,seanlandeta/2501685,1996,St. Louis Rams,16,1,49,0,49.0,0
+953,seanlandeta/2501685,1995,St. Louis Rams,16,--,--,--,--,--
+954,seanlandeta/2501685,1994,Los Angeles Rams,16,--,--,--,--,--
+955,seanlandeta/2501685,1993,Los Angeles Rams,8,--,--,--,--,--
+956,seanlandeta/2501685,1993,New York Giants,8,--,--,--,--,--
+957,seanlandeta/2501685,1992,New York Giants,11,--,--,--,--,--
+958,seanlandeta/2501685,1991,New York Giants,15,--,--,--,--,--
+959,seanlandeta/2501685,1990,New York Giants,16,--,--,--,--,--
+960,seanlandeta/2501685,1989,New York Giants,16,--,--,--,--,--
+961,seanlandeta/2501685,1988,New York Giants,1,--,--,--,--,--
+962,seanlandeta/2501685,1987,New York Giants,12,--,--,--,--,--
+963,seanlandeta/2501685,1986,New York Giants,16,--,--,--,--,--
+964,seanlandeta/2501685,1985,New York Giants,16,--,--,--,--,--
+965,coltonschmidt/2542246,2016,Buffalo Bills,16,1,45,0,45.0,0
+966,coltonschmidt/2542246,2015,Buffalo Bills,16,--,--,--,--,--
+967,coltonschmidt/2542246,2014,Buffalo Bills,16,2,101,0,50.5,0
+968,jeffjaeger/2501353,1999,Chicago Bears,3,0,0,0,--,0
+969,jeffjaeger/2501353,1998,Chicago Bears,16,54,"3,246",1,60.1,1
+970,jeffjaeger/2501353,1997,Chicago Bears,16,31,"1,817",2,58.6,0
+971,jeffjaeger/2501353,1996,Chicago Bears,13,9,560,0,62.2,2
+972,jeffjaeger/2501353,1995,Oakland Raiders,11,47,"2,655",1,56.5,4
+973,jeffjaeger/2501353,1994,Los Angeles Raiders,16,72,"4,404",3,61.2,4
+974,jeffjaeger/2501353,1993,Los Angeles Raiders,16,77,"4,726",2,61.4,31
+975,jeffjaeger/2501353,1992,Los Angeles Raiders,16,60,"3,576",3,59.6,20
+976,jeffjaeger/2501353,1991,Los Angeles Raiders,16,74,0,0,0.0,15
+977,jeffjaeger/2501353,1990,Los Angeles Raiders,16,--,--,--,--,--
+978,jeffjaeger/2501353,1989,Los Angeles Raiders,16,--,--,--,--,--
+979,jeffjaeger/2501353,1987,Cleveland Browns,10,--,--,--,--,--
+980,andrewfranks/2553648,2016,Miami Dolphins,16,74,"4,768",0,64.4,43
+981,andrewfranks/2553648,2015,Miami Dolphins,16,66,"4,138",1,62.7,44
+982,olindomare/2501868,2012,Chicago Bears,3,16,"1,065",0,66.6,10
+983,olindomare/2501868,2011,Carolina Panthers,16,84,"5,451",0,64.9,53
+984,olindomare/2501868,2010,Seattle Seahawks,16,72,"4,679",1,65.0,20
+985,olindomare/2501868,2009,Seattle Seahawks,16,69,"4,685",0,67.9,22
+986,olindomare/2501868,2008,Seattle Seahawks,16,71,"4,732",0,66.6,22
+987,olindomare/2501868,2007,New Orleans Saints,13,52,"3,306",1,63.6,15
+988,olindomare/2501868,2006,Miami Dolphins,16,67,"4,393",1,65.6,24
+989,olindomare/2501868,2005,Miami Dolphins,16,73,"4,889",1,67.0,16
+990,olindomare/2501868,2004,Miami Dolphins,11,44,"2,844",1,64.6,11
+991,olindomare/2501868,2003,Miami Dolphins,16,72,"4,741",2,65.8,24
+992,olindomare/2501868,2002,Miami Dolphins,16,84,"5,365",2,63.9,12
+993,olindomare/2501868,2001,Miami Dolphins,16,73,"4,579",1,62.7,12
+994,olindomare/2501868,2000,Miami Dolphins,16,77,"4,644",0,60.3,7
+995,olindomare/2501868,1999,Miami Dolphins,16,84,"5,284",1,62.9,20
+996,olindomare/2501868,1998,Miami Dolphins,16,72,"4,617",0,64.1,13
+997,olindomare/2501868,1997,Miami Dolphins,16,76,"4,833",1,63.6,20
+998,bryananger/2533000,2016,Tampa Bay Buccaneers,16,2,122,1,61.0,0
+999,bryananger/2533000,2015,Jacksonville Jaguars,16,--,--,--,--,--
+1000,bryananger/2533000,2014,Jacksonville Jaguars,16,2,136,0,68.0,0
+1001,bryananger/2533000,2013,Jacksonville Jaguars,16,--,--,--,--,--
+1002,bryananger/2533000,2012,Jacksonville Jaguars,16,--,--,--,--,--
+1003,patwatkins/2495968,2010,San Diego Chargers,4,--,--,--,--,--
+1004,patwatkins/2495968,2009,Dallas Cowboys,13,--,--,--,--,--
+1005,patwatkins/2495968,2008,Dallas Cowboys,8,1,61,0,61.0,0
+1006,patwatkins/2495968,2007,Dallas Cowboys,14,--,--,--,--,--
+1007,patwatkins/2495968,2006,Dallas Cowboys,14,--,--,--,--,--
+1008,harrynewsome/2502290,1993,Minnesota Vikings,16,--,--,--,--,--
+1009,harrynewsome/2502290,1992,Minnesota Vikings,16,--,--,--,--,--
+1010,harrynewsome/2502290,1991,Minnesota Vikings,16,1,0,1,0.0,0
+1011,harrynewsome/2502290,1990,Minnesota Vikings,16,--,--,--,--,--
+1012,harrynewsome/2502290,1989,Pittsburgh Steelers,16,--,--,--,--,--
+1013,harrynewsome/2502290,1988,Pittsburgh Steelers,16,--,--,--,--,--
+1014,harrynewsome/2502290,1987,Pittsburgh Steelers,12,--,--,--,--,--
+1015,harrynewsome/2502290,1986,Pittsburgh Steelers,16,--,--,--,--,--
+1016,harrynewsome/2502290,1985,Pittsburgh Steelers,16,--,--,--,--,--
+1017,mattbahr/2499486,1995,New England Patriots,16,3,149,0,49.7,0
+1018,mattbahr/2499486,1994,New England Patriots,16,2,24,0,12.0,0
+1019,mattbahr/2499486,1993,New England Patriots,3,19,"1,049",1,55.2,1
+1020,mattbahr/2499486,1993,Philadelphia Eagles,11,36,"2,182",1,60.6,7
+1021,mattbahr/2499486,1992,New York Giants,12,49,"2,788",0,56.9,5
+1022,mattbahr/2499486,1991,New York Giants,13,59,0,1,0.0,11
+1023,mattbahr/2499486,1990,New York Giants,13,--,--,--,--,--
+1024,mattbahr/2499486,1989,Cleveland Browns,16,--,--,--,--,--
+1025,mattbahr/2499486,1988,Cleveland Browns,16,--,--,--,--,--
+1026,mattbahr/2499486,1987,Cleveland Browns,3,--,--,--,--,--
+1027,mattbahr/2499486,1986,Cleveland Browns,12,--,--,--,--,--
+1028,mattbahr/2499486,1985,Cleveland Browns,16,--,--,--,--,--
+1029,mattbahr/2499486,1984,Cleveland Browns,16,--,--,--,--,--
+1030,mattbahr/2499486,1983,Cleveland Browns,16,--,--,--,--,--
+1031,mattbahr/2499486,1982,Cleveland Browns,9,--,--,--,--,--
+1032,mattbahr/2499486,1981,Cleveland Browns,11,--,--,--,--,--
+1033,mattbahr/2499486,1981,San Francisco 49ers,4,--,--,--,--,--
+1034,mattbahr/2499486,1980,Pittsburgh Steelers,16,--,--,--,--,--
+1035,mattbahr/2499486,1979,Pittsburgh Steelers,16,--,--,--,--,--
+1036,gregdavis/2500311,1998,Oakland Raiders,16,25,"1,408",1,56.3,0
+1037,gregdavis/2500311,1997,San Diego Chargers,12,52,"3,112",1,59.8,1
+1038,gregdavis/2500311,1997,Minnesota Vikings,4,23,"1,449",1,63.0,1
+1039,gregdavis/2500311,1996,Arizona Cardinals,9,31,"1,898",1,61.2,2
+1040,gregdavis/2500311,1995,Arizona Cardinals,16,70,"4,168",0,59.5,1
+1041,gregdavis/2500311,1994,Arizona Cardinals,14,52,"3,085",2,59.3,3
+1042,gregdavis/2500311,1993,Phoenix Cardinals,16,72,"4,444",5,61.7,15
+1043,gregdavis/2500311,1992,Phoenix Cardinals,16,52,"3,140",2,60.4,12
+1044,gregdavis/2500311,1991,Phoenix Cardinals,16,56,0,1,0.0,11
+1045,gregdavis/2500311,1990,Atlanta Falcons,16,--,--,--,--,--
+1046,gregdavis/2500311,1989,Atlanta Falcons,6,--,--,--,--,--
+1047,gregdavis/2500311,1989,New England Patriots,9,--,--,--,--,--
+1048,gregdavis/2500311,1988,Atlanta Falcons,16,--,--,--,--,--
+1049,gregdavis/2500311,1987,Atlanta Falcons,3,--,--,--,--,--
+1050,andylee/2506017,2016,Carolina Panthers,9,1,71,0,71.0,0
+1051,andylee/2506017,2015,Cleveland Browns,16,--,--,--,--,--
+1052,andylee/2506017,2014,San Francisco 49ers,16,--,--,--,--,--
+1053,andylee/2506017,2013,San Francisco 49ers,16,1,53,0,53.0,0
+1054,andylee/2506017,2012,San Francisco 49ers,16,1,63,0,63.0,0
+1055,andylee/2506017,2011,San Francisco 49ers,16,1,51,0,51.0,0
+1056,andylee/2506017,2010,San Francisco 49ers,16,2,100,0,50.0,0
+1057,andylee/2506017,2009,San Francisco 49ers,16,--,--,--,--,--
+1058,andylee/2506017,2008,San Francisco 49ers,16,2,123,0,61.5,0
+1059,andylee/2506017,2007,San Francisco 49ers,16,--,--,--,--,--
+1060,andylee/2506017,2006,San Francisco 49ers,16,--,--,--,--,--
+1061,andylee/2506017,2005,San Francisco 49ers,16,--,--,--,--,--
+1062,andylee/2506017,2004,San Francisco 49ers,16,--,--,--,--,--
+1063,brianhansen/2501012,1999,Washington Redskins,2,--,--,--,--,--
+1064,brianhansen/2501012,1998,New York Jets,7,--,--,--,--,--
+1065,brianhansen/2501012,1997,New York Jets,15,--,--,--,--,--
+1066,brianhansen/2501012,1996,New York Jets,16,1,61,0,61.0,0
+1067,brianhansen/2501012,1995,New York Jets,16,1,58,0,58.0,0
+1068,brianhansen/2501012,1994,New York Jets,16,--,--,--,--,--
+1069,brianhansen/2501012,1993,Cleveland Browns,16,4,109,0,27.3,0
+1070,brianhansen/2501012,1992,Cleveland Browns,16,2,0,0,0.0,0
+1071,brianhansen/2501012,1991,Cleveland Browns,16,1,0,0,0.0,0
+1072,brianhansen/2501012,1990,New England Patriots,16,--,--,--,--,--
+1073,brianhansen/2501012,1988,New Orleans Saints,16,--,--,--,--,--
+1074,brianhansen/2501012,1987,New Orleans Saints,12,--,--,--,--,--
+1075,brianhansen/2501012,1986,New Orleans Saints,16,--,--,--,--,--
+1076,brianhansen/2501012,1985,New Orleans Saints,16,--,--,--,--,--
+1077,brianhansen/2501012,1984,New Orleans Saints,16,--,--,--,--,--
+1078,johnkasay/2501563,2011,New Orleans Saints,16,2,18,0,9.0,0
+1079,johnkasay/2501563,2010,Carolina Panthers,16,4,228,0,57.0,0
+1080,johnkasay/2501563,2009,Carolina Panthers,16,--,--,--,--,--
+1081,johnkasay/2501563,2008,Carolina Panthers,16,2,41,1,20.5,0
+1082,johnkasay/2501563,2007,Carolina Panthers,16,53,"3,205",5,60.5,2
+1083,johnkasay/2501563,2006,Carolina Panthers,16,57,"3,592",2,63.0,5
+1084,johnkasay/2501563,2005,Carolina Panthers,16,81,"5,137",2,63.4,3
+1085,johnkasay/2501563,2004,Carolina Panthers,14,56,"3,355",1,59.9,2
+1086,johnkasay/2501563,2003,Carolina Panthers,16,74,"4,620",0,62.4,4
+1087,johnkasay/2501563,2002,Carolina Panthers,2,--,--,--,--,--
+1088,johnkasay/2501563,2001,Carolina Panthers,16,27,"1,708",0,63.3,0
+1089,johnkasay/2501563,2000,Carolina Panthers,0,--,--,--,--,--
+1090,johnkasay/2501563,1999,Carolina Panthers,13,69,"4,280",1,62.0,7
+1091,johnkasay/2501563,1998,Carolina Panthers,16,75,"4,731",2,63.1,5
+1092,johnkasay/2501563,1997,Carolina Panthers,16,65,"4,106",1,63.2,7
+1093,johnkasay/2501563,1996,Carolina Panthers,16,88,"5,698",3,64.8,12
+1094,johnkasay/2501563,1995,Carolina Panthers,16,70,"3,974",2,56.8,3
+1095,johnkasay/2501563,1994,Seattle Seahawks,16,68,"4,085",1,60.1,3
+1096,johnkasay/2501563,1993,Seattle Seahawks,16,69,"4,242",3,61.5,15
+1097,johnkasay/2501563,1992,Seattle Seahawks,16,43,"2,625",0,61.0,9
+1098,johnkasay/2501563,1991,Seattle Seahawks,16,69,0,1,0.0,15
+1099,jonbaker/2499501,1999,Kansas City Chiefs,2,11,575,3,52.3,1
+1100,jonbaker/2499501,1995,Dallas Cowboys,3,16,"1,038",0,64.9,1
+1101,chrisgardocki/2500763,2006,Pittsburgh Steelers,16,--,--,--,--,--
+1102,chrisgardocki/2500763,2005,Pittsburgh Steelers,16,--,--,--,--,--
+1103,chrisgardocki/2500763,2004,Pittsburgh Steelers,16,--,--,--,--,--
+1104,chrisgardocki/2500763,2003,Cleveland Browns,16,--,--,--,--,--
+1105,chrisgardocki/2500763,2002,Cleveland Browns,16,--,--,--,--,--
+1106,chrisgardocki/2500763,2001,Cleveland Browns,16,--,--,--,--,--
+1107,chrisgardocki/2500763,2000,Cleveland Browns,16,--,--,--,--,--
+1108,chrisgardocki/2500763,1999,Cleveland Browns,16,8,439,2,54.9,1
+1109,chrisgardocki/2500763,1998,Indianapolis Colts,16,55,"3,503",0,63.7,5
+1110,chrisgardocki/2500763,1997,Indianapolis Colts,16,74,"4,690",1,63.4,8
+1111,chrisgardocki/2500763,1996,Indianapolis Colts,16,82,"5,540",0,67.6,14
+1112,chrisgardocki/2500763,1995,Indianapolis Colts,16,76,"4,856",0,63.9,8
+1113,chrisgardocki/2500763,1994,Chicago Bears,16,52,"2,896",0,55.7,0
+1114,chrisgardocki/2500763,1993,Chicago Bears,16,61,"3,574",1,58.6,9
+1115,chrisgardocki/2500763,1992,Chicago Bears,16,52,"2,874",3,55.3,9
+1116,chrisgardocki/2500763,1991,Chicago Bears,4,16,0,1,0.0,2
+1117,rileydixon/2555152,2016,Denver Broncos,16,2,100,0,50.0,0
+1118,davezastudil/2505105,2014,Arizona Cardinals,2,--,--,--,--,--
+1119,davezastudil/2505105,2013,Arizona Cardinals,16,1,51,0,51.0,0
+1120,davezastudil/2505105,2012,Arizona Cardinals,16,1,62,0,62.0,0
+1121,davezastudil/2505105,2011,Arizona Cardinals,15,3,178,0,59.3,0
+1122,davezastudil/2505105,2009,Cleveland Browns,8,--,--,--,--,--
+1123,davezastudil/2505105,2008,Cleveland Browns,16,--,--,--,--,--
+1124,davezastudil/2505105,2007,Cleveland Browns,12,--,--,--,--,--
+1125,davezastudil/2505105,2006,Cleveland Browns,16,--,--,--,--,--
+1126,davezastudil/2505105,2005,Baltimore Ravens,16,1,16,0,16.0,0
+1127,davezastudil/2505105,2004,Baltimore Ravens,13,1,54,0,54.0,0
+1128,davezastudil/2505105,2003,Baltimore Ravens,16,--,--,--,--,--
+1129,davezastudil/2505105,2002,Baltimore Ravens,16,2,128,0,64.0,0
+1130,blairwalsh/2532968,2016,Minnesota Vikings,9,41,"2,569",1,62.7,19
+1131,blairwalsh/2532968,2015,Minnesota Vikings,16,86,"5,651",0,65.7,47
+1132,blairwalsh/2532968,2014,Minnesota Vikings,16,76,"4,796",1,63.1,48
+1133,blairwalsh/2532968,2013,Minnesota Vikings,16,84,"5,392",1,64.2,43
+1134,blairwalsh/2532968,2012,Minnesota Vikings,16,86,"5,858",0,68.1,53
+1135,dannykight/2501609,2001,Baltimore Ravens,10,48,"2,909",1,60.6,6
+1136,dannykight/2501609,2000,Indianapolis Colts,16,87,"5,619",0,64.6,13
+1137,dannykight/2501609,1999,Indianapolis Colts,12,66,"4,260",3,64.5,9
+1138,dannykight/2501609,1998,Washington Redskins,0,--,--,--,--,--
+1139,robertoaguayo/2555408,2016,Tampa Bay Buccaneers,16,79,"4,993",0,63.2,52
+1140,dalehatcher/2501083,1993,Miami Dolphins,16,1,46,0,46.0,0
+1141,dalehatcher/2501083,1991,Los Angeles Rams,13,1,0,0,0.0,0
+1142,dalehatcher/2501083,1989,Los Angeles Rams,16,--,--,--,--,--
+1143,dalehatcher/2501083,1988,Los Angeles Rams,7,--,--,--,--,--
+1144,dalehatcher/2501083,1987,Los Angeles Rams,15,--,--,--,--,--
+1145,dalehatcher/2501083,1986,Los Angeles Rams,16,--,--,--,--,--
+1146,dalehatcher/2501083,1985,Los Angeles Rams,16,--,--,--,--,--
+1147,bradmaynard/2501931,2011,Cleveland Browns,15,--,--,--,--,--
+1148,bradmaynard/2501931,2010,Chicago Bears,16,1,53,0,53.0,0
+1149,bradmaynard/2501931,2009,Chicago Bears,16,--,--,--,--,--
+1150,bradmaynard/2501931,2008,Chicago Bears,16,--,--,--,--,--
+1151,bradmaynard/2501931,2007,Chicago Bears,15,--,--,--,--,--
+1152,bradmaynard/2501931,2006,Chicago Bears,16,--,--,--,--,--
+1153,bradmaynard/2501931,2005,Chicago Bears,16,--,--,--,--,--
+1154,bradmaynard/2501931,2004,Chicago Bears,16,1,52,0,52.0,0
+1155,bradmaynard/2501931,2003,Chicago Bears,16,--,--,--,--,--
+1156,bradmaynard/2501931,2002,Chicago Bears,16,1,51,0,51.0,0
+1157,bradmaynard/2501931,2001,Chicago Bears,16,--,--,--,--,--
+1158,bradmaynard/2501931,2000,New York Giants,16,--,--,--,--,--
+1159,bradmaynard/2501931,1999,New York Giants,16,1,81,0,81.0,0
+1160,bradmaynard/2501931,1998,New York Giants,16,1,67,0,67.0,0
+1161,bradmaynard/2501931,1997,New York Giants,16,--,--,--,--,--
+1162,justintucker/2536340,2016,Baltimore Ravens,16,80,"5,072",1,63.4,52
+1163,justintucker/2536340,2015,Baltimore Ravens,16,74,"4,753",0,64.2,63
+1164,justintucker/2536340,2014,Baltimore Ravens,16,88,"5,702",0,64.8,60
+1165,justintucker/2536340,2013,Baltimore Ravens,16,82,"5,195",1,63.4,42
+1166,justintucker/2536340,2012,Baltimore Ravens,16,88,"5,938",0,67.5,49
+1167,steveweatherford/2506821,2015,New York Jets,1,--,--,--,--,--
+1168,steveweatherford/2506821,2014,New York Giants,16,--,--,--,--,--
+1169,steveweatherford/2506821,2013,New York Giants,16,1,49,0,49.0,0
+1170,steveweatherford/2506821,2012,New York Giants,16,--,--,--,--,--
+1171,steveweatherford/2506821,2011,New York Giants,16,3,85,0,28.3,0
+1172,steveweatherford/2506821,2010,New York Jets,16,--,--,--,--,--
+1173,steveweatherford/2506821,2009,New York Jets,16,--,--,--,--,--
+1174,steveweatherford/2506821,2008,Jacksonville Jaguars,5,2,22,0,11.0,0
+1175,steveweatherford/2506821,2008,Kansas City Chiefs,2,--,--,--,--,--
+1176,steveweatherford/2506821,2008,New Orleans Saints,7,12,720,0,60.0,0
+1177,steveweatherford/2506821,2007,New Orleans Saints,16,10,602,0,60.2,0
+1178,steveweatherford/2506821,2006,New Orleans Saints,16,3,158,1,52.7,0
+1179,stevelindsey/2501761,2000,Denver Broncos,6,36,"2,382",0,66.2,6
+1180,stevelindsey/2501761,2000,Jacksonville Jaguars,10,45,"2,814",1,62.5,5
+1181,stevelindsey/2501761,1999,Jacksonville Jaguars,16,86,"5,745",0,66.8,22
+1182,grahamgano/71309,2016,Carolina Panthers,16,86,"5,495",0,63.9,63
+1183,grahamgano/71309,2015,Carolina Panthers,16,102,"6,706",0,65.7,69
+1184,grahamgano/71309,2014,Carolina Panthers,16,79,"5,196",0,65.8,61
+1185,grahamgano/71309,2013,Carolina Panthers,16,80,"5,202",0,65.0,63
+1186,grahamgano/71309,2012,Carolina Panthers,6,35,"2,380",0,68.0,20
+1187,grahamgano/71309,2011,Washington Redskins,16,73,"4,629",3,63.4,32
+1188,grahamgano/71309,2010,Washington Redskins,16,71,"4,678",1,65.9,9
+1189,grahamgano/71309,2009,Washington Redskins,4,16,"1,035",0,64.7,3
+1190,kellygoodburn/2500837,1993,Washington Redskins,1,--,--,--,--,--
+1191,kellygoodburn/2500837,1992,Washington Redskins,16,2,110,0,55.0,0
+1192,kellygoodburn/2500837,1991,Washington Redskins,16,--,--,--,--,--
+1193,kellygoodburn/2500837,1990,Washington Redskins,4,--,--,--,--,--
+1194,kellygoodburn/2500837,1990,Kansas City Chiefs,3,--,--,--,--,--
+1195,kellygoodburn/2500837,1989,Kansas City Chiefs,16,--,--,--,--,--
+1196,kellygoodburn/2500837,1988,Kansas City Chiefs,16,--,--,--,--,--
+1197,kellygoodburn/2500837,1987,Kansas City Chiefs,13,--,--,--,--,--
+1198,toddfrance/2504831,2005,Tampa Bay Buccaneers,1,3,189,0,63.0,0
+1199,toddfrance/2504831,2005,Philadelphia Eagles,3,16,969,0,60.6,0
+1200,jaytaylor/2504026,2004,Tampa Bay Buccaneers,5,21,"1,198",0,57.0,0
+1201,willutz/2556601,2016,New Orleans Saints,16,93,"5,693",1,61.2,49
+1202,tommythompson/2503342,1997,San Francisco 49ers,16,77,"4,762",1,61.8,2
+1203,tommythompson/2503342,1996,San Francisco 49ers,16,2,128,0,64.0,0
+1204,tommythompson/2503342,1995,San Francisco 49ers,16,12,735,0,61.3,1
+1205,samkoch/2506969,2016,Baltimore Ravens,16,1,65,0,65.0,0
+1206,samkoch/2506969,2015,Baltimore Ravens,16,--,--,--,--,--
+1207,samkoch/2506969,2014,Baltimore Ravens,16,--,--,--,--,--
+1208,samkoch/2506969,2013,Baltimore Ravens,16,--,--,--,--,--
+1209,samkoch/2506969,2012,Baltimore Ravens,16,1,64,0,64.0,0
+1210,samkoch/2506969,2011,Baltimore Ravens,16,2,113,0,56.5,1
+1211,samkoch/2506969,2010,Baltimore Ravens,16,--,--,--,--,--
+1212,samkoch/2506969,2009,Baltimore Ravens,16,--,--,--,--,--
+1213,samkoch/2506969,2008,Baltimore Ravens,16,--,--,--,--,--
+1214,samkoch/2506969,2007,Baltimore Ravens,16,2,65,0,32.5,0
+1215,samkoch/2506969,2006,Baltimore Ravens,16,10,632,0,63.2,0
+1216,bryanwagner/2503487,1995,New England Patriots,8,39,"2,282",1,58.5,0
+1217,bryanwagner/2503487,1994,San Diego Chargers,14,--,--,--,--,--
+1218,bryanwagner/2503487,1993,Green Bay Packers,16,--,--,--,--,--
+1219,bryanwagner/2503487,1992,Green Bay Packers,7,--,--,--,--,--
+1220,bryanwagner/2503487,1991,New England Patriots,3,5,0,0,0.0,1
+1221,bryanwagner/2503487,1990,Cleveland Browns,16,--,--,--,--,--
+1222,bryanwagner/2503487,1989,Cleveland Browns,16,--,--,--,--,--
+1223,bryanwagner/2503487,1988,Chicago Bears,16,--,--,--,--,--
+1224,bryanwagner/2503487,1987,Chicago Bears,10,--,--,--,--,--
+1225,natekaeding/2505937,2012,Miami Dolphins,2,6,381,0,63.5,4
+1226,natekaeding/2505937,2012,San Diego Chargers,3,16,"1,058",0,66.1,8
+1227,natekaeding/2505937,2011,San Diego Chargers,1,1,68,0,68.0,0
+1228,natekaeding/2505937,2010,San Diego Chargers,13,72,"4,529",1,62.9,4
+1229,natekaeding/2505937,2009,San Diego Chargers,16,97,"6,153",0,63.4,9
+1230,natekaeding/2505937,2008,San Diego Chargers,16,92,"5,862",0,63.7,8
+1231,natekaeding/2505937,2007,San Diego Chargers,16,72,"4,554",1,63.3,7
+1232,natekaeding/2505937,2006,San Diego Chargers,16,100,"6,520",2,65.2,11
+1233,natekaeding/2505937,2005,San Diego Chargers,16,81,"4,992",0,61.6,3
+1234,natekaeding/2505937,2004,San Diego Chargers,16,89,"5,435",5,61.1,2
+1235,pattillman/2503360,2001,Arizona Cardinals,12,3,98,0,32.7,0
+1236,pattillman/2503360,2000,Arizona Cardinals,16,1,20,1,20.0,0
+1237,pattillman/2503360,1999,Arizona Cardinals,16,--,--,--,--,--
+1238,pattillman/2503360,1998,Arizona Cardinals,16,--,--,--,--,--
+1239,mattgeorge/2500789,1998,Pittsburgh Steelers,1,3,193,0,64.3,0
+1240,kaiforbath/2495150,2016,Minnesota Vikings,7,38,"2,363",0,62.2,19
+1241,kaiforbath/2495150,2015,New Orleans Saints,10,49,"3,209",0,65.5,21
+1242,kaiforbath/2495150,2015,Washington Redskins,1,3,201,0,67.0,1
+1243,kaiforbath/2495150,2014,Washington Redskins,16,54,"3,312",0,61.3,18
+1244,kaiforbath/2495150,2013,Washington Redskins,13,57,"3,434",0,60.2,14
+1245,kaiforbath/2495150,2012,Washington Redskins,11,62,"3,916",1,63.2,15
+1246,mattbryant/2504797,2016,Atlanta Falcons,16,--,--,--,--,--
+1247,mattbryant/2504797,2015,Atlanta Falcons,10,--,--,--,--,--
+1248,mattbryant/2504797,2014,Atlanta Falcons,16,--,--,--,--,--
+1249,mattbryant/2504797,2013,Atlanta Falcons,16,0,0,0,--,0
+1250,mattbryant/2504797,2012,Atlanta Falcons,16,0,0,0,--,0
+1251,mattbryant/2504797,2011,Atlanta Falcons,16,0,0,0,--,0
+1252,mattbryant/2504797,2010,Atlanta Falcons,16,--,--,--,--,--
+1253,mattbryant/2504797,2009,Atlanta Falcons,5,0,0,0,--,0
+1254,mattbryant/2504797,2008,Tampa Bay Buccaneers,16,82,"5,157",1,62.9,6
+1255,mattbryant/2504797,2007,Tampa Bay Buccaneers,16,78,"4,683",1,60.0,6
+1256,mattbryant/2504797,2006,Tampa Bay Buccaneers,16,53,"3,296",2,62.2,4
+1257,mattbryant/2504797,2005,Tampa Bay Buccaneers,15,66,"4,139",1,62.7,5
+1258,mattbryant/2504797,2004,Miami Dolphins,3,12,764,0,63.7,0
+1259,mattbryant/2504797,2004,Indianapolis Colts,1,6,357,0,59.5,0
+1260,mattbryant/2504797,2003,New York Giants,11,39,"2,354",2,60.4,2
+1261,mattbryant/2504797,2002,New York Giants,16,75,"4,528",1,60.4,2
+1262,tommybarnhardt/2499553,2000,Washington Redskins,16,--,--,--,--,--
+1263,tommybarnhardt/2499553,1999,New Orleans Saints,16,--,--,--,--,--
+1264,tommybarnhardt/2499553,1998,Tampa Bay Buccaneers,16,1,59,0,59.0,0
+1265,tommybarnhardt/2499553,1997,Tampa Bay Buccaneers,6,--,--,--,--,--
+1266,tommybarnhardt/2499553,1996,Tampa Bay Buccaneers,16,--,--,--,--,--
+1267,tommybarnhardt/2499553,1995,Carolina Panthers,16,1,41,0,41.0,0
+1268,tommybarnhardt/2499553,1994,New Orleans Saints,16,--,--,--,--,--
+1269,tommybarnhardt/2499553,1993,New Orleans Saints,16,1,38,0,38.0,0
+1270,tommybarnhardt/2499553,1992,New Orleans Saints,16,--,--,--,--,--
+1271,tommybarnhardt/2499553,1991,New Orleans Saints,16,--,--,--,--,--
+1272,tommybarnhardt/2499553,1990,New Orleans Saints,16,--,--,--,--,--
+1273,tommybarnhardt/2499553,1989,New Orleans Saints,11,--,--,--,--,--
+1274,tommybarnhardt/2499553,1988,Washington Redskins,4,--,--,--,--,--
+1275,tommybarnhardt/2499553,1987,Chicago Bears,2,--,--,--,--,--
+1276,tommybarnhardt/2499553,1987,New Orleans Saints,3,--,--,--,--,--
+1277,aaronelling/2504975,2005,Baltimore Ravens,9,35,"2,207",0,63.1,2
+1278,aaronelling/2504975,2004,Minnesota Vikings,7,35,"2,234",0,63.8,0
+1279,aaronelling/2504975,2004,Tennessee Titans,1,4,248,0,62.0,0
+1280,aaronelling/2504975,2003,Minnesota Vikings,16,74,"4,427",3,59.8,1
+1281,toddpeterson/2502463,2005,Atlanta Falcons,16,0,0,0,--,0
+1282,toddpeterson/2502463,2004,San Francisco 49ers,16,61,"3,441",1,56.4,1
+1283,toddpeterson/2502463,2003,San Francisco 49ers,8,44,"2,546",0,57.9,1
+1284,toddpeterson/2502463,2002,Pittsburgh Steelers,10,49,"2,718",2,55.5,1
+1285,toddpeterson/2502463,2001,Kansas City Chiefs,16,74,"4,436",1,59.9,7
+1286,toddpeterson/2502463,2000,Kansas City Chiefs,11,--,--,--,--,--
+1287,toddpeterson/2502463,1999,Seattle Seahawks,16,85,"5,162",2,60.7,1
+1288,toddpeterson/2502463,1998,Seattle Seahawks,16,79,"5,058",1,64.0,9
+1289,toddpeterson/2502463,1997,Seattle Seahawks,16,82,"5,155",3,62.9,2
+1290,toddpeterson/2502463,1996,Seattle Seahawks,16,76,"4,869",1,64.1,2
+1291,toddpeterson/2502463,1995,Seattle Seahawks,16,80,"5,076",1,63.5,8
+1292,toddpeterson/2502463,1994,Arizona Cardinals,2,9,562,2,62.4,1
+1293,robbiegould/2506264,2016,New York Giants,10,43,"2,704",1,62.9,19
+1294,robbiegould/2506264,2015,Chicago Bears,16,83,"5,036",1,60.7,39
+1295,robbiegould/2506264,2014,Chicago Bears,12,53,"3,227",1,60.9,21
+1296,robbiegould/2506264,2013,Chicago Bears,16,89,"5,258",1,59.1,38
+1297,robbiegould/2506264,2012,Chicago Bears,13,66,"4,329",0,65.6,38
+1298,robbiegould/2506264,2011,Chicago Bears,16,81,"5,204",3,64.2,43
+1299,robbiegould/2506264,2010,Chicago Bears,16,77,"4,965",2,64.5,16
+1300,robbiegould/2506264,2009,Chicago Bears,16,73,"4,797",1,65.7,8
+1301,robbiegould/2506264,2008,Chicago Bears,16,79,"5,134",0,65.0,9
+1302,robbiegould/2506264,2007,Chicago Bears,16,79,"4,698",4,59.5,3
+1303,robbiegould/2506264,2006,Chicago Bears,16,95,"6,187",1,65.1,11
+1304,robbiegould/2506264,2005,Chicago Bears,13,54,"3,321",0,61.5,1
+1305,mortenandersen/2499416,2007,Atlanta Falcons,14,0,0,0,--,0
+1306,mortenandersen/2499416,2006,Atlanta Falcons,14,0,0,0,--,0
+1307,mortenandersen/2499416,2004,Minnesota Vikings,16,8,433,0,54.1,0
+1308,mortenandersen/2499416,2003,Kansas City Chiefs,16,--,--,--,--,--
+1309,mortenandersen/2499416,2002,Kansas City Chiefs,14,64,"3,788",0,59.2,6
+1310,mortenandersen/2499416,2001,New York Giants,16,27,"1,585",1,58.7,0
+1311,mortenandersen/2499416,2000,Atlanta Falcons,16,64,"4,171",0,65.2,12
+1312,mortenandersen/2499416,1999,Atlanta Falcons,16,63,"4,068",0,64.6,7
+1313,mortenandersen/2499416,1998,Atlanta Falcons,16,90,"6,153",0,68.4,20
+1314,mortenandersen/2499416,1997,Atlanta Falcons,16,63,"4,125",1,65.5,17
+1315,mortenandersen/2499416,1996,Atlanta Falcons,16,71,"4,717",1,66.4,16
+1316,mortenandersen/2499416,1995,Atlanta Falcons,16,82,"5,646",1,68.9,27
+1317,mortenandersen/2499416,1994,New Orleans Saints,16,82,"5,087",0,62.0,14
+1318,mortenandersen/2499416,1993,New Orleans Saints,16,76,"4,825",0,63.5,35
+1319,mortenandersen/2499416,1992,New Orleans Saints,16,81,"5,178",3,63.9,38
+1320,mortenandersen/2499416,1991,New Orleans Saints,16,79,0,1,0.0,43
+1321,mortenandersen/2499416,1990,New Orleans Saints,16,--,--,--,--,--
+1322,mortenandersen/2499416,1989,New Orleans Saints,16,--,--,--,--,--
+1323,mortenandersen/2499416,1988,New Orleans Saints,16,--,--,--,--,--
+1324,mortenandersen/2499416,1987,New Orleans Saints,12,--,--,--,--,--
+1325,mortenandersen/2499416,1986,New Orleans Saints,16,--,--,--,--,--
+1326,mortenandersen/2499416,1985,New Orleans Saints,16,--,--,--,--,--
+1327,mortenandersen/2499416,1984,New Orleans Saints,16,--,--,--,--,--
+1328,mortenandersen/2499416,1983,New Orleans Saints,16,--,--,--,--,--
+1329,mortenandersen/2499416,1982,New Orleans Saints,8,--,--,--,--,--
+1330,pato'neill/2502331,1995,New York Jets,0,--,--,--,--,--
+1331,pato'neill/2502331,1995,Chicago Bears,1,4,244,0,61.0,0
+1332,pato'neill/2502331,1995,New England Patriots,8,28,"1,752",0,62.6,1
+1333,pato'neill/2502331,1994,New England Patriots,16,78,"4,980",1,63.8,13
+1334,dirkjohnson/2501418,2009,Tampa Bay Buccaneers,11,1,30,0,30.0,0
+1335,dirkjohnson/2501418,2008,Arizona Cardinals,12,--,--,--,--,--
+1336,dirkjohnson/2501418,2007,Chicago Bears,1,--,--,--,--,--
+1337,dirkjohnson/2501418,2006,Philadelphia Eagles,16,--,--,--,--,--
+1338,dirkjohnson/2501418,2005,Philadelphia Eagles,7,--,--,--,--,--
+1339,dirkjohnson/2501418,2004,Philadelphia Eagles,16,--,--,--,--,--
+1340,dirkjohnson/2501418,2003,Philadelphia Eagles,16,--,--,--,--,--
+1341,dirkjohnson/2501418,2002,New Orleans Saints,1,--,--,--,--,--
+1342,tressway/2541903,2016,Washington Redskins,16,--,--,--,--,--
+1343,tressway/2541903,2015,Washington Redskins,16,2,120,0,60.0,0
+1344,tressway/2541903,2014,Washington Redskins,16,18,"1,174",0,65.2,9
+1345,chrishanson/2501015,2009,New England Patriots,16,--,--,--,--,--
+1346,chrishanson/2501015,2008,New England Patriots,16,--,--,--,--,--
+1347,chrishanson/2501015,2007,New England Patriots,16,--,--,--,--,--
+1348,chrishanson/2501015,2006,Jacksonville Jaguars,16,--,--,--,--,--
+1349,chrishanson/2501015,2005,Jacksonville Jaguars,16,--,--,--,--,--
+1350,chrishanson/2501015,2004,Jacksonville Jaguars,16,--,--,--,--,--
+1351,chrishanson/2501015,2003,Jacksonville Jaguars,5,2,74,0,37.0,0
+1352,chrishanson/2501015,2002,Jacksonville Jaguars,16,--,--,--,--,--
+1353,chrishanson/2501015,2001,Jacksonville Jaguars,16,--,--,--,--,--
+1354,chrishanson/2501015,2000,Miami Dolphins,0,--,--,--,--,--
+1355,chrishanson/2501015,1999,Green Bay Packers,1,--,--,--,--,--
+1356,sammartin/2541311,2016,Detroit Lions,16,78,"4,817",1,61.8,52
+1357,sammartin/2541311,2015,Detroit Lions,16,73,"4,603",1,63.1,40
+1358,sammartin/2541311,2014,Detroit Lions,16,75,"4,826",1,64.3,53
+1359,sammartin/2541311,2013,Detroit Lions,16,70,"4,708",3,67.3,38
+1360,drewkaser/2555151,2016,San Diego Chargers,16,1,60,0,60.0,0
+1361,toddcarter/2507814,2010,Carolina Panthers,1,1,60,0,60.0,0
+1362,mikesaxon/2502849,1995,Minnesota Vikings,16,--,--,--,--,--
+1363,mikesaxon/2502849,1994,Minnesota Vikings,16,--,--,--,--,--
+1364,mikesaxon/2502849,1993,New England Patriots,16,1,55,0,55.0,0
+1365,mikesaxon/2502849,1992,Dallas Cowboys,16,--,--,--,--,--
+1366,mikesaxon/2502849,1991,Dallas Cowboys,16,--,--,--,--,--
+1367,mikesaxon/2502849,1990,Dallas Cowboys,16,--,--,--,--,--
+1368,mikesaxon/2502849,1989,Dallas Cowboys,16,--,--,--,--,--
+1369,mikesaxon/2502849,1988,Dallas Cowboys,16,--,--,--,--,--
+1370,mikesaxon/2502849,1987,Dallas Cowboys,12,--,--,--,--,--
+1371,mikesaxon/2502849,1986,Dallas Cowboys,16,--,--,--,--,--
+1372,mikesaxon/2502849,1985,Dallas Cowboys,16,--,--,--,--,--
+1373,weswelker/2505790,2015,St. Louis Rams,8,--,--,--,--,--
+1374,weswelker/2505790,2014,Denver Broncos,14,--,--,--,--,--
+1375,weswelker/2505790,2013,Denver Broncos,13,--,--,--,--,--
+1376,weswelker/2505790,2012,New England Patriots,16,--,--,--,--,--
+1377,weswelker/2505790,2011,New England Patriots,16,--,--,--,--,--
+1378,weswelker/2505790,2010,New England Patriots,15,1,45,0,45.0,0
+1379,weswelker/2505790,2009,New England Patriots,14,--,--,--,--,--
+1380,weswelker/2505790,2008,New England Patriots,16,--,--,--,--,--
+1381,weswelker/2505790,2007,New England Patriots,16,--,--,--,--,--
+1382,weswelker/2505790,2006,Miami Dolphins,16,--,--,--,--,--
+1383,weswelker/2505790,2005,Miami Dolphins,16,--,--,--,--,--
+1384,weswelker/2505790,2004,Miami Dolphins,14,3,158,0,52.7,0
+1385,weswelker/2505790,2004,San Diego Chargers,1,--,--,--,--,--
+1386,timseder/2503896,2002,Jacksonville Jaguars,5,23,"1,113",1,48.4,0
+1387,timseder/2503896,2001,Dallas Cowboys,8,--,--,--,--,--
+1388,timseder/2503896,2000,Dallas Cowboys,15,11,638,0,58.0,2
+1389,garretthartley/4381,2014,Cleveland Browns,2,2,123,0,61.5,0
+1390,garretthartley/4381,2013,New Orleans Saints,14,1,9,0,9.0,0
+1391,garretthartley/4381,2012,New Orleans Saints,16,2,24,0,12.0,0
+1392,garretthartley/4381,2011,New Orleans Saints,0,--,--,--,--,--
+1393,garretthartley/4381,2010,New Orleans Saints,14,34,"2,140",2,62.9,4
+1394,garretthartley/4381,2009,New Orleans Saints,5,3,183,0,61.0,1
+1395,garretthartley/4381,2008,New Orleans Saints,8,49,"3,211",1,65.5,9
+1396,thomasmorstead/71407,2016,New Orleans Saints,16,--,--,--,--,--
+1397,thomasmorstead/71407,2015,New Orleans Saints,14,23,"1,455",0,63.3,16
+1398,thomasmorstead/71407,2014,New Orleans Saints,16,79,"5,253",0,66.5,40
+1399,thomasmorstead/71407,2013,New Orleans Saints,16,86,"5,600",0,65.1,52
+1400,thomasmorstead/71407,2012,New Orleans Saints,16,90,"5,863",1,65.1,45
+1401,thomasmorstead/71407,2011,New Orleans Saints,16,105,"6,944",0,66.1,68
+1402,thomasmorstead/71407,2010,New Orleans Saints,16,49,"3,331",0,68.0,10
+1403,thomasmorstead/71407,2009,New Orleans Saints,16,101,"6,842",2,67.7,27
+1404,michaelkoenen/2506255,2014,Tampa Bay Buccaneers,16,69,"4,436",0,64.3,31
+1405,michaelkoenen/2506255,2013,Tampa Bay Buccaneers,16,69,"4,363",1,63.2,41
+1406,michaelkoenen/2506255,2012,Tampa Bay Buccaneers,16,87,"5,727",0,65.8,58
+1407,michaelkoenen/2506255,2011,Tampa Bay Buccaneers,16,69,"4,270",1,61.9,37
+1408,michaelkoenen/2506255,2010,Atlanta Falcons,16,88,"5,945",0,67.6,23
+1409,michaelkoenen/2506255,2009,Atlanta Falcons,16,73,"4,901",0,67.1,28
+1410,michaelkoenen/2506255,2008,Atlanta Falcons,16,87,"5,823",0,66.9,16
+1411,michaelkoenen/2506255,2007,Atlanta Falcons,16,64,"4,145",2,64.8,12
+1412,michaelkoenen/2506255,2006,Atlanta Falcons,16,70,"4,533",1,64.8,13
+1413,michaelkoenen/2506255,2005,Atlanta Falcons,16,77,"4,888",2,63.5,14
+1414,bradnortman/2532921,2016,Jacksonville Jaguars,16,1,54,0,54.0,0
+1415,bradnortman/2532921,2015,Carolina Panthers,16,1,51,0,51.0,0
+1416,bradnortman/2532921,2014,Carolina Panthers,16,--,--,--,--,--
+1417,bradnortman/2532921,2013,Carolina Panthers,16,2,120,0,60.0,0
+1418,bradnortman/2532921,2012,Carolina Panthers,16,1,68,0,68.0,0
+1419,chrisjones/2539987,2016,Dallas Cowboys,16,--,--,--,--,--
+1420,chrisjones/2539987,2015,Dallas Cowboys,16,--,--,--,--,--
+1421,chrisjones/2539987,2014,Dallas Cowboys,16,1,57,0,57.0,0
+1422,chrisjones/2539987,2013,Dallas Cowboys,16,--,--,--,--,--
+1423,chrisjones/2539987,2012,Dallas Cowboys,4,--,--,--,--,--
+1424,chrisjones/2539987,2011,Dallas Cowboys,2,--,--,--,--,--
+1425,sampaulescu/2507289,2010,Washington Redskins,3,--,--,--,--,--
+1426,sampaulescu/2507289,2009,Tampa Bay Buccaneers,5,--,--,--,--,--
+1427,sampaulescu/2507289,2009,Washington Redskins,1,--,--,--,--,--
+1428,sampaulescu/2507289,2008,Dallas Cowboys,10,1,58,0,58.0,0
+1429,sampaulescu/2507289,2007,Denver Broncos,1,--,--,--,--,--
+1430,garyanderson/2499425,2004,Tennessee Titans,15,--,--,--,--,--
+1431,garyanderson/2499425,2003,Tennessee Titans,15,--,--,--,--,--
+1432,garyanderson/2499425,2002,Minnesota Vikings,14,8,440,0,55.0,0
+1433,garyanderson/2499425,2001,Minnesota Vikings,16,10,551,1,55.1,0
+1434,garyanderson/2499425,2000,Minnesota Vikings,16,24,"1,328",1,55.3,1
+1435,garyanderson/2499425,1999,Minnesota Vikings,16,5,288,0,57.6,0
+1436,garyanderson/2499425,1998,Minnesota Vikings,16,2,108,0,54.0,0
+1437,garyanderson/2499425,1997,San Francisco 49ers,16,8,481,0,60.1,0
+1438,garyanderson/2499425,1996,Philadelphia Eagles,16,57,"3,350",1,58.8,1
+1439,garyanderson/2499425,1995,Philadelphia Eagles,16,72,"4,476",2,62.2,10
+1440,garyanderson/2499425,1994,Pittsburgh Steelers,16,71,"4,210",1,59.3,1
+1441,garyanderson/2499425,1993,Pittsburgh Steelers,16,76,"4,703",2,61.9,19
+1442,garyanderson/2499425,1992,Pittsburgh Steelers,16,72,"4,410",5,61.3,15
+1443,garyanderson/2499425,1991,Pittsburgh Steelers,16,69,0,1,0.0,25
+1444,garyanderson/2499425,1990,Pittsburgh Steelers,16,--,--,--,--,--
+1445,garyanderson/2499425,1989,Pittsburgh Steelers,16,--,--,--,--,--
+1446,garyanderson/2499425,1988,Pittsburgh Steelers,16,--,--,--,--,--
+1447,garyanderson/2499425,1987,Pittsburgh Steelers,12,--,--,--,--,--
+1448,garyanderson/2499425,1986,Pittsburgh Steelers,16,--,--,--,--,--
+1449,garyanderson/2499425,1985,Pittsburgh Steelers,16,--,--,--,--,--
+1450,garyanderson/2499425,1984,Pittsburgh Steelers,16,--,--,--,--,--
+1451,garyanderson/2499425,1983,Pittsburgh Steelers,16,--,--,--,--,--
+1452,garyanderson/2499425,1982,Pittsburgh Steelers,9,--,--,--,--,--
+1453,johnjett/2501402,2003,Detroit Lions,4,--,--,--,--,--
+1454,johnjett/2501402,2002,Detroit Lions,16,--,--,--,--,--
+1455,johnjett/2501402,2001,Detroit Lions,13,--,--,--,--,--
+1456,johnjett/2501402,2000,Detroit Lions,16,4,256,0,64.0,0
+1457,johnjett/2501402,1999,Detroit Lions,16,4,238,0,59.5,0
+1458,johnjett/2501402,1998,Detroit Lions,14,3,215,1,71.7,0
+1459,johnjett/2501402,1997,Detroit Lions,16,1,47,0,47.0,0
+1460,johnjett/2501402,1996,Dallas Cowboys,16,--,--,--,--,--
+1461,johnjett/2501402,1995,Dallas Cowboys,16,1,69,0,69.0,0
+1462,johnjett/2501402,1994,Dallas Cowboys,16,1,39,0,39.0,0
+1463,johnjett/2501402,1993,Dallas Cowboys,16,1,48,0,48.0,0
+1464,j.r.jenkins/2504836,2002,Baltimore Ravens,7,31,"1,936",0,62.5,3
+1465,gregzuerlein/2534797,2016,Los Angeles Rams,16,59,"3,794",0,64.3,36
+1466,gregzuerlein/2534797,2015,St. Louis Rams,14,64,"4,168",0,65.1,38
+1467,gregzuerlein/2534797,2014,St. Louis Rams,16,73,"4,862",0,66.6,38
+1468,gregzuerlein/2534797,2013,St. Louis Rams,16,78,"5,181",1,66.4,52
+1469,gregzuerlein/2534797,2012,St. Louis Rams,16,67,"4,498",0,67.1,37
+1470,scottnorwood/2502310,1991,Buffalo Bills,16,16,0,0,0.0,2
+1471,scottnorwood/2502310,1990,Buffalo Bills,16,--,--,--,--,--
+1472,scottnorwood/2502310,1989,Buffalo Bills,16,--,--,--,--,--
+1473,scottnorwood/2502310,1988,Buffalo Bills,16,--,--,--,--,--
+1474,scottnorwood/2502310,1987,Buffalo Bills,12,--,--,--,--,--
+1475,scottnorwood/2502310,1986,Buffalo Bills,16,--,--,--,--,--
+1476,scottnorwood/2502310,1985,Buffalo Bills,16,--,--,--,--,--
+1477,micahknorr/2503931,2004,Denver Broncos,12,61,"3,928",0,64.4,15
+1478,micahknorr/2503931,2003,Denver Broncos,16,86,"5,583",0,64.9,13
+1479,micahknorr/2503931,2002,Denver Broncos,8,42,"2,678",1,63.8,3
+1480,micahknorr/2503931,2002,Dallas Cowboys,7,24,"1,627",0,67.8,4
+1481,micahknorr/2503931,2001,Dallas Cowboys,16,64,"3,760",1,58.8,4
+1482,micahknorr/2503931,2000,Dallas Cowboys,14,55,"3,516",1,63.9,8
+1483,cairosantos/2550636,2016,Kansas City Chiefs,16,86,"5,394",1,62.7,48
+1484,cairosantos/2550636,2015,Kansas City Chiefs,16,90,"5,746",1,63.8,40
+1485,cairosantos/2550636,2014,Kansas City Chiefs,16,80,"5,085",0,63.6,26
+1486,ryanplackemeier/2506990,2008,Washington Redskins,10,--,--,--,--,--
+1487,ryanplackemeier/2506990,2008,Seattle Seahawks,1,--,--,--,--,--
+1488,ryanplackemeier/2506990,2007,Seattle Seahawks,16,2,104,0,52.0,0
+1489,ryanplackemeier/2506990,2006,Seattle Seahawks,16,--,--,--,--,--

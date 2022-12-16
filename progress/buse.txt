@@ -1,0 +1,5 @@
+17.11.2022 - We got together as a group and organize the data
+18.11.2022 - I studied flask and learned basic structures
+22.11.2022 - We started writing our code and pushing to github
+28.11.2022 - 04.12.2022 - We studied Flask library and learned frontend.
+06.12.2022 - We started writing our website and added style with bootstcrap.

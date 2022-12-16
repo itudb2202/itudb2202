@@ -1,0 +1,68 @@
+{% extends "layout.html" %} {% block content %}
+<h1>Atacan</h1>
+
+<div class="container">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Receive_Id</th>
+        <th>Player_Id</th>
+        <th>Player_Year</th>
+        <th>Team</th>
+        <th>Games_Played</th>
+        <th>Receptions</th>
+        <th>Receiving_Yards</th>
+        <th>Yards_Per_Reception</th>
+        <th>Yards_Per_Game</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for Receive_Id, Player_Id, Player_Year, Team, Games_Played, Receptions, Receiving_Yards, Yards_Per_Reception, Yards_Per_Game in receiving_db %}  
+    <tr>
+      <td>
+        {{Receive_Id}}
+      </td>
+
+      <td>
+        {{Player_Id}}
+      </td>
+
+      <td>
+        {{Player_Year}} 
+      </td>
+
+      <td>
+        {{Team}} 
+      </td>
+
+      <td>
+        {{Games_Played}} 
+      </td>
+
+      <td>
+        {{Receptions}} 
+      </td>
+
+      <td>
+        {{Receiving_Yards}} 
+      </td>
+
+      <td>
+        {{Yards_Per_Reception}} 
+      </td>
+
+      <td>
+        {{Yards_Per_Game}} 
+      </td>
+
+      <td>
+        <a href="{{ url_for('delete_receiving', receiving_id = Receive_Id)}}">Delete Receive</a>
+      </td>
+
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}

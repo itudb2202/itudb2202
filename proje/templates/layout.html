@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>itudb2202 - {% block title %}{% endblock %}</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="{{ url_for('home_page') }}">NFL</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="{{ url_for('home_page') }}">Home</a></li>
+          <li><a href="{{ url_for('buse_page') }}">Buse</a></li>
+          <li><a href="{{ url_for('merve_page') }}">Merve</a></li>
+          <li><a href="{{ url_for('atacan_page') }}">Atacan</a></li>
+          <li><a href="{{ url_for('pelin_page') }}">Pelin</a></li>
+          <li><a href="{{ url_for('bora_page') }}">Bora</a></li>
+          <li><a href="{{ url_for('basicStats_page') }}">Basic Stats</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div style="margin-top: 70px; margin-left: 20px">
+      {% block content %}{% endblock %}
+    </div>
+
+    <hr style="margin-top: 60px;"/>
+
+    <div>
+      <footer class="border-top">
+
+        <div style="width: 100%; padding: 20px">
+          <h3>Group members</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="https://www.github.com/borawhocodess" class="nav-link p-0 text-muted">150190066 Salih Bora Öztürk</a></li>
+            <li class="nav-item mb-2"><a href="https://www.github.com/AtacanUtkusavas" class="nav-link p-0 text-muted">070190148 Atacan Utkusavaş</a></li>
+            <li class="nav-item mb-2"><a href="https://www.github.com/BuseYediparmak" class="nav-link p-0 text-muted">150190053 Fadime Buse Yediparmak</a></li>
+            <li class="nav-item mb-2"><a href="https://www.github.com/merveinall" class="nav-link p-0 text-muted">150200003 Merve İnal</a></li>
+            <li class="nav-item mb-2"><a href="https://www.github.com/sahinp19" class="nav-link p-0 text-muted">150190038 Pelinsu Şahin</a></li>
+          </ul>
+        </div>
+
+        <div class="text-center">
+          <p class="text-muted">&copy; 2022 BLG 317E GROUP 2</p>
+        </div>
+
+      </footer>
+    </div>
+  </body>
+</html>

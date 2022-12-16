@@ -1,0 +1,43 @@
+{% extends "layout.html" %} {% block content %}
+<h1>Buse</h1>
+
+<div class="container">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th>Punting_Id</th>
+        <th>Player_Id</th>
+        <th>Player_Year</th>
+        <th>Team</th>
+        <th>Games_Played</th>
+        <th>Punts</th>
+        <th>Gross_Punting_Yards</th>
+        <th>Longest_Punt</th>
+        <th>Fair_Catches</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for Punting_Id, Player_Id, Player_Year, Team, Games_Played, Punts,
+      Gross_Punting_Yards, Longest_Punt, Fair_Catches in punting_db %}
+      <tr>
+        <td>{{Punting_Id}}</td>
+        <td>{{Player_Id}}</td>
+        <td>{{Player_Year}}</td>
+        <td>{{Team}}</td>
+        <td>{{Games_Played}}</td>
+        <td>{{Punts}}</td>
+        <td>{{Gross_Punting_Yards}}</td>
+        <td>{{Longest_Punt}}</td>
+        <td>{{Fair_Catches}}</td>
+        <td>
+          <a href="{{ url_for('delete_punting', punting_id = Punting_Id)}}"
+            >Delete Row</a
+          >
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}
