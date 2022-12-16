@@ -4,6 +4,29 @@
 
 {% block content %}
 
-<h1>Home Page</h1>
+<h1>WELCOME HOME!</h1>
+
+<h3>Useful links</h3>
+
+<ul>
+  <li><a href="https://github.com/itudb2202/itudb2202">Github Repo</a></li>
+  <li><a href="https://www.kaggle.com/datasets/kendallgillies/nflstatistics">Kaggle Dataset Link</a></li>
+</ul>
+
+<h3>Page links</h3>
+
+<ul>
+  <li><a href="{{ url_for('home_page') }}">Home</a></li>
+  <li><a href="{{ url_for('buse_page') }}">Buse</a></li>
+  <li><a href="{{ url_for('merve_page') }}">Merve</a></li>
+  <li><a href="{{ url_for('atacan_page') }}">Atacan</a></li>
+  <li><a href="{{ url_for('pelin_page') }}">Pelin</a></li>
+  <li><a href="{{ url_for('bora_page') }}">Bora</a></li>
+  <li><a href="{{ url_for('basicStats_page') }}">Basic Stats</a></li>
+</ul>
+
+
+
+
 
 {% endblock %}
