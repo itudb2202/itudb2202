@@ -7,56 +7,81 @@ content %}
   <div>
     <label for="Player_Id">Player_Id</label>
     <div>
-      <input type="text" name="Player_Id" required="required" />
+      <input
+        type="text"
+        name="Player_Id"
+        value="{{ values['Player_Id'] }}"
+        required="required"
+      />
     </div>
   </div>
 
   <div>
     <label for="Player_Year">Player_Year</label>
     <div>
-      <input type="number" name="Player_Year" />
+      <input
+        type="number"
+        name="Player_Year"
+        value="{{ values['Player_Year'] }}"
+      />
     </div>
   </div>
 
   <div>
     <label for="Team">Team</label>
     <div>
-      <input type="text" name="Team" />
+      <input type="text" name="Team" value="{{ values['Team'] }}" />
     </div>
   </div>
 
   <div>
     <label for="Games_Played">Games_Played</label>
     <div>
-      <input type="number" name="Games_Played" />
+      <input
+        type="number"
+        name="Games_Played"
+        value="{{ values['Games_Played'] }}"
+      />
     </div>
   </div>
 
   <div>
     <label for="Punts">Punts</label>
     <div>
-      <input type="text" name="Punts" />
+      <input type="text" name="Punts" value="{{ values['Punts'] }}" />
     </div>
   </div>
 
   <div>
     <label for="Gross_Punting_Yards">Gross Punting Yards</label>
     <div>
-      <input type="text" name="Gross_Punting_Yards" />
+      <input
+        type="text"
+        name="Gross_Punting_Yards"
+        value="{{ values['Gross_Punting_Yards'] }}"
+      />
     </div>
   </div>
 
   <div>
     <label for="Longest_Punt">Longest Punt</label>
     <div>
-      <input type="text" name="Longest_Punt" />
+      <input
+        type="text"
+        name="Longest_Punt"
+        value="{{ values['Longest_Punt'] }}"
+      />
     </div>
   </div>
 
   <div>
     <label for="Fair_Catches">Fair Catches</label>
     <div>
-      <input type="number" name="Fair_Catches" />
+      <input
+        type="number"
+        name="Fair_Catches"
+        value="{{ values['Fair_Catches'] }}"
+      />
     </div>
   </div>
 
