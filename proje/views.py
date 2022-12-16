@@ -168,7 +168,8 @@ def add_defensive():
 
 def add_receiving():
     if request.method == "GET":
-        return render_template("atacan_edit.html")
+        values = {"Player_Id": "", "Player_Year": "", "Team": "", "Games_Played": "", "Receptions": "", "Receiving_Yards": "", "Yards_Per_Reception": "", "Yards_Per_Game": ""}
+        return render_template("atacan_edit.html", values = values)
     else:
         form_player_id = request.form["Player_Id"]
         form_player_year = request.form["Player_Year"]
