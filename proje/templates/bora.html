@@ -42,7 +42,7 @@
           <a href="{{ url_for('delete_passing', passing_id = Passing_Id)}}">Delete</a>
         </td>
         <td>
-          <a href="#">Update</a>
+          <a href="{{ url_for('update_passing', passing_id = Passing_Id)}}">Update</a>
         </td>
       </tr>
       {% endfor %}

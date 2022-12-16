@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from datetime import datetime
-from flask import current_app, request
+from flask import current_app, request, abort
 from database import Database
 
 from stats import Defensive, Kickoff, Passing, Punting, Receiving, BasicStats
@@ -79,7 +79,8 @@ def delete_passing(passing_id):
 
 def add_passing():
     if request.method == "GET":
-        return render_template("bora_edit.html")
+        values = {"Player_Id": "", "Player_Year": "", "Team": "", "Games_Played": "", "Passes_Attempted": "", "Passes_Completed": "", "Completion_Percentage": "", "Passer_Rating": ""}
+        return render_template("bora_edit.html", values=values)
     else:
         form_player_id = request.form["Player_Id"]
         form_player_year = request.form["Player_Year"]
@@ -157,3 +158,29 @@ def add_receiving():
         db.add_receiving_stat(receiving_stat)
         receiving = db.get_all_receiving_stats()
         return render_template("atacan.html", receiving_db = receiving)
+
+
+def update_passing(passing_id):
+    if request.method == "GET":
+        db = current_app.config["dbconfig"]
+        passing_stat = db.get_passing_stat(passing_id)
+        if passing_stat is None:
+            abort(404)
+        values = {"Player_Id": passing_stat.playerId, "Player_Year": passing_stat.year, "Team": passing_stat.team, "Games_Played": passing_stat.games_played, "Passes_Attempted": passing_stat.pass_Att, "Passes_Completed": passing_stat.pass_comp, "Completion_Percentage": passing_stat.comp_percentage, "Passer_Rating": passing_stat.passer_rating}
+        return render_template("bora_edit.html", values=values)
+    else:
+        form_player_id = request.form["Player_Id"]
+        form_player_year = request.form["Player_Year"]
+        form_team = request.form["Team"]
+        form_games_played = request.form["Games_Played"]
+        form_passes_attempted = request.form["Passes_Attempted"]
+        form_passes_completed = request.form["Passes_Completed"]
+        form_completion_percentage = request.form["Completion_Percentage"]
+        form_passer_rating = request.form["Passer_Rating"]
+
+        passing_stat = Passing(form_player_id, form_player_year, form_team, form_games_played, form_passes_attempted, form_passes_completed, form_completion_percentage, form_passer_rating)
+        db = current_app.config["dbconfig"]
+        db.update_passing_stat(passing_id, passing_stat)
+        passing = db.get_all_passing_stats()
+        return render_template("bora.html", passing_db = passing)
+

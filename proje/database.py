@@ -9,6 +9,20 @@ class Database:
         self.dbfile = dbfile
 
 
+    # ------- GET FUNCTIONS
+
+    def get_passing_stat(self, passing_key):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "SELECT * FROM passing WHERE (Passing_Id = ?)"
+            cursor.execute(query, (passing_key,))
+
+            patates, playerId , year , team , games_played , pass_Att , pass_comp , comp_percentage , passer_rating = cursor.fetchone()
+
+        passing_stat = Passing(playerId , year , team , games_played , pass_Att , pass_comp , comp_percentage , passer_rating)
+        return passing_stat
+
+
     # ------- GET ALL FUNCTIONS
     def get_all_basic_stats(self):
         with dbapi2.connect(self.dbfile) as connection:
@@ -130,5 +144,15 @@ class Database:
             cursor = connection.cursor()
             query = "DELETE FROM passing WHERE (Passing_Id = ?)"
             cursor.execute(query, (passing_key,))
+            connection.commit()
+
+
+    # ------- UPDATE FUNCTIONS
+
+    def update_passing_stat(self, passing_key, passing_stat):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "UPDATE passing SET Player_Id = ?, Player_Year = ?, Team = ?, Games_Played = ?, Passes_Attempted = ?, Passes_Completed = ?, Completion_Percentage = ?, Passer_Rating = ? WHERE (Passing_Id = ?)"
+            cursor.execute(query, (passing_stat.playerId, passing_stat.year, passing_stat.team, passing_stat.games_played, passing_stat.pass_Att, passing_stat.pass_comp, passing_stat.comp_percentage, passing_stat.passer_rating, passing_key))
             connection.commit()
 
