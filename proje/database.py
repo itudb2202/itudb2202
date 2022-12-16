@@ -1,9 +1,6 @@
 import sqlite3 as dbapi2
-from stats import Defensive
-from stats import Kickoff
-from stats import Passing
-from stats import Punting
-from stats import Receiving
+
+from stats import Defensive, Kickoff, Passing, Punting, Receiving, BasicStats
 
 
 class Database:
@@ -19,7 +16,7 @@ class Database:
             query = "SELECT * FROM basic_stats ORDER BY Player_Id DESC LIMIT 30"
             basic_stats = cursor.execute(query).fetchall()
             return basic_stats
-    
+
     def get_all_punting_stats(self):
         with dbapi2.connect(self.dbfile) as connection:
             cursor = connection.cursor()
@@ -78,6 +75,14 @@ class Database:
             connection.commit()
             defense_key = cursor.lastrowid
         return defense_key
+
+    def add_passing_stat(self, passing_stat):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "INSERT INTO passing (Player_Id, Player_Year, Team, Games_Played, Passes_Attempted, Passes_Completed, Completion_Percentage, Passer_Rating) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
+            cursor.execute(query, (passing_stat.playerId, passing_stat.year, passing_stat.team, passing_stat.games_played, passing_stat.pass_Att,
+                            passing_stat.pass_comp, passing_stat.comp_percentage, passing_stat.passer_rating))
+            connection.commit()
 
 
     # ------- DELETE FUNCTIONS

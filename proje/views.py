@@ -1,7 +1,9 @@
 from flask import Flask, render_template
 from datetime import datetime
-from flask import current_app
+from flask import current_app, request
 from database import Database
+
+from stats import Defensive, Kickoff, Passing, Punting, Receiving, BasicStats
 
 
 def home_page():
@@ -75,3 +77,21 @@ def delete_passing(passing_id):
     passing = db.get_all_passing_stats()
     return render_template("bora.html", passing_db = passing)
 
+def add_passing():
+    if request.method == "GET":
+        return render_template("bora_edit.html")
+    else:
+        form_player_id = request.form["Player_Id"]
+        form_player_year = request.form["Player_Year"]
+        form_team = request.form["Team"]
+        form_games_played = request.form["Games_Played"]
+        form_passes_attempted = request.form["Passes_Attempted"]
+        form_passes_completed = request.form["Passes_Completed"]
+        form_completion_percentage = request.form["Completion_Percentage"]
+        form_passer_rating = request.form["Passer_Rating"]
+
+        passing_stat = Passing(form_player_id, form_player_year, form_team, form_games_played, form_passes_attempted, form_passes_completed, form_completion_percentage, form_passer_rating)
+        db = current_app.config["dbconfig"]
+        db.add_passing_stat(passing_stat)
+        passing = db.get_all_passing_stats()
+        return render_template("bora.html", passing_db = passing)

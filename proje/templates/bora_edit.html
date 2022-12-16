@@ -1,0 +1,74 @@
+{% extends "layout.html" %}
+
+{% block title %} Edit Bora {% endblock %}
+
+{% block content %}
+
+    <h1> Edit Bora </h1>
+
+    <form action="" method="post" name="movie_edit">
+
+      <div>
+        <label for="Player_Id">Player_Id</label>
+        <div>
+          <input type="text" name="Player_Id" required="required"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Player_Year">Player_Year</label>
+        <div>
+          <input type="number" name="Player_Year"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Team">Team</label>
+        <div>
+          <input type="text" name="Team"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Games_Played">Games_Played</label>
+        <div>
+          <input type="number" name="Games_Played"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Passes_Attempted">Passes_Attempted</label>
+        <div>
+          <input type="text" name="Passes_Attempted"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Passes_Completed">Passes_Completed</label>
+        <div>
+          <input type="text" name="Passes_Completed"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Completion_Percentage">Completion_Percentage</label>
+        <div>
+          <input type="text" name="Completion_Percentage"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Passer_Rating">Passer_Rating</label>
+        <div>
+          <input type="number" name="Passer_Rating"/>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <button> Save </button>
+        </div>
+      </div>
+
+    </form>
+{% endblock %}
