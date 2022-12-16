@@ -127,7 +127,8 @@ def add_passing():
 
 def add_kickoff():
     if request.method == "GET":
-        return render_template("pelin_edit.html")
+        values = {"Player_Id": "", "Player_Year": "", "Team": "", "Games_Played": "", "Kickoffs": "", "Kickoff_Yards": "", "Out_of_Bounds_Kickoffs": "", "Yards_Per_Kickoff": "", "Touchbacks": ""}
+        return render_template("pelin_edit.html", values=values)
     else:
         form_player_id = request.form["Player_Id"]
         form_player_year = request.form["Player_Year"]
@@ -235,4 +236,31 @@ def update_receiving(receiving_id):
         db.update_receiving_stat(receiving_id, receiving_stat)
         receiving = db.get_all_receiving_stats()
         return render_template("atacan.html", receiving_db = receiving)
+
+def update_kickoff(kickoff_id):
+    if request.method == "GET":
+        db = current_app.config["dbconfig"]
+        kickoff_stat = db.get_kickoff_stat(kickoff_id)
+        if kickoff_stat is None:
+            abort(404)
+        values = {"Player_Id": kickoff_stat.playerId, "Player_Year": kickoff_stat.year, "Team": kickoff_stat.team, "Games_Played": kickoff_stat.games_played, "Kickoffs": kickoff_stat.kickoff, "Kickoff_Yards": kickoff_stat.kickoff_yrd, "Out_of_Bounds_Kickoffs": kickoff_stat.out_kickoff, "Yards_Per_Kickoff": kickoff_stat.yrd_per_kickoff, "Touchbacks": kickoff_stat.touchback}
+        return render_template("pelin_edit.html", values=values)
+    else:
+        form_player_id = request.form["Player_Id"]
+        form_player_year = request.form["Player_Year"]
+        form_team = request.form["Team"]
+        form_games_played = request.form["Games_Played"]
+        form_kickoffs = request.form["Kickoffs"]
+        form_kickoff_yards = request.form["Kickoff_Yards"]
+        form_out_of_bounds_kickoffs = request.form["Out_of_Bounds_Kickoffs"]
+        form_yards_per_kickoff = request.form["Yards_Per_Kickoff"]
+        form_touchbacks = request.form["Touchbacks"]
+
+        kickoff_stat = Kickoff(form_player_id, form_player_year, form_team, form_games_played, form_kickoffs, form_kickoff_yards, form_out_of_bounds_kickoffs, form_yards_per_kickoff, form_touchbacks)
+        db = current_app.config["dbconfig"]
+        db.update_kickoff_stat(kickoff_id, kickoff_stat)
+        kickoff = db.get_all_kickoff_stats()
+        return render_template("pelin.html", kickoff_db = kickoff)
+        
+
 

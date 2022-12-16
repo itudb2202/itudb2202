@@ -8,3 +8,5 @@ I wrote my html file to see my table (kickoff) and I limited it with 30 rows in 
 I wrote add_kickoff_stat() and get_all_kickoff_stats() functions.
 Me and Merve wrote delete function in views.py and database.py for kickoff table and make it a link button in html so when it is clicked related row is deleted. And it is permanent.
 I make researches about add and update functions and analyze week6 recitation to implement it to our project.
+16.12.2022 : We gathered again as a group and implemented add function. I created an another html file which is opened when "Add Kickoff Stat" is clicked. 
+Some changes are done in views.py, server.py, database.py, pelin.html. 

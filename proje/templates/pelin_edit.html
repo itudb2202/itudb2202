@@ -1,73 +1,73 @@
 {% extends "layout.html" %}
 
-{% block title %} Edit Pelin {% endblock %}
+{% block title %} Edit Kickoff {% endblock %}
 
 {% block content %}
 
-    <h1> Edit Pelin </h1>
+    <h1> Edit Kickoff </h1>
 
     <form action="" method="post" name="kickoff_form">
 
       <div>
         <label for="Player_Id">Player Id</label>
         <div>
-          <input type="text" name="Player_Id" required="required"/>
+          <input type="text" name="Player_Id" value="{{ values['Player_Id'] }}" required="required"/>
         </div>
       </div>
 
       <div>
         <label for="Player_Year">Player Year</label>
         <div>
-          <input type="number" name="Player_Year"/>
+          <input type="number" name="Player_Year" value="{{ values['Player_Year'] }}"/>
         </div>
       </div>
 
       <div>
         <label for="Team">Team</label>
         <div>
-          <input type="text" name="Team"/>
+          <input type="text" name="Team" value="{{ values['Team'] }}"/>
         </div>
       </div>
 
       <div>
         <label for="Games_Played">Games Played</label>
         <div>
-          <input type="number" name="Games_Played"/>
+          <input type="number" name="Games_Played" value="{{ values['Games_Played'] }}"/>
         </div>
       </div>
 
       <div>
         <label for="Kickoffs">Kickoffs</label>
         <div>
-          <input type="text" name="Kickoffs"/>
+          <input type="text" name="Kickoffs" value="{{ values['Kickoffs'] }}"/>
         </div>
       </div>
 
       <div>
         <label for="Kickoff_Yards">Kickoff Yards</label>
         <div>
-          <input type="text" name="Kickoff_Yards"/>
+          <input type="text" name="Kickoff_Yards" value="{{ values['Kickoff_Yards'] }}"/>
         </div>
       </div>
 
       <div>
         <label for="Out_of_Bounds_Kickoffs">Out of Bounds Kickoffs</label>
         <div>
-          <input type="text" name="Out_of_Bounds_Kickoffs"/>
+          <input type="text" name="Out_of_Bounds_Kickoffs" value="{{ values['Out_of_Bounds_Kickoffs'] }}"/>
         </div>
       </div>
 
       <div>
         <label for="Yards_Per_Kickoff">Yards Per Kickoff</label>
         <div>
-          <input type="number" name="Yards_Per_Kickoff"/>
+          <input type="number" name="Yards_Per_Kickoff" value="{{ values['Yards_Per_Kickoff'] }}"/>
         </div>
       </div>
 
       <div>
         <label for="Touchbacks">Touchbacks</label>
         <div>
-          <input type="text" name="Touchbacks"/>
+          <input type="text" name="Touchbacks" value="{{ values['Touchbacks'] }}"/>
         </div>
       </div>
 

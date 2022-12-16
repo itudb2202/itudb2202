@@ -35,6 +35,7 @@ def create_app():
 
     app.add_url_rule("/atacan/update/<receiving_id>", view_func=views.update_receiving, methods=["GET", "POST"])
     app.add_url_rule("/bora/update/<passing_id>", view_func=views.update_passing, methods=["GET", "POST"])
+    app.add_url_rule("/pelin/update/<kickoff_id>", view_func=views.update_kickoff, methods=["GET", "POST"])
 
 
     home_dir = os.getcwd()

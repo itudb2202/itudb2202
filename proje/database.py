@@ -32,6 +32,17 @@ class Database:
         passing_stat = Passing(playerId , year , team , games_played , pass_Att , pass_comp , comp_percentage , passer_rating)
         return passing_stat
 
+    def get_kickoff_stat(self, kickoff_key):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "SELECT * FROM kickoff WHERE (Kickoff_Id = ?)"
+            cursor.execute(query, (kickoff_key,))
+
+            temp_kickoff_id, playerId , year , team , games_played , kickoff , kickoff_yrd , out_kickoff , yrd_per_kickoff, touchback= cursor.fetchone()
+
+        kickoff_stat = Kickoff(playerId , year , team , games_played , kickoff , kickoff_yrd , out_kickoff , yrd_per_kickoff, touchback)
+        return kickoff_stat
+
 
     # ------- GET ALL FUNCTIONS
 
@@ -180,5 +191,12 @@ class Database:
             cursor = connection.cursor()
             query = "UPDATE receiving SET Player_Id = ?, Player_Year = ?, Team = ?, Games_Played = ?, Receptions = ?, Receiving_Yards = ?, Yards_Per_Reception = ?, Yards_Per_Game = ? WHERE (Receive_Id = ?)"
             cursor.execute(query, (receiving_stat.playerId , receiving_stat.year , receiving_stat.team , receiving_stat.games_played , receiving_stat.receptions, receiving_stat.receiving_yrd , receiving_stat.yrd_per_reception , receiving_stat.yrd_per_game, receiving_key))
+            connection.commit()
+
+    def update_kickoff_stat(self,kickoff_key, kickoff_stat):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "UPDATE kickoff SET Player_Id = ?, Player_Year = ?, Team = ?, Games_Played = ?, Kickoffs = ?, Kickoff_Yards = ?, Out_of_Bounds_Kickoffs = ?, Yards_Per_Kickoff = ?, Touchbacks = ? WHERE (Kickoff_Id = ?)"
+            cursor.execute(query, (kickoff_stat.playerId , kickoff_stat.year , kickoff_stat.team , kickoff_stat.games_played , kickoff_stat.kickoff, kickoff_stat.kickoff_yrd , kickoff_stat.out_kickoff , kickoff_stat.yrd_per_kickoff, kickoff_stat.touchback, kickoff_key))
             connection.commit()
 
