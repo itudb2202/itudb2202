@@ -77,6 +77,33 @@ def delete_passing(passing_id):
     passing = db.get_all_passing_stats()
     return render_template("bora.html", passing_db = passing)
 
+def add_basicstats():
+    if request.method == "GET":
+        return render_template("basicstats_edit.html")
+    else:
+        form_player_age = request.form["Age"]
+        form_birth_place = request.form["Birth_Place"]
+        form_birthday = request.form["Birthday"]
+        form_college = request.form["College"]
+        form_current_status = request.form["Current_Status"]
+        form_current_team = request.form["Current_Team"]
+        form_experience = request.form["Experience"]
+        form_height_inches = request.form["Height_inches"]
+        form_highschool = request.form["High_School"]
+        form_highschool_location = request.form["High_School_Location"]
+        form_player_name = request.form["Player_Name"]
+        form_player_number= request.form["Player_Number"]
+        form_player_id = request.form["Player_Id"]
+        form_position = request.form["Position"]
+        form_weight_lbs = request.form["Weight_lbs"]
+        form_years_played = request.form["Years_Played"]
+
+        basic_stat = BasicStats(form_player_id,form_player_age,form_birth_place,form_birthday,form_college,form_current_status,form_current_team,form_experience,form_height_inches,form_highschool,form_highschool_location,form_player_name,form_player_number,form_position,form_weight_lbs,form_years_played)
+        db = current_app.config["dbconfig"]
+        db.add_basic_stat(basic_stat)
+        basicstats = db.get_all_basic_stats()
+        return render_template("basicStats.html", basicstats_db = basicstats)
+
 def add_passing():
     if request.method == "GET":
         values = {"Player_Id": "", "Player_Year": "", "Team": "", "Games_Played": "", "Passes_Attempted": "", "Passes_Completed": "", "Completion_Percentage": "", "Passer_Rating": ""}

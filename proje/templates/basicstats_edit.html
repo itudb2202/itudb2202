@@ -1,0 +1,131 @@
+{% extends "layout.html" %}
+
+{% block title %} Edit Basic Stats{% endblock %}
+
+{% block content %}
+
+    <h1> Edit Basic Stats</h1>
+
+    <form action="" method="post" name="basicstats_form">
+
+      <div>
+        <label for="Age">Age</label>
+        <div>
+          <input type="number" name="Age"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Birth_Place">Birth Place</label>
+        <div>
+          <input type="text" name="Birth_Place"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Birthday">Birthday</label>
+        <div>
+          <input type="number" name="Birthday"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="College">College</label>
+        <div>
+          <input type="text" name="College"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Current_Status">Current Status</label>
+        <div>
+          <input type="text" name="Current_Status" required="required"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Current_Team">Current Team</label>
+        <div>
+          <input type="text" name="Current_Team"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Experience">Experience</label>
+        <div>
+          <input type="number" name="Experience"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Height_inches">Height-inches</label>
+        <div>
+          <input type="text" name="Height_inches"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="High_School">High School</label>
+        <div>
+          <input type="text" name="High_School"/>
+        </div>
+      </div>
+	  
+	  <div>
+        <label for="High_School_Location">High School Location</label>
+        <div>
+          <input type="text" name="High_School_Location"/>
+        </div>
+      </div>
+	  
+      <div>
+        <label for="Player_Name">Player Name</label>
+        <div>
+          <input type="text" name="Player_Name" required="required"/>
+        </div>
+      </div>
+      
+	  <div>
+        <label for="Player_Number">Player Number</label>
+        <div>
+          <input type="text" name="Player_Number"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Player_Id">Player Id</label>
+        <div>
+          <input type="text" name="Player_Id" required="required"/>
+        </div>
+      </div>
+	  
+	  <div>
+        <label for="Position">Position</label>
+        <div>
+          <input type="text" name="Position"/>
+        </div>
+      </div>
+	  
+	  <div>
+        <label for="Weight_lbs">Weight lbs</label>
+        <div>
+          <input type="text" name="Weight_lbs"/>
+        </div>
+      </div>
+	  
+	  <div>
+        <label for="Years_Played">Years Played</label>
+        <div>
+          <input type="text" name="Years_Played"/>
+        </div>
+      </div>
+
+
+      <div>
+        <div>
+          <button> Save </button>
+        </div>
+      </div>
+
+    </form>
+{% endblock %}
