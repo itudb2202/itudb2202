@@ -42,6 +42,13 @@ class Database:
             defensive_stats = cursor.execute(query).fetchall()
             return defensive_stats
 
+    def get_all_passing_stats(self):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "SELECT * FROM passing ORDER BY Passing_Id DESC LIMIT 30"
+            passing_stats = cursor.execute(query).fetchall()
+            return passing_stats
+
 
     # ------- ADD FUNCTIONS
 
