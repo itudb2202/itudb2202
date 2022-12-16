@@ -1,0 +1,69 @@
+{% extends "layout.html" %} {% block title %} Edit Buse {% endblock %} {% block
+content %}
+
+<h1>Edit Punting</h1>
+
+<form action="" method="post" name="punting_form">
+  <div>
+    <label for="Player_Id">Player_Id</label>
+    <div>
+      <input type="text" name="Player_Id" required="required" />
+    </div>
+  </div>
+
+  <div>
+    <label for="Player_Year">Player_Year</label>
+    <div>
+      <input type="number" name="Player_Year" />
+    </div>
+  </div>
+
+  <div>
+    <label for="Team">Team</label>
+    <div>
+      <input type="text" name="Team" />
+    </div>
+  </div>
+
+  <div>
+    <label for="Games_Played">Games_Played</label>
+    <div>
+      <input type="number" name="Games_Played" />
+    </div>
+  </div>
+
+  <div>
+    <label for="Punts">Punts</label>
+    <div>
+      <input type="text" name="Punts" />
+    </div>
+  </div>
+
+  <div>
+    <label for="Gross_Punting_Yards">Gross Punting Yards</label>
+    <div>
+      <input type="text" name="Gross_Punting_Yards" />
+    </div>
+  </div>
+
+  <div>
+    <label for="Longest_Punt">Longest Punt</label>
+    <div>
+      <input type="text" name="Longest_Punt" />
+    </div>
+  </div>
+
+  <div>
+    <label for="Fair_Catches">Fair Catches</label>
+    <div>
+      <input type="number" name="Fair_Catches" />
+    </div>
+  </div>
+
+  <div>
+    <div>
+      <button>Save</button>
+    </div>
+  </div>
+</form>
+{% endblock %}

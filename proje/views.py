@@ -159,6 +159,26 @@ def add_receiving():
         receiving = db.get_all_receiving_stats()
         return render_template("atacan.html", receiving_db = receiving)
 
+def add_punting():
+    if request.method == "GET":
+        return render_template("buse_edit.html")
+    else:
+        form_player_id = request.form["Player_Id"]
+        form_player_year = request.form["Player_Year"]
+        form_team = request.form["Team"]
+        form_games_played = request.form["Games_Played"]
+        form_punts = request.form["Punts"]
+        form_gross_punting_yards = request.form["Gross_Punting_Yards"]
+        form_longest_punt = request.form["Longest_Punt"]
+        form_fair_catches = request.form["Fair_Catches"]
+
+
+        punting_stat = Punting(form_player_id, form_player_year, form_team, form_games_played, form_punts, form_gross_punting_yards, form_longest_punt, form_fair_catches)
+        db = current_app.config["dbconfig"]
+        db.add_punting_stat(punting_stat)
+        punting = db.get_all_punting_stats()
+        return render_template("buse.html", punting_db = punting)
+
 
 def update_passing(passing_id):
     if request.method == "GET":

@@ -39,13 +39,13 @@ class Passing:
         self.passer_rating = passer_rating
 
 class Punting:
-    def __init__(self , playerId , year , team , games_played , punts , gross_punting_yrd , longest_punt , fair_catches):
+    def __init__(self , playerId , year , team , games_played , punts , gross_punting_yards , longest_punt , fair_catches):
         self.playerId = playerId
         self.year = year
         self.team = team
         self.games_played = games_played
         self.punts = punts
-        self.gross_punting_yrd = gross_punting_yrd
+        self.gross_punting_yards = gross_punting_yards
         self.longest_punt = longest_punt
         self.fair_catches = fair_catches
 

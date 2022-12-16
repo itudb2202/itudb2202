@@ -86,6 +86,14 @@ class Database:
                             receiving_stat.receiving_yrd, receiving_stat.yrd_per_reception, receiving_stat.yrd_per_game))
             connection.commit()
 
+    def add_punting_stat(self, punting_stat):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "INSERT INTO punting (Player_Id, Player_Year,Team, Games_Played, Punts, Gross_Punting_Yards, Longest_Punt, Fair_Catches) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
+            cursor.execute(query, (punting_stat.playerId, punting_stat.year, punting_stat.team, punting_stat.games_played, punting_stat.punts,
+                            punting_stat.gross_punting_yards, punting_stat.longest_punt, punting_stat.fair_catches))
+            connection.commit()
+
     def add_passing_stat(self, passing_stat):
         with dbapi2.connect(self.dbfile) as connection:
             cursor = connection.cursor()
