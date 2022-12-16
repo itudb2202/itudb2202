@@ -1,17 +1,18 @@
 import sqlite3 as dbapi2
-from stats import Defensive  
-from stats import Kickoff  
-from stats import Passing  
-from stats import Punting  
-from stats import Receiving  
+from stats import Defensive
+from stats import Kickoff
+from stats import Passing
+from stats import Punting
+from stats import Receiving
 
 
 class Database:
 
     def __init__(self, dbfile):
-        self.dbfile = dbfile  
+        self.dbfile = dbfile
 
-    #---GET ALL FUNCTIONS-----------------
+
+    # ------- GET ALL FUNCTIONS
 
     def get_all_punting_stats(self):
         with dbapi2.connect(self.dbfile) as connection:
@@ -19,7 +20,7 @@ class Database:
             query = "SELECT * FROM punting ORDER BY Punting_Id DESC LIMIT 30"
             punting_stats = cursor.execute(query).fetchall()
             return punting_stats
-        
+
     def get_all_defensive_stats(self):
         with dbapi2.connect(self.dbfile) as connection:
             cursor = connection.cursor()
@@ -41,10 +42,8 @@ class Database:
             defensive_stats = cursor.execute(query).fetchall()
             return defensive_stats
 
-    #------------------------
 
-
-    #---ADD FUNCTIONS-----------------
+    # ------- ADD FUNCTIONS
 
     def add_defensive_stat(self, defensive_stat):
         with dbapi2.connect(self.dbfile) as connection:
@@ -67,9 +66,8 @@ class Database:
             defense_key = cursor.lastrowid
         return defense_key
 
-    #-----------------------------
 
-    #---DELETE FUNCTIONS-----------------
+    # ------- DELETE FUNCTIONS
 
     def dlt_receiving(self, receiving_key):
         with dbapi2.connect(self.dbfile) as connection:
@@ -99,5 +97,3 @@ class Database:
             cursor.execute(query, (punting_key,))
             connection.commit()
 
-    #-----------------------------
-    
