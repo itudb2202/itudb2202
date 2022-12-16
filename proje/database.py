@@ -104,3 +104,10 @@ class Database:
             cursor.execute(query, (punting_key,))
             connection.commit()
 
+    def dlt_passing(self, passing_key):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "DELETE FROM passing WHERE (Passing_Id = ?)"
+            cursor.execute(query, (passing_key,))
+            connection.commit()
+
