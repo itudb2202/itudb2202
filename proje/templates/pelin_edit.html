@@ -1,0 +1,81 @@
+{% extends "layout.html" %}
+
+{% block title %} Edit Pelin {% endblock %}
+
+{% block content %}
+
+    <h1> Edit Pelin </h1>
+
+    <form action="" method="post" name="kickoff_form">
+
+      <div>
+        <label for="Player_Id">Player Id</label>
+        <div>
+          <input type="text" name="Player_Id" required="required"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Player_Year">Player Year</label>
+        <div>
+          <input type="number" name="Player_Year"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Team">Team</label>
+        <div>
+          <input type="text" name="Team"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Games_Played">Games Played</label>
+        <div>
+          <input type="number" name="Games_Played"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Kickoffs">Kickoffs</label>
+        <div>
+          <input type="text" name="Kickoffs"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Kickoff_Yards">Kickoff Yards</label>
+        <div>
+          <input type="text" name="Kickoff_Yards"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Out_of_Bounds_Kickoffs">Out of Bounds Kickoffs</label>
+        <div>
+          <input type="text" name="Out_of_Bounds_Kickoffs"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Yards_Per_Kickoff">Yards Per Kickoff</label>
+        <div>
+          <input type="number" name="Yards_Per_Kickoff"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Touchbacks">Touchbacks</label>
+        <div>
+          <input type="text" name="Touchbacks"/>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <button> Save </button>
+        </div>
+      </div>
+
+    </form>
+{% endblock %}

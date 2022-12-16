@@ -84,6 +84,13 @@ class Database:
                             passing_stat.pass_comp, passing_stat.comp_percentage, passing_stat.passer_rating))
             connection.commit()
 
+    def add_kickoff_stat(self, kickoff_stat):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "INSERT INTO kickoff (Player_Id, Player_Year, Team, Games_Played, Kickoffs, Kickoff_Yards, Out_of_Bounds_Kickoffs, Yards_Per_Kickoff, Touchbacks) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
+            cursor.execute(query, (kickoff_stat.playerId, kickoff_stat.year, kickoff_stat.team, kickoff_stat.games_played, kickoff_stat.kickoff,
+                            kickoff_stat.kickoff_yrd, kickoff_stat.out_kickoff, kickoff_stat.yrd_per_kickoff, kickoff_stat.touchback))
+            connection.commit()
 
     # ------- DELETE FUNCTIONS
 
