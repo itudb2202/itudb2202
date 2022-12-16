@@ -4,5 +4,5 @@
 15.12.2022 - add footer
 15.12.2022 - configure db
 15.12.2022 - implement CRUD operations
-15.12.2022 - reorganize structure
+15.12.2022 - reorganize file structure
 
