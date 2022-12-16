@@ -22,12 +22,13 @@ def create_app():
     app.add_url_rule("/delete_defensive/<defensive_id>", view_func=views.delete_defensive)
     app.add_url_rule("/delete_kickoff/<kickoff_id>", view_func=views.delete_kickoff )
     app.add_url_rule("/delete_punting/<punting_id>", view_func=views.delete_punting )
+    app.add_url_rule("/delete_passing/<passing_id>", view_func=views.delete_passing )
 
-    
+
     home_dir = os.getcwd()
 
-    #if no DB exists create DB func 
-    
+    #if no DB exists create DB func
+
     db = Database(os.path.join(home_dir, "group2_nfl.db"))
     app.config["dbconfig"] = db
 
