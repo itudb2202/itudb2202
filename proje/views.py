@@ -211,3 +211,27 @@ def update_passing(passing_id):
         passing = db.get_all_passing_stats()
         return render_template("bora.html", passing_db = passing)
 
+def update_receiving(receiving_id):
+    if request.method == "GET":
+        db = current_app.config["dbconfig"]
+        receiving_stat = db.get_receiving_stat(receiving_id)
+        if receiving_stat is None:
+            abort(404)
+        values = {"Player_Id": receiving_stat.playerId, "Player_Year": receiving_stat.year, "Team": receiving_stat.team, "Games_Played": receiving_stat.games_played, "Receptions": receiving_stat.receptions, "Receiving_Yards": receiving_stat.receiving_yrd, "Yards_Per_Reception": receiving_stat.yrd_per_reception, "Yards_Per_Game": receiving_stat.yrd_per_game}
+        return render_template("atacan_edit.html", values=values)
+    else:
+        form_player_id = request.form["Player_Id"]
+        form_player_year = request.form["Player_Year"]
+        form_team = request.form["Team"]
+        form_games_played = request.form["Games_Played"]
+        form_receptions = request.form["Receptions"]
+        form_receiving_yards = request.form["Receiving_Yards"]
+        form_yards_per_reception = request.form["Yards_Per_Reception"]
+        form_yards_per_game = request.form["Yards_Per_Game"]
+
+        receiving_stat = Receiving(form_player_id, form_player_year, form_team, form_games_played, form_receptions, form_receiving_yards, form_yards_per_reception, form_yards_per_game)
+        db = current_app.config["dbconfig"]
+        db.update_receiving_stat(receiving_id, receiving_stat)
+        receiving = db.get_all_receiving_stats()
+        return render_template("atacan.html", receiving_db = receiving)
+

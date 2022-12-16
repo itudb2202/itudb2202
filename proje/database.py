@@ -10,6 +10,16 @@ class Database:
 
 
     # ------- GET FUNCTIONS
+    
+    def get_receiving_stat(self, receiving_key):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "SELECT * FROM receiving WHERE (Receive_Id = ?)"
+            cursor.execute(query, (receiving_key,))
+            temp_receiving_key_id, playerId , year , team , games_played , receptions, receiving_yrd , yrd_per_reception , yrd_per_game = cursor.fetchone()
+
+        receiving_stat = Receiving(playerId , year , team , games_played , receptions , receiving_yrd , yrd_per_reception , yrd_per_game)
+        return receiving_stat
 
     def get_passing_stat(self, passing_key):
         with dbapi2.connect(self.dbfile) as connection:
@@ -163,5 +173,12 @@ class Database:
             cursor = connection.cursor()
             query = "UPDATE passing SET Player_Id = ?, Player_Year = ?, Team = ?, Games_Played = ?, Passes_Attempted = ?, Passes_Completed = ?, Completion_Percentage = ?, Passer_Rating = ? WHERE (Passing_Id = ?)"
             cursor.execute(query, (passing_stat.playerId, passing_stat.year, passing_stat.team, passing_stat.games_played, passing_stat.pass_Att, passing_stat.pass_comp, passing_stat.comp_percentage, passing_stat.passer_rating, passing_key))
+            connection.commit()
+
+    def update_receiving_stat(self, receiving_key, receiving_stat):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "UPDATE receiving SET Player_Id = ?, Player_Year = ?, Team = ?, Games_Played = ?, Receptions = ?, Receiving_Yards = ?, Yards_Per_Reception = ?, Yards_Per_Game = ? WHERE (Receive_Id = ?)"
+            cursor.execute(query, (receiving_stat.playerId , receiving_stat.year , receiving_stat.team , receiving_stat.games_played , receiving_stat.receptions, receiving_stat.receiving_yrd , receiving_stat.yrd_per_reception , receiving_stat.yrd_per_game, receiving_key))
             connection.commit()
 

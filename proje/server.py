@@ -33,6 +33,7 @@ def create_app():
     app.add_url_rule("/add_kickoff", view_func=views.add_kickoff, methods=["GET", "POST"])
     app.add_url_rule("/add_defensive", view_func=views.add_defensive, methods=["GET", "POST"])
 
+    app.add_url_rule("/atacan/update/<receiving_id>", view_func=views.update_receiving, methods=["GET", "POST"])
     app.add_url_rule("/bora/update/<passing_id>", view_func=views.update_passing, methods=["GET", "POST"])
 
 
