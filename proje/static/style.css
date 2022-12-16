@@ -1,4 +1,44 @@
+.table {
+  width: 125% !important;
+  max-width: 150% !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
 
-body {
-  background-color: black;
+.container {
+  margin-top: 30px;
+  margin-left: 100px !important;
+  margin-right: auto !important;
+}
+
+.button_new_data {
+  color: rgb(241, 241, 241);
+  background-color: rgb(46, 46, 46);
+  font-size: large;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+  border-radius: 7px;
+  margin-left: 115px;
+}
+
+.button_small {
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: rgb(241, 241, 241);
+  background-color: rgb(46, 46, 46);
+  font-weight: bold;
+  font-size: small;
+  border-radius: 5px;
+}
+
+.title {
+  padding-left: 115px;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  font-size: 50px;
+  font-weight: 700;
 }
