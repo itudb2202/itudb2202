@@ -66,13 +66,10 @@ class Database:
     def add_receiving_stat(self, receiving_stat):
         with dbapi2.connect(self.dbfile) as connection:
             cursor = connection.cursor()
-            cursor.execute("PRAGMA foreign_keys = ON")
-            query = "INSERT INTO defensive (Player_Id, Player_Year,Team, Games_Played, Receptions, Receiving_Yards, Yards_Per_Reception, Yards_Per_Game) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
+            query = "INSERT INTO receiving (Player_Id, Player_Year,Team, Games_Played, Receptions, Receiving_Yards, Yards_Per_Reception, Yards_Per_Game) VALUES (?, ?, ?, ?, ?, ?, ?, ?)"
             cursor.execute(query, (receiving_stat.playerId, receiving_stat.year, receiving_stat.team, receiving_stat.games_played, receiving_stat.receptions,
                             receiving_stat.receiving_yrd, receiving_stat.yrd_per_reception, receiving_stat.yrd_per_game))
             connection.commit()
-            defense_key = cursor.lastrowid
-        return defense_key
 
     def add_passing_stat(self, passing_stat):
         with dbapi2.connect(self.dbfile) as connection:

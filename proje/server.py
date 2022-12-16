@@ -24,6 +24,7 @@ def create_app():
     app.add_url_rule("/delete_kickoff/<kickoff_id>", view_func=views.delete_kickoff )
     app.add_url_rule("/delete_punting/<punting_id>", view_func=views.delete_punting )
     app.add_url_rule("/delete_passing/<passing_id>", view_func=views.delete_passing )
+    app.add_url_rule("/add_receiving", view_func=views.add_receiving, methods=["GET", "POST"])
     app.add_url_rule("/add_passing", view_func=views.add_passing, methods=["GET", "POST"])
     app.add_url_rule("/add_kickoff", view_func=views.add_kickoff, methods=["GET", "POST"])
     app.add_url_rule("/add_defensive", view_func=views.add_defensive, methods=["GET", "POST"])
