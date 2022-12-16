@@ -1,0 +1,88 @@
+{% extends "layout.html" %}
+
+{% block title %} Edit Merve {% endblock %}
+
+{% block content %}
+
+    <h1> Edit Merve </h1>
+
+    <form action="" method="post" name="defensive_form">
+
+      <div>
+        <label for="Player_Id">Player Id</label>
+        <div>
+          <input type="text" name="Player_Id" required="required"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Player_Year">Player Year</label>
+        <div>
+          <input type="number" name="Player_Year"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Team">Team</label>
+        <div>
+          <input type="text" name="Team"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Games_Played">Games Played</label>
+        <div>
+          <input type="number" name="Games_Played"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Total_Tackles">Total Tackles</label>
+        <div>
+          <input type="text" name="Total_Tackles"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Solo_Tackles">Solo Tackles</label>
+        <div>
+          <input type="text" name="Solo_Tackles"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Assisted_Tackles">Assisted Tackles</label>
+        <div>
+          <input type="text" name="Assisted_Tackles"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Passes_Defended">Passes Defended</label>
+        <div>
+          <input type="number" name="Passes_Defended"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Ints">Ints</label>
+        <div>
+          <input type="text" name="Ints"/>
+        </div>
+      </div>
+
+      <div>
+        <label for="Yards_Per_Int">Yards Per Int</label>
+        <div>
+          <input type="text" name="Yards_Per_Int"/>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <button> Save </button>
+        </div>
+      </div>
+
+    </form>
+{% endblock %}

@@ -62,8 +62,6 @@ class Database:
             cursor.execute(query, (defensive_stat.playerId, defensive_stat.year, defensive_stat.team, defensive_stat.games_played, defensive_stat.total_tack,
                             defensive_stat.solo_tack, defensive_stat.ast_tack, defensive_stat.pas_def, defensive_stat.ints, defensive_stat.yrd_per_int))
             connection.commit()
-            defense_key = cursor.lastrowid
-        return defense_key
 
     def add_receiving_stat(self, receiving_stat):
         with dbapi2.connect(self.dbfile) as connection:

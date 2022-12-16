@@ -116,3 +116,24 @@ def add_kickoff():
         db.add_kickoff_stat(kickoff_stat)
         kickoff = db.get_all_kickoff_stats()
         return render_template("pelin.html", kickoff_db = kickoff)
+
+def add_defensive():
+    if request.method == "GET":
+        return render_template("merve_edit.html")
+    else:
+        form_player_id = request.form["Player_Id"]
+        form_player_year = request.form["Player_Year"]
+        form_team = request.form["Team"]
+        form_games_played = request.form["Games_Played"]
+        form_total_tackles = request.form["Total_Tackles"]
+        form_solo_tackles = request.form["Solo_Tackles"]
+        form_assisted_tackles = request.form["Assisted_Tackles"]
+        form_passes_defended = request.form["Passes_Defended"]
+        form_ints = request.form["Ints"]
+        form_yards_per_int = request.form["Yards_Per_Int"]
+
+        defensive_stat = Defensive(form_player_id, form_player_year, form_team, form_games_played, form_total_tackles, form_solo_tackles, form_assisted_tackles, form_passes_defended, form_ints,form_yards_per_int)
+        db = current_app.config["dbconfig"]
+        db.add_defensive_stat(defensive_stat)
+        defensive = db.get_all_defensive_stats()
+        return render_template("merve.html", defensive_db = defensive)
