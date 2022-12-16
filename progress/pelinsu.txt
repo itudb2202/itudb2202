@@ -10,3 +10,5 @@ Me and Merve wrote delete function in views.py and database.py for kickoff table
 I make researches about add and update functions and analyze week6 recitation to implement it to our project.
 16.12.2022 : We gathered again as a group and implemented add function. I created an another html file which is opened when "Add Kickoff Stat" is clicked. 
 Some changes are done in views.py, server.py, database.py, pelin.html. 
+And then, we implemented update function together. Changes are done in views.py, server.py, database.py, pelin.html, pelin_edit.html. 
+We implemented delete and add function of basic stats table.
