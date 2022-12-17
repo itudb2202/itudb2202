@@ -10,6 +10,17 @@ class Database:
 
 
     # ------- GET FUNCTIONS
+
+    def get_defensive_stat(self, defensive_key):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "SELECT * FROM defensive WHERE (Defensive_Id = ?)"
+            cursor.execute(query, (defensive_key,))
+
+            temp_defensive_id, playerId , year , team , games_played , total_tack , solo_tack , ast_tack , pas_def, ints, yrd_per_int= cursor.fetchone()
+
+        defensive_stat = Defensive(playerId , year , team , games_played , total_tack , solo_tack , ast_tack , pas_def, ints, yrd_per_int)
+        return defensive_stat
     
     def get_receiving_stat(self, receiving_key):
         with dbapi2.connect(self.dbfile) as connection:
@@ -206,6 +217,13 @@ class Database:
 
 
     # ------- UPDATE FUNCTIONS
+
+    def update_defensive_stat(self,defensive_key, defensive_stat):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "UPDATE defensive SET Player_Id = ?, Player_Year = ?, Team = ?, Games_Played = ?, Total_Tackles = ?, Solo_Tackles = ?, Assisted_Tackles = ?, Passes_Defended = ?, Ints = ? , Yards_Per_Int = ? WHERE (Defensive_Id = ?)"
+            cursor.execute(query, (defensive_stat.playerId , defensive_stat.year , defensive_stat.team , defensive_stat.games_played , defensive_stat.total_tack, defensive_stat.solo_tack , defensive_stat.ast_tack , defensive_stat.pas_def, defensive_stat.ints, defensive_stat.yrd_per_int, defensive_key))
+            connection.commit()
 
     def update_passing_stat(self, passing_key, passing_stat):
         with dbapi2.connect(self.dbfile) as connection:

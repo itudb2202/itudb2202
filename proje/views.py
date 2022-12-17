@@ -148,7 +148,8 @@ def add_kickoff():
 
 def add_defensive():
     if request.method == "GET":
-        return render_template("merve_edit.html")
+        values = {"Player_Id": "", "Player_Year": "", "Team": "", "Games_Played": "", "Total_Tackles": "", "Solo_Tackles": "", "Assisted_Tackles": "", "Passes_Defended": "", "Ints": "", "Yards_Per_Int":""}
+        return render_template("merve_edit.html", values=values)
     else:
         form_player_id = request.form["Player_Id"]
         form_player_year = request.form["Player_Year"]
@@ -233,6 +234,7 @@ def update_passing(passing_id):
         db.update_passing_stat(passing_id, passing_stat)
         passing = db.get_all_passing_stats()
         return render_template("bora.html", passing_db = passing)
+
 def update_punting(punting_id):
     if request.method == "GET":
         db = current_app.config["dbconfig"]
@@ -257,6 +259,32 @@ def update_punting(punting_id):
         punting = db.get_all_punting_stats()
         return render_template("buse.html", punting_db = punting)
 
+def update_defensive(defensive_id):
+    if request.method == "GET":
+        db = current_app.config["dbconfig"]
+        defensive_stat = db.get_defensive_stat(defensive_id)
+        if defensive_stat is None:
+            abort(404)
+        values = {"Player_Id": defensive_stat.playerId, "Player_Year": defensive_stat.year, "Team": defensive_stat.team, "Games_Played": defensive_stat.games_played, "Total_Tackles": defensive_stat.total_tack, "Solo_Tackles": defensive_stat.solo_tack, "Assisted_Tackles": defensive_stat.ast_tack, "Passes_Defended": defensive_stat.pas_def, "Ints": defensive_stat.ints, "Yards_Per_Int": defensive_stat.yrd_per_int}
+        return render_template("merve_edit.html", values=values)
+    else:
+        form_player_id = request.form["Player_Id"]
+        form_player_year = request.form["Player_Year"]
+        form_team = request.form["Team"]
+        form_games_played = request.form["Games_Played"]
+        form_total_tackles = request.form["Total_Tackles"]
+        form_solo_tackles = request.form["Solo_Tackles"]
+        form_assisted_tackles = request.form["Assisted_Tackles"]
+        form_passes_defended = request.form["Passes_Defended"]
+        form_ints = request.form["Ints"]
+        form_yards_per_int = request.form["Yards_Per_Int"]
+
+        defensive_stat = Defensive(form_player_id, form_player_year, form_team, form_games_played, form_total_tackles, form_solo_tackles, form_assisted_tackles, form_passes_defended,form_ints,form_yards_per_int)
+        db = current_app.config["dbconfig"]
+        db.update_defensive_stat(defensive_id, defensive_stat)
+        defensive = db.get_all_defensive_stats()
+        return render_template("merve.html", defensive_db = defensive)
+
 def update_receiving(receiving_id):
     if request.method == "GET":
         db = current_app.config["dbconfig"]
@@ -280,6 +308,8 @@ def update_receiving(receiving_id):
         db.update_receiving_stat(receiving_id, receiving_stat)
         receiving = db.get_all_receiving_stats()
         return render_template("atacan.html", receiving_db = receiving)
+
+
 
 def update_kickoff(kickoff_id):
     if request.method == "GET":
