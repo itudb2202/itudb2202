@@ -3,9 +3,10 @@
 <h1 class="title">Defensive Stats Table</h1>
 
 <div>
-  <a href="{{ url_for('add_defensive') }}" class="button_new_data" role="button">Add Defensive Stat</a>
+  <a href="{{ url_for('add_defensive') }}" class="button_new_data" role="button"
+    >Add Defensive Stat</a
+  >
 </div>
-
 
 <div class="container">
   <table class="table table-hover">
@@ -25,58 +26,48 @@
       </tr>
     </thead>
     <tbody>
-      {% for Defensive_Id,Player_Id,Player_Year, Team ,Games_Played,Total_Tackles,Solo_Tackles,Assisted_Tackles,Passes_Defended,Ints,Yards_Per_Int in defensive_db %}  
+      {% for Defensive_Id,Player_Id,Player_Year, Team
+      ,Games_Played,Total_Tackles,Solo_Tackles,Assisted_Tackles,Passes_Defended,Ints,Yards_Per_Int
+      in defensive_db %}
       <tr>
+        <td>{{Defensive_Id}}</td>
+
+        <td>{{Player_Id}}</td>
+
+        <td>{{Player_Year}}</td>
+
+        <td>{{Team}}</td>
+
+        <td>{{Games_Played}}</td>
+
+        <td>{{Total_Tackles}}</td>
+
+        <td>{{Solo_Tackles}}</td>
+
+        <td>{{Assisted_Tackles}}</td>
+
+        <td>{{Passes_Defended}}</td>
+
+        <td>{{Ints}}</td>
+
+        <td>{{Yards_Per_Int}}</td>
+
         <td>
-          {{Defensive_Id}}
+          <a
+            href="{{ url_for('delete_defensive', defensive_id = Defensive_Id)}}"
+            type="submit"
+            value="Submit"
+            class="button_small"
+            >Delete</a
+          >
         </td>
 
         <td>
-          {{Player_Id}}
-        </td>
-
-        <td>
-          {{Player_Year}}
-        </td>
-
-        <td>
-          {{Team}} 
-        </td>
-
-        <td>
-          {{Games_Played}} 
-        </td>
-
-        <td>
-          {{Total_Tackles}} 
-        </td>
-
-        <td>
-          {{Solo_Tackles}} 
-        </td>
-
-        <td>
-          {{Assisted_Tackles}} 
-        </td>
-
-        <td>
-          {{Passes_Defended}} 
-        </td>
-
-        <td>
-          {{Ints}} 
-        </td>
-
-        <td>
-          {{Yards_Per_Int}} 
-        </td>
-
-        <td>
-          <a href="{{ url_for('delete_defensive', defensive_id = Defensive_Id)}}" type="submit" value="Submit" class="button_small">Delete Row</a>
-        </td>
-
-        <td>
-          <a href="{{ url_for('update_defensive', defensive_id = Defensive_Id)}}" class="button_small">Update</a>
+          <a
+            href="{{ url_for('update_defensive', defensive_id = Defensive_Id)}}"
+            class="button_small"
+            >Update</a
+          >
         </td>
       </tr>
       {% endfor %}

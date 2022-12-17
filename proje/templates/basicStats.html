@@ -1,8 +1,10 @@
 {% extends "layout.html" %} {% block content %}
-<h1>Basic Stats</h1>
+<h1 class="title">Basic Stats</h1>
 
 <div>
-	<a href = "{{ url_for('add_basicstats')}}">Add Basic Stat</a>
+  <a href="{{ url_for('add_basicstats')}}" class="button_new_data"
+    >Add Basic Stat</a
+  >
 </div>
 
 <div class="container">
@@ -28,78 +30,55 @@
       </tr>
     </thead>
     <tbody>
-      {% for Age,Birth_Place,Birthday, College ,Current_Status,Current_Team,Experience,Height_inches,High_School,High_School_Location,Player_Name,Player_Number,Player_Id,Position,Weight_lbs,Years_Played in basicstats_db %}
+      {% for Age,Birth_Place,Birthday, College
+      ,Current_Status,Current_Team,Experience,Height_inches,High_School,High_School_Location,Player_Name,Player_Number,Player_Id,Position,Weight_lbs,Years_Played
+      in basicstats_db %}
       <tr>
-        <td>
-          {{Player_Id}}
-        </td>
-        <td>
-          {{Age}}
-        </td>
+        <td>{{Player_Id}}</td>
+        <td>{{Age}}</td>
+
+        <td>{{Birth_Place}}</td>
+
+        <td>{{Birthday}}</td>
+
+        <td>{{College}}</td>
+
+        <td>{{Current_Status}}</td>
+
+        <td>{{Current_Team}}</td>
+
+        <td>{{Experience}}</td>
+
+        <td>{{Height_inches}}</td>
+
+        <td>{{High_School}}</td>
+
+        <td>{{High_School_Location}}</td>
+
+        <td>{{Player_Name}}</td>
+
+        <td>{{Player_Number}}</td>
+
+        <td>{{Position}}</td>
+
+        <td>{{Weight_lbs}}</td>
+
+        <td>{{Years_Played}}</td>
 
         <td>
-          {{Birth_Place}}
-        </td>
-
-        <td>
-          {{Birthday}}
-        </td>
-
-        <td>
-          {{College}} 
-        </td>
-
-        <td>
-          {{Current_Status}} 
-        </td>
-
-        <td>
-          {{Current_Team}} 
-        </td>
-
-        <td>
-          {{Experience}} 
-        </td>
-
-        <td>
-          {{Height_inches}} 
-        </td>
-
-        <td>
-          {{High_School}} 
-        </td>
-
-        <td>
-          {{High_School_Location}} 
-        </td>
-
-        <td>
-          {{Player_Name}} 
-        </td>
-
-        <td>
-          {{Player_Number}} 
-        </td>
-
-        <td>
-          {{Position}} 
-        </td>
-
-        <td>
-          {{Weight_lbs}} 
-        </td>
-
-        <td>
-          {{Years_Played}} 
-        </td>
-
-        <td>
-          <a href="{{ url_for('delete_basicstats', player_id = Player_Id)}}">Delete Row</a>
+          <a
+            href="{{ url_for('delete_basicstats', player_id = Player_Id)}}"
+            class="button_small"
+            >Delete</a
+          >
         </td>
         <td>
-          <a href="{{ url_for('update_basicstats', player_id = Player_Id)}}">Update</a>
+          <a
+            href="{{ url_for('update_basicstats', player_id = Player_Id)}}"
+            class="button_small"
+            >Update</a
+          >
         </td>
-
       </tr>
       {% endfor %}
     </tbody>

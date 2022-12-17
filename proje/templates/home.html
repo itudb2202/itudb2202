@@ -1,32 +1,45 @@
-{% extends "layout.html" %}
+{% extends "layout.html" %} {% block title %} Home {% endblock %} {% block
+content %}
 
-{% block title %} Home {% endblock %}
+<div style="margin-left: 20px">
+  <img
+    class="col-sm-2"
+    src="static\logo.png"
+    alt="nfl logo"
+    width="200"
+    height="200"
+  />
+</div>
 
-{% block content %}
+<div class="info">
+  <par>
+    The National Football League (NFL) is a professional American football
+    league that consists of 32 teams, divided equally between the American
+    Football Conference (AFC) and the National Football Conference (NFC). The
+    NFL is one of the major professional sports leagues in the United States and
+    Canada and the highest professional level of American football in the
+    world.[5] Each NFL season begins with a three-week preseason in August,
+    followed by the 18-week regular season which runs from early September to
+    early January, with each team playing 17 games and having one bye week.
+    Following the conclusion of the regular season, seven teams from each
+    conference (four division winners and three wild card teams) advance to the
+    playoffs, a single-elimination tournament that culminates in the Super Bowl,
+    which is contested in February and is played between the AFC and NFC
+    conference champions. The league is headquartered in New York City.
+  </par>
+</div>
 
-<h1>WELCOME HOME!</h1>
-
-<h3>Useful links</h3>
-
-<ul>
-  <li><a href="https://github.com/itudb2202/itudb2202">Github Repo</a></li>
-  <li><a href="https://www.kaggle.com/datasets/kendallgillies/nflstatistics">Kaggle Dataset Link</a></li>
-</ul>
-
-<h3>Page links</h3>
-
-<ul>
-  <li><a href="{{ url_for('home_page') }}">Home</a></li>
-  <li><a href="{{ url_for('buse_page') }}">Buse</a></li>
-  <li><a href="{{ url_for('merve_page') }}">Merve</a></li>
-  <li><a href="{{ url_for('atacan_page') }}">Atacan</a></li>
-  <li><a href="{{ url_for('pelin_page') }}">Pelin</a></li>
-  <li><a href="{{ url_for('bora_page') }}">Bora</a></li>
-  <li><a href="{{ url_for('basicStats_page') }}">Basic Stats</a></li>
-</ul>
-
-
-
-
+<div class="link" style="padding-top: 20px">
+  <div style="margin-left: 450px">
+    <a class="button_link" href="https://github.com/itudb2202/itudb2202"
+      >Github Repo</a
+    >
+    <a
+      class="button_link"
+      href="https://www.kaggle.com/datasets/kendallgillies/nflstatistics"
+      >Kaggle Dataset Link</a
+    >
+  </div>
+</div>
 
 {% endblock %}

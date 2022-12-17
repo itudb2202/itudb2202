@@ -1,13 +1,12 @@
-{% extends "layout.html" %}
+{% extends "layout.html" %} {% block title %} Bora {% endblock %} {% block
+content %}
 
-{% block title %} Bora {% endblock %}
-
-{% block content %}
-
-<h1>Bora</h1>
+<h1 class="title">Bora</h1>
 
 <div>
-    <a href="{{ url_for('add_passing') }}">Add Passing Stat</a>
+  <a href="{{ url_for('add_passing') }}" class="button_new_data"
+    >Add Passing Stat</a
+  >
 </div>
 
 <div class="container">
@@ -26,8 +25,9 @@
       </tr>
     </thead>
     <tbody>
-      {% for Passing_Id, Player_Id, Player_Year, Team, Games_Played, Passes_Attempted,
-        Passes_Completed, Completion_Percentage, Passer_Rating in passing_db %}
+      {% for Passing_Id, Player_Id, Player_Year, Team, Games_Played,
+      Passes_Attempted, Passes_Completed, Completion_Percentage, Passer_Rating
+      in passing_db %}
       <tr>
         <td>{{Passing_Id}}</td>
         <td>{{Player_Id}}</td>
@@ -39,10 +39,18 @@
         <td>{{Completion_Percentage}}</td>
         <td>{{Passer_Rating}}</td>
         <td>
-          <a href="{{ url_for('delete_passing', passing_id = Passing_Id)}}">Delete</a>
+          <a
+            href="{{ url_for('delete_passing', passing_id = Passing_Id)}}"
+            class="button_small"
+            >Delete</a
+          >
         </td>
         <td>
-          <a href="{{ url_for('update_passing', passing_id = Passing_Id)}}">Update</a>
+          <a
+            href="{{ url_for('update_passing', passing_id = Passing_Id)}}"
+            class="button_small"
+            >Update</a
+          >
         </td>
       </tr>
       {% endfor %}

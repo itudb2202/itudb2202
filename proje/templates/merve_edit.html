@@ -1,88 +1,143 @@
-{% extends "layout.html" %}
+{% extends "layout.html" %} {% block title %} Edit Defensive {% endblock %} {%
+block content %}
 
-{% block title %} Edit Defensive {% endblock %}
+<h1 class="title">Edit Defensive</h1>
 
-{% block content %}
-
-    <h1> Edit Defensive </h1>
-
-    <form action="" method="post" name="defensive_form">
-
-      <div>
-        <label for="Player_Id">Player Id</label>
+<form action="" method="post" name="defensive_form">
+  <div class="container">
+    <div class="col-sm-6">
+      <div class="attribute">
         <div>
-          <input type="text" name="Player_Id" value="{{ values['Player_Id'] }}" required="required"/>
+          <label class="edit_label" for="Player_Id">Player Id</label>
+          <div>
+            <input
+              class="text_box"
+              type="text"
+              name="Player_Id"
+              value="{{ values['Player_Id'] }}"
+              required="required"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label class="edit_label" for="Player_Year">Player Year</label>
+          <div>
+            <input
+              class="text_box"
+              type="number"
+              name="Player_Year"
+              value="{{ values['Player_Year'] }}"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label class="edit_label" for="Team">Team</label>
+          <div>
+            <input
+              class="text_box"
+              type="text"
+              name="Team"
+              value="{{ values['Team'] }}"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label class="edit_label" for="Games_Played">Games Played</label>
+          <div>
+            <input
+              class="text_box"
+              type="number"
+              name="Games_Played"
+              value="{{ values['Games_Played'] }}"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label class="edit_label" for="Total_Tackles">Total Tackles</label>
+          <div>
+            <input
+              class="text_box"
+              type="text"
+              name="Total_Tackles"
+              value="{{ values['Total_Tackles'] }}"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div>
+        <label class="edit_label" for="Solo_Tackles">Solo Tackles</label>
+        <div>
+          <input
+            class="text_box"
+            type="text"
+            name="Solo_Tackles"
+            value="{{ values['Solo_Tackles'] }}"
+          />
         </div>
       </div>
 
       <div>
-        <label for="Player_Year">Player Year</label>
+        <label class="edit_label" for="Assisted_Tackles"
+          >Assisted Tackles</label
+        >
         <div>
-          <input type="number" name="Player_Year" value="{{ values['Player_Year'] }}"/>
+          <input
+            class="text_box"
+            type="text"
+            name="Assisted_Tackles"
+            value="{{ values['Assisted_Tackles'] }}"
+          />
         </div>
       </div>
 
       <div>
-        <label for="Team">Team</label>
+        <label class="edit_label" for="Passes_Defended">Passes Defended</label>
         <div>
-          <input type="text" name="Team" value="{{ values['Team'] }}"/>
+          <input
+            class="text_box"
+            type="number"
+            name="Passes_Defended"
+            value="{{ values['Passes_Defended'] }}"
+          />
         </div>
       </div>
 
       <div>
-        <label for="Games_Played">Games Played</label>
+        <label class="edit_label" for="Ints">Ints</label>
         <div>
-          <input type="number" name="Games_Played" value="{{ values['Games_Played'] }}"/>
+          <input
+            class="text_box"
+            type="text"
+            name="Ints"
+            value="{{ values['Ints'] }}"
+          />
         </div>
       </div>
 
       <div>
-        <label for="Total_Tackles">Total Tackles</label>
+        <label class="edit_label" for="Yards_Per_Int">Yards Per Int</label>
         <div>
-          <input type="text" name="Total_Tackles" value="{{ values['Total_Tackles'] }}"/>
-        </div>
-      </div>
-
-      <div>
-        <label for="Solo_Tackles">Solo Tackles</label>
-        <div>
-          <input type="text" name="Solo_Tackles" value="{{ values['Solo_Tackles'] }}"/>
-        </div>
-      </div>
-
-      <div>
-        <label for="Assisted_Tackles">Assisted Tackles</label>
-        <div>
-          <input type="text" name="Assisted_Tackles" value="{{ values['Assisted_Tackles'] }}"/>
-        </div>
-      </div>
-
-      <div>
-        <label for="Passes_Defended">Passes Defended</label>
-        <div>
-          <input type="number" name="Passes_Defended" value="{{ values['Passes_Defended'] }}"/>
-        </div>
-      </div>
-
-      <div>
-        <label for="Ints">Ints</label>
-        <div>
-          <input type="text" name="Ints" value="{{ values['Ints'] }}"/>
-        </div>
-      </div>
-
-      <div>
-        <label for="Yards_Per_Int">Yards Per Int</label>
-        <div>
-          <input type="text" name="Yards_Per_Int" value="{{ values['Yards_Per_Int'] }}"/>
+          <input
+            class="text_box"
+            type="text"
+            name="Yards_Per_Int"
+            value="{{ values['Yards_Per_Int'] }}"
+          />
         </div>
       </div>
 
       <div>
         <div>
-          <button> Save </button>
+          <button class="button_save">Save</button>
         </div>
       </div>
-
-    </form>
+    </div>
+  </div>
+</form>
 {% endblock %}

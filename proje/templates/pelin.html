@@ -1,8 +1,10 @@
 {% extends "layout.html" %} {% block content %}
-<h1>Pelin</h1>
+<h1 class="title">Pelin</h1>
 
 <div>
-  <a href="{{ url_for('add_kickoff') }}">Add Kickoff Stat</a>
+  <a href="{{ url_for('add_kickoff') }}" class="button_new_data"
+    >Add Kickoff Stat</a
+  >
 </div>
 
 <div class="container">
@@ -22,53 +24,43 @@
       </tr>
     </thead>
     <tbody>
-      {% for Kickoff_Id, Player_Id, Player_Year, Team, Games_Played, Kickoffs, Kickoff_Yards, Out_of_Bounds_Kickoffs, Yards_Per_Kickoff, Touchbacks in kickoff_db %}  
+      {% for Kickoff_Id, Player_Id, Player_Year, Team, Games_Played, Kickoffs,
+      Kickoff_Yards, Out_of_Bounds_Kickoffs, Yards_Per_Kickoff, Touchbacks in
+      kickoff_db %}
       <tr>
-        <td>
-        {{Kickoff_Id}}
-        </td>
-        
-        <td>
-        {{Player_Id}}
-        </td>
+        <td>{{Kickoff_Id}}</td>
+
+        <td>{{Player_Id}}</td>
+
+        <td>{{Player_Year}}</td>
+
+        <td>{{Team}}</td>
+
+        <td>{{Games_Played}}</td>
+
+        <td>{{Kickoffs}}</td>
+
+        <td>{{Kickoff_Yards}}</td>
+
+        <td>{{Out_of_Bounds_Kickoffs}}</td>
+
+        <td>{{Yards_Per_Kickoff}}</td>
+
+        <td>{{Touchbacks}}</td>
 
         <td>
-          {{Player_Year}}
-        </td>
-
-        <td>
-        {{Team}} 
-        </td>
-
-        <td>
-          {{Games_Played}} 
-        </td>
-
-        <td>
-          {{Kickoffs}} 
-        </td>
-
-        <td>
-          {{Kickoff_Yards}} 
-        </td>
-
-        <td>
-          {{Out_of_Bounds_Kickoffs}} 
-        </td>
-
-        <td>
-          {{Yards_Per_Kickoff}} 
-        </td>
-        
-        <td>
-          {{Touchbacks}} 
-        </td>
-
-        <td>
-          <a href="{{ url_for('delete_kickoff', kickoff_id = Kickoff_Id)}}">Delete Kickoff</a>
+          <a
+            href="{{ url_for('delete_kickoff', kickoff_id = Kickoff_Id)}}"
+            class="button_small"
+            >Delete</a
+          >
         </td>
         <td>
-          <a href="{{ url_for('update_kickoff', kickoff_id = Kickoff_Id)}}">Update Kickoff</a>
+          <a
+            href="{{ url_for('update_kickoff', kickoff_id = Kickoff_Id)}}"
+            class="button_small"
+            >Update</a
+          >
         </td>
       </tr>
       {% endfor %}

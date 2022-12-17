@@ -1,94 +1,128 @@
 {% extends "layout.html" %} {% block title %} Edit Buse {% endblock %} {% block
 content %}
 
-<h1>Edit Punting</h1>
+<h1 class="title">Edit Punting</h1>
 
 <form action="" method="post" name="punting_form">
-  <div>
-    <label for="Player_Id">Player_Id</label>
-    <div>
-      <input
-        type="text"
-        name="Player_Id"
-        value="{{ values['Player_Id'] }}"
-        required="required"
-      />
-    </div>
-  </div>
+  <div class="container">
+    <div class="col-sm-6">
+      <div class="attribute">
+        <div>
+          <label class="edit_label" for="Player_Id">Player_Id</label>
+          <div>
+            <input
+              class="text_box"
+              type="text"
+              name="Player_Id"
+              value="{{ values['Player_Id'] }}"
+              required="required"
+            />
+          </div>
+        </div>
 
-  <div>
-    <label for="Player_Year">Player_Year</label>
-    <div>
-      <input
-        type="number"
-        name="Player_Year"
-        value="{{ values['Player_Year'] }}"
-      />
-    </div>
-  </div>
+      <div>
+        <label class="edit_label" for="Player Year">Player Year</label>
+        <br />
+        <select class="text_box" name="Player_Year">
+          <option value="2000">2000</option>
+          <option value="2001">2001</option>
+          <option value="2002">2002</option>
+          <option value="2003">2003</option>
+          <option value="2004">2004</option>
+          <option value="2005">2005</option>
+          <option value="2006">2006</option>
+          <option value="2007">2007</option>
+          <option value="2008">2008</option>
+          <option value="2009">2009</option>
+          <option value="2010">2010</option>
+        </select>
+      </div>
 
-  <div>
-    <label for="Team">Team</label>
-    <div>
-      <input type="text" name="Team" value="{{ values['Team'] }}" />
-    </div>
-  </div>
+      <div>
+        <label class="edit_label" for="Team">Team</label>
+        <div>
+          <input type="radio" name="Team" value="Washington Redskins" checked />
+          <label for="Team">Washington Redskins</label>
+          <input type="radio" name="Team" value="Green Bay Packers" />
+          <label for="Team">Green Bay Packers</label>
+          <br />
+          <input type="radio" name="Team" value="Dallas Cowboys" />
+          <label for="Team">Dallas Cowboys</label>
+          <input type="radio" name="Team" value="St. Louis Cardinals	" />
+          <label for="Team">St. Louis Cardinals </label>
+        </div>
+      </div>
 
-  <div>
-    <label for="Games_Played">Games_Played</label>
-    <div>
-      <input
-        type="number"
-        name="Games_Played"
-        value="{{ values['Games_Played'] }}"
-      />
+      <div>
+        <label class="edit_label" for="Games_Played">Games_Played</label>
+        <div>
+          <input
+            class="text_box"
+            type="number"
+            name="Games_Played"
+            value="{{ values['Games_Played'] }}"
+          />
+        </div>
+      </div>
     </div>
-  </div>
+    </div>
+    <div class="col-sm-6">
+      <div>
+        <label class="edit_label" for="Punts">Punts</label>
+        <div>
+          <input
+            class="text_box"
+            type="text"
+            name="Punts"
+            value="{{ values['Punts'] }}"
+          />
+        </div>
+      </div>
 
-  <div>
-    <label for="Punts">Punts</label>
-    <div>
-      <input type="text" name="Punts" value="{{ values['Punts'] }}" />
-    </div>
-  </div>
+      <div>
+        <label class="edit_label" for="Gross_Punting_Yards"
+          >Gross Punting Yards</label
+        >
+        <div>
+          <input
+            class="text_box"
+            type="text"
+            name="Gross_Punting_Yards"
+            value="{{ values['Gross_Punting_Yards'] }}"
+          />
+        </div>
+      </div>
 
-  <div>
-    <label for="Gross_Punting_Yards">Gross Punting Yards</label>
-    <div>
-      <input
-        type="text"
-        name="Gross_Punting_Yards"
-        value="{{ values['Gross_Punting_Yards'] }}"
-      />
-    </div>
-  </div>
+      <div>
+        <label class="edit_label" for="Longest_Punt">Longest Punt</label>
+        <div>
+          <input
+            class="text_box"
+            type="text"
+            name="Longest_Punt"
+            value="{{ values['Longest_Punt'] }}"
+          />
+        </div>
+      </div>
 
-  <div>
-    <label for="Longest_Punt">Longest Punt</label>
-    <div>
-      <input
-        type="text"
-        name="Longest_Punt"
-        value="{{ values['Longest_Punt'] }}"
-      />
+      <div>
+        <label class="edit_label" for="Fair_Catches">Fair Catches</label>
+        <div>
+          <input
+            class="text_box"
+            type="number"
+            name="Fair_Catches"
+            value="{{ values['Fair_Catches'] }}"
+          />
+        </div>
+      </div>
     </div>
-  </div>
 
-  <div>
-    <label for="Fair_Catches">Fair Catches</label>
     <div>
-      <input
-        type="number"
-        name="Fair_Catches"
-        value="{{ values['Fair_Catches'] }}"
-      />
+      <div>
+        <button class="button_save"> Save </button>
+      </div>
     </div>
-  </div>
 
-  <div>
-    <div>
-      <button>Save</button>
-    </div>
-  </div>
 </form>
 {% endblock %}

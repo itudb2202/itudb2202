@@ -1,8 +1,10 @@
 {% extends "layout.html" %} {% block content %}
-<h1>Atacan</h1>
+<h1 class="title">Atacan</h1>
 
 <div>
-  <a href="{{ url_for('add_receiving') }}">Add Receiving Stat</a>
+  <a href="{{ url_for('add_receiving') }}" class="button_new_data"
+    >Add Receiving Stat</a
+  >
 </div>
 
 <div class="container">
@@ -21,53 +23,43 @@
       </tr>
     </thead>
     <tbody>
-    {% for Receive_Id, Player_Id, Player_Year, Team, Games_Played, Receptions, Receiving_Yards, Yards_Per_Reception, Yards_Per_Game in receiving_db %}  
-    <tr>
-      <td>
-        {{Receive_Id}}
-      </td>
+      {% for Receive_Id, Player_Id, Player_Year, Team, Games_Played, Receptions,
+      Receiving_Yards, Yards_Per_Reception, Yards_Per_Game in receiving_db %}
+      <tr>
+        <td>{{Receive_Id}}</td>
 
-      <td>
-        {{Player_Id}}
-      </td>
+        <td>{{Player_Id}}</td>
 
-      <td>
-        {{Player_Year}} 
-      </td>
+        <td>{{Player_Year}}</td>
 
-      <td>
-        {{Team}} 
-      </td>
+        <td>{{Team}}</td>
 
-      <td>
-        {{Games_Played}} 
-      </td>
+        <td>{{Games_Played}}</td>
 
-      <td>
-        {{Receptions}} 
-      </td>
+        <td>{{Receptions}}</td>
 
-      <td>
-        {{Receiving_Yards}} 
-      </td>
+        <td>{{Receiving_Yards}}</td>
 
-      <td>
-        {{Yards_Per_Reception}} 
-      </td>
+        <td>{{Yards_Per_Reception}}</td>
 
-      <td>
-        {{Yards_Per_Game}} 
-      </td>
+        <td>{{Yards_Per_Game}}</td>
 
-      <td>
-        <a href="{{ url_for('delete_receiving', receiving_id = Receive_Id)}}">Delete Row</a>
-      </td>
-      <td>
-        <a href="{{ url_for('update_receiving', receiving_id = Receive_Id)}}">Update</a>
-      </td>
-
-    </tr>
-    {% endfor %}
+        <td>
+          <a
+            href="{{ url_for('delete_receiving', receiving_id = Receive_Id)}}"
+            class="button_small"
+            >Delete</a
+          >
+        </td>
+        <td>
+          <a
+            href="{{ url_for('update_receiving', receiving_id = Receive_Id)}}"
+            class="button_small"
+            >Update</a
+          >
+        </td>
+      </tr>
+      {% endfor %}
     </tbody>
   </table>
 </div>

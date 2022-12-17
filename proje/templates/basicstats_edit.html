@@ -1,131 +1,219 @@
-{% extends "layout.html" %}
+{% extends "layout.html" %} {% block title %} Edit Basic Stats{% endblock %} {%
+block content %}
 
-{% block title %} Edit Basic Stats{% endblock %}
+<h1 class="title">Edit Basic Stats</h1>
 
-{% block content %}
+<form action="" method="post" name="basicstats_form">
+  <div class="container">
+    <div class="col-sm-6">
+      <div class="attribute">
+        <div>
+          <label class="edit_label" for="Age">Age</label>
+          <div>
+            <input
+              class="text_box"
+              type="number"
+              name="Age"
+              value="{{ values['Age'] }}"
+            />
+          </div>
+        </div>
 
-    <h1> Edit Basic Stats</h1>
+        <div>
+          <label class="edit_label" for="Birth_Place">Birth Place</label>
+          <div>
+            <input
+              class="text_box"
+              type="text"
+              name="Birth_Place"
+              value="{{ values['Birth_Place'] }}"
+            />
+          </div>
+        </div>
 
-    <form action="" method="post" name="basicstats_form">
+        <div>
+          <label class="edit_label" class="edit_label" for="Birthday"
+            >Birthday</label
+          >
+          <div>
+            <input
+              class="text_box"
+              type="number"
+              name="Birthday"
+              value="{{ values['Birthday'] }}"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label class="edit_label" for="College">College</label>
+          <div>
+            <input
+              class="text_box"
+              type="text"
+              name="College"
+              value="{{ values['College'] }}"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label class="edit_label" for="Current_Status">Current Status</label>
+          <div>
+            <input
+              class="text_box"
+              type="text"
+              name="Current_Status"
+              value="{{ values['Current_Status'] }}"
+              required="required"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label class="edit_label" for="Current_Team">Current Team</label>
+          <div>
+            <input
+              class="text_box"
+              type="text"
+              name="Current_Team"
+              value="{{ values['Current_Team'] }}"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label class="edit_label" for="Experience">Experience</label>
+          <div>
+            <input
+              class="text_box"
+              type="number"
+              name="Experience"
+              value="{{ values['Experience'] }}"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label class="edit_label" for="Height_inches">Height-inches</label>
+          <div>
+            <input
+              class="text_box"
+              type="text"
+              name="Height_inches"
+              value="{{ values['Height_inches'] }}"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div>
+        <label class="edit_label" for="High_School">High School</label>
+        <div>
+          <input
+            class="text_box"
+            type="text"
+            name="High_School"
+            value="{{ values['High_School'] }}"
+          />
+        </div>
+      </div>
 
       <div>
-        <label for="Age">Age</label>
+        <label class="edit_label" for="High_School_Location"
+          >High School Location</label
+        >
         <div>
-          <input type="number" name="Age" value="{{ values['Age'] }}"/>
+          <input
+            class="text_box"
+            type="text"
+            name="High_School_Location"
+            value="{{ values['High_School_Location'] }}"
+          />
         </div>
       </div>
 
       <div>
-        <label for="Birth_Place">Birth Place</label>
+        <label class="edit_label" for="Player_Name">Player Name</label>
         <div>
-          <input type="text" name="Birth_Place" value="{{ values['Birth_Place'] }}"/>
+          <input
+            class="text_box"
+            type="text"
+            name="Player_Name"
+            value="{{ values['Player_Name'] }}"
+            required="required"
+          />
         </div>
       </div>
 
       <div>
-        <label for="Birthday">Birthday</label>
+        <label class="edit_label" for="Player_Number">Player Number</label>
         <div>
-          <input type="number" name="Birthday" value="{{ values['Birthday'] }}"/>
+          <input
+            class="text_box"
+            type="text"
+            name="Player_Number"
+            value="{{ values['Player_Number'] }}"
+          />
         </div>
       </div>
 
       <div>
-        <label for="College">College</label>
+        <label class="edit_label" for="Player_Id">Player Id</label>
         <div>
-          <input type="text" name="College" value="{{ values['College'] }}"/>
+          <input
+            class="text_box"
+            type="text"
+            name="Player_Id"
+            value="{{ values['Player_Id'] }}"
+            required="required"
+          />
         </div>
       </div>
 
       <div>
-        <label for="Current_Status">Current Status</label>
+        <label class="edit_label" for="Position">Position</label>
         <div>
-          <input type="text" name="Current_Status" value="{{ values['Current_Status'] }}" required="required"/>
+          <input
+            class="text_box"
+            type="text"
+            name="Position"
+            value="{{ values['Position'] }}"
+          />
         </div>
       </div>
 
       <div>
-        <label for="Current_Team">Current Team</label>
+        <label class="edit_label" for="Weight_lbs">Weight lbs</label>
         <div>
-          <input type="text" name="Current_Team" value="{{ values['Current_Team'] }}"/>
+          <input
+            class="text_box"
+            type="text"
+            name="Weight_lbs"
+            value="{{ values['Weight_lbs'] }}"
+          />
         </div>
       </div>
 
       <div>
-        <label for="Experience">Experience</label>
+        <label class="edit_label" for="Years_Played">Years Played</label>
         <div>
-          <input type="number" name="Experience" value="{{ values['Experience'] }}"/>
+          <input
+            class="text_box"
+            type="text"
+            name="Years_Played"
+            value="{{ values['Years_Played'] }}"
+          />
         </div>
       </div>
 
       <div>
-        <label for="Height_inches">Height-inches</label>
         <div>
-          <input type="text" name="Height_inches" value="{{ values['Height_inches'] }}"/>
+          <button class="button_save">Save</button>
         </div>
       </div>
-
-      <div>
-        <label for="High_School">High School</label>
-        <div>
-          <input type="text" name="High_School" value="{{ values['High_School'] }}"/>
-        </div>
-      </div>
-	  
-	  <div>
-        <label for="High_School_Location">High School Location</label>
-        <div>
-          <input type="text" name="High_School_Location" value="{{ values['High_School_Location'] }}"/>
-        </div>
-      </div>
-	  
-      <div>
-        <label for="Player_Name">Player Name</label>
-        <div>
-          <input type="text" name="Player_Name" value="{{ values['Player_Name'] }}" required="required"/>
-        </div>
-      </div>
-      
-	  <div>
-        <label for="Player_Number">Player Number</label>
-        <div>
-          <input type="text" name="Player_Number" value="{{ values['Player_Number'] }}"/>
-        </div>
-      </div>
-
-      <div>
-        <label for="Player_Id">Player Id</label>
-        <div>
-          <input type="text" name="Player_Id" value="{{ values['Player_Id'] }}" required="required"/>
-        </div>
-      </div>
-	  
-	  <div>
-        <label for="Position">Position</label>
-        <div>
-          <input type="text" name="Position" value="{{ values['Position'] }}"/>
-        </div>
-      </div>
-	  
-	  <div>
-        <label for="Weight_lbs">Weight lbs</label>
-        <div>
-          <input type="text" name="Weight_lbs" value="{{ values['Weight_lbs'] }}"/>
-        </div>
-      </div>
-	  
-	  <div>
-        <label for="Years_Played">Years Played</label>
-        <div>
-          <input type="text" name="Years_Played" value="{{ values['Years_Played'] }}"/>
-        </div>
-      </div>
-
-
-      <div>
-        <div>
-          <button> Save </button>
-        </div>
-      </div>
-
-    </form>
+    </div>
+  </div>
+</form>
 {% endblock %}
