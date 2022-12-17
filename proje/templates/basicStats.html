@@ -96,6 +96,10 @@
         <td>
           <a href="{{ url_for('delete_basicstats', player_id = Player_Id)}}">Delete Row</a>
         </td>
+        <td>
+          <a href="{{ url_for('update_basicstats', player_id = Player_Id)}}">Update</a>
+        </td>
+
       </tr>
       {% endfor %}
     </tbody>

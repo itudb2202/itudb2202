@@ -66,6 +66,17 @@ class Database:
         kickoff_stat = Kickoff(playerId , year , team , games_played , kickoff , kickoff_yrd , out_kickoff , yrd_per_kickoff, touchback)
         return kickoff_stat
 
+    def get_basic_stat(self, basic_stat_key):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            query = "SELECT * FROM basic_stats WHERE (Player_Id = ?)"
+            cursor.execute(query, (basic_stat_key,))
+
+            age, birthPlace, birthday, college, curr_stat, curr_team, experience, height, highSchool, hS_location, name, number, playerId, position, weight, yearsPlayed = cursor.fetchone()
+
+        basic_stat = BasicStats(playerId, age, birthPlace, birthday, college, curr_stat, curr_team, experience, height, highSchool, hS_location, name, number, position, weight, yearsPlayed)
+        return basic_stat
+
 
     # ------- GET ALL FUNCTIONS
 
@@ -114,14 +125,6 @@ class Database:
 
     # ------- ADD FUNCTIONS
 
-    def add_basic_stat(self, basic_stat):
-        with dbapi2.connect(self.dbfile) as connection:
-            cursor = connection.cursor()
-            query = "INSERT INTO basic_stats (Age, Birth_Place,Birthday, College, Current_Status, Current_Team, Experience, Height_inches, High_School, High_School_Location,Player_Name,Player_Number,Player_Id,Position,Weight_lbs,Years_Played) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ? , ? , ? , ? , ? , ? , ?)"
-            cursor.execute(query, (basic_stat.age, basic_stat.birthPlace, basic_stat.birthday, basic_stat.college, basic_stat.curr_stat,
-                            basic_stat.curr_team, basic_stat.experience, basic_stat.height, basic_stat.highSchool, basic_stat.hS_location,basic_stat.name,basic_stat.number,basic_stat.playerId,basic_stat.position,basic_stat.weight,basic_stat.yearsPlayed))
-            connection.commit()
-            
     def add_basic_stat(self, basic_stat):
         with dbapi2.connect(self.dbfile) as connection:
             cursor = connection.cursor()
@@ -251,5 +254,13 @@ class Database:
             cursor = connection.cursor()
             query = "UPDATE kickoff SET Player_Id = ?, Player_Year = ?, Team = ?, Games_Played = ?, Kickoffs = ?, Kickoff_Yards = ?, Out_of_Bounds_Kickoffs = ?, Yards_Per_Kickoff = ?, Touchbacks = ? WHERE (Kickoff_Id = ?)"
             cursor.execute(query, (kickoff_stat.playerId , kickoff_stat.year , kickoff_stat.team , kickoff_stat.games_played , kickoff_stat.kickoff, kickoff_stat.kickoff_yrd , kickoff_stat.out_kickoff , kickoff_stat.yrd_per_kickoff, kickoff_stat.touchback, kickoff_key))
+            connection.commit()
+    
+    def update_basic_stat(self,basic_stat_key, basic_stat):
+        with dbapi2.connect(self.dbfile) as connection:
+            cursor = connection.cursor()
+            cursor.execute("PRAGMA foreign_keys = ON")
+            query = "UPDATE basic_stats SET Age = ?, Birth_Place = ?, Birthday = ?, College = ?, Current_Status = ?, Current_Team = ?, Experience = ?, Height_inches = ?, High_School = ?, High_School_Location = ?, Player_Name = ?, Player_Number = ?, Player_Id = ?, Position = ?, Weight_lbs = ?, Years_Played = ? WHERE (Player_Id = ?)"
+            cursor.execute(query, (basic_stat.age, basic_stat.birthPlace, basic_stat.birthday, basic_stat.college, basic_stat.curr_stat, basic_stat.curr_team, basic_stat.experience, basic_stat.height, basic_stat.highSchool, basic_stat.hS_location, basic_stat.name, basic_stat.number, basic_stat.playerId, basic_stat.position, basic_stat.weight, basic_stat.yearsPlayed, basic_stat_key))
             connection.commit()
 

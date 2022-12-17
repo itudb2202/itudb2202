@@ -39,7 +39,7 @@ def create_app():
     app.add_url_rule("/pelin/update/<kickoff_id>", view_func=views.update_kickoff, methods=["GET", "POST"])
     app.add_url_rule("/buse/update/<punting_id>", view_func=views.update_punting, methods=["GET", "POST"])
     app.add_url_rule("/merve/update/<defensive_id>", view_func=views.update_defensive, methods=["GET", "POST"])
-
+    app.add_url_rule("/basicStats/update/<player_id>", view_func=views.update_basicstats, methods=["GET", "POST"])
 
     home_dir = os.getcwd()
 
