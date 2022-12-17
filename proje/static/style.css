@@ -22,6 +22,19 @@
   border-radius: 7px;
   margin-left: 115px;
 }
+.button_new_data:hover {
+  color: rgb(241, 241, 241);
+  background-color: rgb(62, 62, 62);
+  font-size: large;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+  border-radius: 7px;
+  margin-left: 115px;
+
+  text-decoration: none;
+}
 
 .button_small {
   padding-left: 13px;
@@ -34,10 +47,35 @@
   font-size: small;
   border-radius: 5px;
 }
+.button_small:hover {
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: rgb(241, 241, 241);
+  background-color: rgb(62, 62, 62);
+  font-weight: bold;
+  font-size: small;
+  border-radius: 5px;
+  text-decoration: none;
+}
 
 .button_save {
   color: rgb(241, 241, 241);
   background-color: rgb(46, 46, 46);
+  font-size: large;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-right: 15px;
+  padding-bottom: 8px;
+  border-radius: 7px;
+  margin-left: 183px;
+  margin-top: 30px;
+}
+
+.button_save:hover {
+  color: rgb(241, 241, 241);
+  background-color: rgb(62, 62, 62);
   font-size: large;
   padding-left: 15px;
   padding-top: 8px;
