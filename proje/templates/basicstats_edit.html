@@ -60,13 +60,10 @@ block content %}
         <div>
           <label class="edit_label" for="Current_Status">Current Status</label>
           <div>
-            <input
-              class="text_box"
-              type="text"
-              name="Current_Status"
-              value="{{ values['Current_Status'] }}"
-              required="required"
-            />
+            <input type="radio" name="Current_Status" value="Active" checked />
+            <label for="Current_Status">Active</label>
+            <input type="radio" name="Current_Status" value="Retired" />
+            <label for="Current_Status">Retired</label>
           </div>
         </div>
 
@@ -175,12 +172,16 @@ block content %}
       <div>
         <label class="edit_label" for="Position">Position</label>
         <div>
-          <input
-            class="text_box"
-            type="text"
-            name="Position"
-            value="{{ values['Position'] }}"
-          />
+        <select class="text_box" name="Position">
+          <option value="QB">QB</option>
+          <option value="TE">TE</option>
+          <option value="WR">WR</option>
+          <option value="NT">NT</option>
+          <option value="LB">LB</option>
+          <option value="K">K</option>
+          <option value="G">G</option>
+          <option value="ILB">ILB</option>
+        </select>
         </div>
       </div>
 
