@@ -1,9 +1,9 @@
 {% extends "layout.html" %} {% block content %}
 
-<h1>Merve</h1>
+<h1 class="title">Defensive Stats Table</h1>
 
 <div>
-  <a href="{{ url_for('add_defensive') }}">Add Defensive Stat</a>
+  <a href="{{ url_for('add_defensive') }}" class="button_new_data" role="button">Add Defensive Stat</a>
 </div>
 
 
@@ -72,11 +72,11 @@
         </td>
 
         <td>
-          <a href="{{ url_for('delete_defensive', defensive_id = Defensive_Id)}}">Delete Row</a>
+          <a href="{{ url_for('delete_defensive', defensive_id = Defensive_Id)}}" type="submit" value="Submit" class="button_small">Delete Row</a>
         </td>
 
         <td>
-          <a href="{{ url_for('update_defensive', defensive_id = Defensive_Id)}}">Update</a>
+          <a href="{{ url_for('update_defensive', defensive_id = Defensive_Id)}}" class="button_small">Update</a>
         </td>
       </tr>
       {% endfor %}
