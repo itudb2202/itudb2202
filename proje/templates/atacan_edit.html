@@ -7,68 +7,92 @@
     <h1> Edit Receiving </h1>
 
     <form action="" method="post" name="receiving_form">
+      <div class="container">
+        <div class="col-sm-6">
+          <div class="attribute">
+            <div>
+              <label class="edit_label" for="Player_Id">Player Id</label>
+              <div>
+                <input  class="text_box" type="text" name="Player_Id" value="{{ values['Player_Id'] }}" required="required"/>
+              </div>
+            </div>
 
-      <div>
-        <label for="Player_Id">Player_Id</label>
-        <div>
-          <input type="text" name="Player_Id" value="{{ values['Player_Id'] }}" required="required"/>
+            <div>
+              <label class="edit_label" for="Player_Year">Player Year</label>
+              <br />
+              <select class="text_box" name="Player_Year">
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+              </select>
+            </div>
+
+            <div>
+              <label  class="edit_label" for="Team">Team</label>
+              <div>
+                <input type="radio" name="Team" value="Washington Redskins" checked />
+                <label for="Team">Washington Redskins</label>
+                <input type="radio" name="Team" value="Green Bay Packers" />
+                <label for="Team">Green Bay Packers</label>
+                <br />
+                <input type="radio" name="Team" value="Dallas Cowboys" />
+                <label for="Team">Dallas Cowboys</label>
+                <input type="radio" name="Team" value="St. Louis Cardinals	" />
+                <label for="Team">St. Louis Cardinals </label>
+              </div>
+            </div>
+
+            <div>
+              <label class="edit_label" for="Games_Played">Games Played</label>
+              <div>
+                <input class="text_box" type="number" name="Games_Played" value="{{ values['Games_Played'] }}"/>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+        <div class="col-sm-6">
+            <div>
+              <label class="edit_label" for="Receptions">Receptions</label>
+              <div>
+                <input class="text_box" type="text" name="Receptions" value="{{ values['Receptions'] }}"/>
+              </div>
+            </div>
 
-      <div>
-        <label for="Player_Year">Player_Year</label>
-        <div>
-          <input type="number" name="Player_Year" value="{{ values['Player_Year'] }}"/> 
-        </div>
-      </div>
+            <div>
+              <label class="edit_label" for="Receiving_Yards">Receiving Yards</label>
+              <div>
+                <input class="text_box" type="text" name="Receiving_Yards" value="{{ values['Receiving_Yards'] }}"/>
+              </div>
+            </div>
 
-      <div>
-        <label for="Team">Team</label>
-        <div>
-          <input type="text" name="Team" value="{{ values['Team'] }}"/>
-        </div>
-      </div>
+            <div>
+              <label class="edit_label" for="Yards_Per_Reception">Yards Per Reception</label>
+              <div>
+                <input class="text_box" type="text" name="Yards_Per_Reception" value="{{ values['Yards_Per_Reception'] }}"/>
+              </div>
+            </div>
 
-      <div>
-        <label for="Games_Played">Games_Played</label>
-        <div>
-          <input type="number" name="Games_Played" value="{{ values['Games_Played'] }}"/>
-        </div>
-      </div>
+            <div>
+              <label class="edit_label" for="Yards_Per_Game">Yards Per Game</label>
+              <div>
+                <input class="text_box" type="number" name="Yards_Per_Game" value="{{ values['Yards_Per_Game'] }}"/>
+              </div>
+            </div>
+         </div>
 
-      <div>
-        <label for="Receptions">Receptions</label>
-        <div>
-          <input type="text" name="Receptions" value="{{ values['Receptions'] }}"/>
-        </div>
+          <div>
+            <div>
+              <button class="button_save"> Save </button>
+            </div>
+          </div>
       </div>
-
-      <div>
-        <label for="Receiving_Yards">Receiving Yards</label>
-        <div>
-          <input type="text" name="Receiving_Yards" value="{{ values['Receiving_Yards'] }}"/>
-        </div>
-      </div>
-
-      <div>
-        <label for="Yards_Per_Reception">Yards Per Reception</label>
-        <div>
-          <input type="text" name="Yards_Per_Reception" value="{{ values['Yards_Per_Reception'] }}"/>
-        </div>
-      </div>
-
-      <div>
-        <label for="Yards_Per_Game">Yards Per Game</label>
-        <div>
-          <input type="number" name="Yards_Per_Game" value="{{ values['Yards_Per_Game'] }}"/>
-        </div>
-      </div>
-
-      <div>
-        <div>
-          <button> Save </button>
-        </div>
-      </div>
-
     </form>
 {% endblock %}
