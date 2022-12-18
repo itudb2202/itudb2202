@@ -39,4 +39,7 @@ ER Diagram of the database.
 - [Merve İnal @merveinall](https://www.github.com/merveinall)
 - [Pelinsu Şahin @sahinp19](https://www.github.com/sahinp19)
 
+## Canva Presentation
+-https://www.canva.com/design/DAFVIn-2Yao/0JN96ar-mBEWmNK4Njsxxw/view?utm_content=DAFVIn-2Yao&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 
