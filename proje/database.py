@@ -51,7 +51,7 @@ class Database:
 
             temp_punting_id, playerId , year , team , games_played , punts , gross_punting_yards , longest_punt , fair_catches = cursor.fetchone()
 
-        punting_stat = Passing(playerId , year , team , games_played , punts , gross_punting_yards , longest_punt , fair_catches)
+        punting_stat = Punting(playerId , year , team , games_played , punts , gross_punting_yards , longest_punt , fair_catches)
         return punting_stat
 
 

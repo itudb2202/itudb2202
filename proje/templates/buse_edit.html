@@ -20,51 +20,51 @@ content %}
           </div>
         </div>
 
-      <div>
-        <label class="edit_label" for="Player Year">Player Year</label>
-        <br />
-        <select class="text_box" name="Player_Year">
-          <option value="2000">2000</option>
-          <option value="2001">2001</option>
-          <option value="2002">2002</option>
-          <option value="2003">2003</option>
-          <option value="2004">2004</option>
-          <option value="2005">2005</option>
-          <option value="2006">2006</option>
-          <option value="2007">2007</option>
-          <option value="2008">2008</option>
-          <option value="2009">2009</option>
-          <option value="2010">2010</option>
-        </select>
-      </div>
-
-      <div>
-        <label class="edit_label" for="Team">Team</label>
         <div>
-          <input type="radio" name="Team" value="Washington Redskins" checked />
-          <label for="Team">Washington Redskins</label>
-          <input type="radio" name="Team" value="Green Bay Packers" />
-          <label for="Team">Green Bay Packers</label>
+          <label class="edit_label" for="Player Year">Player Year</label>
           <br />
-          <input type="radio" name="Team" value="Dallas Cowboys" />
-          <label for="Team">Dallas Cowboys</label>
-          <input type="radio" name="Team" value="St. Louis Cardinals	" />
-          <label for="Team">St. Louis Cardinals </label>
+          <select class="text_box" name="Player_Year">
+            <option value="2000">2000</option>
+            <option value="2001">2001</option>
+            <option value="2002">2002</option>
+            <option value="2003">2003</option>
+            <option value="2004">2004</option>
+            <option value="2005">2005</option>
+            <option value="2006">2006</option>
+            <option value="2007">2007</option>
+            <option value="2008">2008</option>
+            <option value="2009">2009</option>
+            <option value="2010">2010</option>
+          </select>
         </div>
-      </div>
 
-      <div>
-        <label class="edit_label" for="Games_Played">Games_Played</label>
         <div>
-          <input
-            class="text_box"
-            type="number"
-            name="Games_Played"
-            value="{{ values['Games_Played'] }}"
-          />
+          <label class="edit_label" for="Team">Team</label>
+          <div>
+            <input type="radio" name="Team" value="Washington Redskins" checked />
+            <label for="Team">Washington Redskins</label>
+            <input type="radio" name="Team" value="Green Bay Packers" />
+            <label for="Team">Green Bay Packers</label>
+            <br />
+            <input type="radio" name="Team" value="Dallas Cowboys" />
+            <label for="Team">Dallas Cowboys</label>
+            <input type="radio" name="Team" value="St. Louis Cardinals	" />
+            <label for="Team">St. Louis Cardinals </label>
+          </div>
+        </div>
+
+        <div>
+          <label class="edit_label" for="Games_Played">Games_Played</label>
+          <div>
+            <input
+              class="text_box"
+              type="number"
+              name="Games_Played"
+              value="{{ values['Games_Played'] }}"
+            />
+          </div>
         </div>
       </div>
-    </div>
     </div>
     <div class="col-sm-6">
       <div>
@@ -116,9 +116,9 @@ content %}
           />
         </div>
       </div>
-    </div>
+    
 
-    <div>
+    
       <div>
         <button class="button_save"> Save </button>
       </div>

@@ -243,7 +243,7 @@ def update_punting(punting_id):
         punting_stat = db.get_punting_stat(punting_id)
         if punting_stat is None:
             abort(404)
-        values = {"Player_Id": punting_stat.playerId, "Player_Year": punting_stat.year, "Team": punting_stat.team, "Games_Played": punting_stat.games_played, "Passes_Attempted": punting_stat.pass_Att, "Passes_Completed": punting_stat.pass_comp, "Completion_Percentage": punting_stat.comp_percentage, "Passer_Rating": punting_stat.passer_rating}
+        values = {"Player_Id": punting_stat.playerId, "Player_Year": punting_stat.year, "Team": punting_stat.team, "Games_Played": punting_stat.games_played, "Punts": punting_stat.punts, "Gross_Punting_Yards": punting_stat.gross_punting_yards, "Longest_Punt": punting_stat.longest_punt , "Fair_Catches": punting_stat.fair_catches}
         return render_template("buse_edit.html", values=values)
     else:
         form_player_id = request.form["Player_Id"]
