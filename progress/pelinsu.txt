@@ -1,14 +1,23 @@
 17.11.2023 : We got together as a group to draw ER diagram and decide what we are going to do.
+
 19.11.2023 : I have started to learn Flask.
+
 23.11.2022 : We have started to write code. We wrote SQL table creation codes and started pushing to github.
+
 28.11.2022 - 04.12.2022 : We have studied Flask and HTML. 
+
 06.12.2022 : We have started to write codes of our website, HTML and CSS codes are started writing. 
+
 15.12.2022 : We created alltables_new.sql file which has all dataset in it. We pushed this sql and group2_nfl.db to repository. With SQLite extension in VsCode, group2_nfl.db can be seen as tables.
 I wrote my html file to see my table (kickoff) and I limited it with 30 rows in website.
 I wrote add_kickoff_stat() and get_all_kickoff_stats() functions.
 Me and Merve wrote delete function in views.py and database.py for kickoff table and make it a link button in html so when it is clicked related row is deleted. And it is permanent.
 I make researches about add and update functions and analyze week6 recitation to implement it to our project.
+
 16.12.2022 : We gathered again as a group and implemented add function. I created an another html file which is opened when "Add Kickoff Stat" is clicked. 
 Some changes are done in views.py, server.py, database.py, pelin.html. 
 And then, we implemented update function together. Changes are done in views.py, server.py, database.py, pelin.html, pelin_edit.html. 
 We implemented delete and add function of basic stats table.
+
+18.12.2022 : Some CSS and HTML changes are done in Kickoff page. pelin_edit.html file is changed. We added radio box,text box and selection.
+Project EValuation.xlsx document is filled and the presentation of the project is prepared.
