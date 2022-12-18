@@ -23,3 +23,14 @@ I wrote my html file to see my table (defensive) and I limited it with 30 rows i
 I wrote add_defensive_stat() and get_all_defensive_stats() functions.
 Me and Pelin wrote delete function in views.py and database.py for kickoff table and make it a link button in html so when it is clicked related row is deleted. And it is permanent.
 I make researches about add and update functions and analyze week6 recitation to implement it to our project.
+
+16.12.2022
+Delete function for defensive table added today, but we wrote it yesterday.
+Update and add function for defensive table implemented. Also we implement view,add and delete function for basic_stats.
+
+17.12.2022
+Update function for defensive table added. Css and html changes for merve_edit.html and basic_stats.html implemented.
+We added radio box,text box and selection.
+
+18.12.2022
+Final checks are made. We prepared the presentation.
