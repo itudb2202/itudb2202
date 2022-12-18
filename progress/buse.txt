@@ -1,5 +1,32 @@
-17.11.2022 - We got together as a group and organize the data
-18.11.2022 - I studied flask and learned basic structures
-22.11.2022 - We started writing our code and pushing to github
-28.11.2022 - 04.12.2022 - We studied Flask library and learned frontend.
-06.12.2022 - We started writing our website and added style with bootstcrap.
+17.11.2022 
+We got together as a group and organize the data
+
+18.11.2022 
+I studied flask and learned basic structures
+
+22.11.2022
+We started writing our code and pushing to github
+
+28.11.2022 - 04.12.2022 
+We studied Flask library and learned frontend.
+
+06.12.2022 
+We started writing our website and added style with bootstcrap.
+
+15.12.2022 
+We convert our csv tables into a sql file so we can import it into the database easier.
+I created the database using the sql file.
+I wrote delete function for my table.
+
+16.12.2022
+I wrote update and edit functions for my table
+
+17.12.2022
+I wrote a css file for implementing the style of our website. 
+Merve and I fixed the homepage and added an info section.
+I added radio box and selection to  my edit page.
+
+18.12.2022
+We checked our code for small bugs and fixed them. 
+We prepared a presentation.
+
